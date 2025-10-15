@@ -1,0 +1,5336 @@
+﻿#include "pch-cpp.hpp"
+
+
+
+
+
+
+struct Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752;
+struct Action_2_tA93638A9D51C46813D719FA524415A74B9B2EADF;
+struct Action_3_tC91FC800177E916F453E3699E82BA62A10797E2A;
+struct Action_3_t7D778238CD0A45B8368B3EAC4062AD2D477E1997;
+struct BindableVariable_1_t0A132E58B7C86338FD58C5F09A28A660DB5A4F50;
+struct HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178;
+struct List_1_t8463D6E8766F823573C7FF81CA9AC38D1F351FFF;
+struct List_1_t6374200280C9D4D9E197123BCF3B71CB8726B89F;
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D;
+struct List_1_t80AF51D5D3B90164EF2016D606DCD0ECAA4DC406;
+struct List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD;
+struct List_1_tE4111BEC044D13259EFD4EC5907636C855887179;
+struct UnityEvent_1_tEEB36A367DCB5867E93AAF6BECAF3558CA71BECB;
+struct UnityEvent_1_t54BA1D8882A4ED7444196057CE1488D5D96F0E8A;
+struct BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4;
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
+struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
+struct DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771;
+struct GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF;
+struct JointToTransformReferenceU5BU5D_tB4EDF8357D13DD2A4E07436A2D5819F73E507A52;
+struct JointVisualizerU5BU5D_tBE9067F8E5E225E6A76C5027CD08047938471342;
+struct LineRendererU5BU5D_t5AA0E11EC99A18A11BCCCABDF088C854E50D394A;
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
+struct ShaderContainerU5BU5D_t486180245366FAEFA5C4D2EF51F47D6A6F225567;
+struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248;
+struct TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24;
+struct Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C;
+struct XRHandSubsystemU5BU5D_t50FB94CEB7EB1A2A292728A49A7B732A8CF8C50F;
+struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA;
+struct CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B;
+struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3;
+struct Delegate_t;
+struct DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E;
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2;
+struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F;
+struct HandProcessor_tB65F4982827071531E5561C27DB783A11A3E9270;
+struct HandUpdatedEvent_t74C37E98CEE73FC31A297B62298B2B48C247ED4F;
+struct HandVisualizer_tA85C45A230DA7AFCC9377FE418CDA2F75AFE49B6;
+struct InputSettings_tBA8835B505722A59702A08BCBA46ECF0B0274EEF;
+struct JointVisualizer_t00D07115B1B09275653E1814C92C73DF8EEABFD6;
+struct LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D;
+struct Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3;
+struct MaterialPipelineHandler_tF073532612A2F16372CCBD89100FC0CCB47EDDDC;
+struct MethodInfo_t;
+struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71;
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C;
+struct RenderPipelineAsset_t5F9BF815BF931E1314B184E7F9070FB649C7054E;
+struct Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF;
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A;
+struct Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692;
+struct ShaderContainer_t2C32A4E847EC4338A8CF5EE168E48D0E24049F52;
+struct SkinnedMeshRenderer_t020C4E8648EA1C4C6BA5C41502919B387E7E1C2E;
+struct String_t;
+struct SubsystemProvider_tE1865B8FE698C81A59AED35E0E536BD53F402455;
+struct SubsystemWithProvider_tC72E35EE2D413A4B0635B058154BABF265F31242;
+struct Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1;
+struct UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977;
+struct UnitySourceGeneratedAssemblyMonoScriptTypes_v1_t7668C3C4633617BBE6BF3CF11A0B7C37309F7EB6;
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
+struct XRCommonHandGestures_tB24C5F4CF6285CC0D00E1830EE0D3FEB331CC926;
+struct XRHandJointsUpdatedEventArgs_t23369A3B3D49D837CF21B765B7F0E248F362E31F;
+struct XRHandMeshController_t670ADAE830016D758ED74153F39334564CD3D687;
+struct XRHandSkeletonDriver_t549956F17FD2C98A8FC1C9DF04ED4218610321A9;
+struct XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C;
+struct XRHandSubsystemDescriptor_tAA2BE61B3F0591B2679C510BA4880412AEBF0C73;
+struct XRHandSubsystemProvider_t29FF95FDBBF36BCA83900425EEB9562C6BA31996;
+struct XRHandTrackingEvents_tF1DA1153E15422968E62D8B84B99D5C00018574C;
+struct HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F;
+
+IL2CPP_EXTERN_C RuntimeClass* Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Action_3_t7D778238CD0A45B8368B3EAC4062AD2D477E1997_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* GraphicsSettings_t01785CE5CB5C5105CB527619AF4D74BEF417EF1A_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* HandProcessor_tB65F4982827071531E5561C27DB783A11A3E9270_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* HandVisualizer_tA85C45A230DA7AFCC9377FE418CDA2F75AFE49B6_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Handedness_tC87DA4E9D99745447BF40B631E8B479E32D8E37F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* InputSystem_t4120CA4FE7DCFD56AF9391933FC3F1F485350164_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* JointVisualizerU5BU5D_tBE9067F8E5E225E6A76C5027CD08047938471342_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* LineRendererU5BU5D_t5AA0E11EC99A18A11BCCCABDF088C854E50D394A_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* List_1_t6374200280C9D4D9E197123BCF3B71CB8726B89F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* List_1_tE4111BEC044D13259EFD4EC5907636C855887179_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SubsystemManager_t9A7261E4D0B53B996F04B8707D8E1C33AB65E824_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* XRHandJointID_tC0BE8E1AC7717425649709BB62AAD56304FCC081_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_tED03EE4A916C409E9C8B3F447A436C67DA8EF95D____7853A4E5E739BACEDA0F69E99FCE1D272FD6B628CE98D088CB10FB0E6DD81B21_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_tED03EE4A916C409E9C8B3F447A436C67DA8EF95D____D071707EEEB2BDC45E405D4A05F1162C406A25FAB6F15959806AB233E0BC7D49_FieldInfo_var;
+IL2CPP_EXTERN_C String_t* _stringLiteral2620038B8A71EF21A205CC921576171A3CA9B0F4;
+IL2CPP_EXTERN_C String_t* _stringLiteral4A4955D176516025430352DFFE6DF5974DEB47AB;
+IL2CPP_EXTERN_C String_t* _stringLiteral9B4FEEFA76B93D58B6E47CD9FF76F6E287D0D321;
+IL2CPP_EXTERN_C String_t* _stringLiteralE16EED961058125D81E09FCA0B5A362770A7CAB5;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_TryGetComponent_TisSkinnedMeshRenderer_t020C4E8648EA1C4C6BA5C41502919B387E7E1C2E_m95CEC209AB48BA4465F3CB2C9453CCA6322D2A63_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_Dispose_m2A316758173D3AF217BD415516279FBE46931C17_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_MoveNext_m9FB5C17BEA2305D525582DF38C21BE94ABE5D326_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_get_Current_m04EA4373946F8720DED1255002B9C83EA0ABB7EB_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_AddComponent_TisXRHandMeshController_t670ADAE830016D758ED74153F39334564CD3D687_m0EF34ABB02714F807910BD0C78AB85F2D25D023D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_AddComponent_TisXRHandSkeletonDriver_t549956F17FD2C98A8FC1C9DF04ED4218610321A9_m8D2D63A6AD343A90A9DDF71D360B7AD36BC3B4F2_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_AddComponent_TisXRHandTrackingEvents_tF1DA1153E15422968E62D8B84B99D5C00018574C_mADC3C017664513070D3093477B302FC7198E8F2A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisLineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D_mE703918F1B04E115CCE78A5FF891A12648B04D75_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisXRHandMeshController_t670ADAE830016D758ED74153F39334564CD3D687_mFAD7BA6D178A79C7E03843EA1B08D4CE16E248B2_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisXRHandSkeletonDriver_t549956F17FD2C98A8FC1C9DF04ED4218610321A9_m3BF356CDEFCB41719801691285453F0D76FB5251_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisXRHandTrackingEvents_tF1DA1153E15422968E62D8B84B99D5C00018574C_m6497F69000D8E4A8EB16945591E0EA5C21D1CA2A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_TryGetComponent_TisJointVisualizer_t00D07115B1B09275653E1814C92C73DF8EEABFD6_m4E537C6050282B04C41F7DC10D42537D88D4D0D1_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_TryGetComponent_TisLineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D_m919DC9D848A0522F28DB3039F8C2F06147A76AFC_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_TryGetComponent_TisRenderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF_m94C50070B14D12C76D11D93CEFD1902642A8BB79_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* HandGameObjects_ToggleRenderers_TisLineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D_mD52F431B7896E3957C42E662CECB52F1226E2834_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* HandGameObjects_ToggleRenderers_TisMeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE_m8BC9ACC0C9BBB0A272F874B4A594AB98EF2FEFAD_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* HandVisualizer_OnTrackingAcquired_m0171A5A819541BC01F5AF3C6EF2125F81178E0CE_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* HandVisualizer_OnTrackingLost_m1AE1681D37C767E16833FE70F184B796E0D1AA4D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* HandVisualizer_OnUpdatedHands_m2609041B9380B5501A4CAF6EDE5673C4CEBCBC01_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_GetEnumerator_m653BD90E86DAC4C19518CC4C56AB6F3D6AB463E7_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_m9991CB9E0E4608CAE947384283EE27BCF3DAC2D4_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_mF9E011AC0B45B83F28F733B52084915C67A264CD_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Count_m209A9B25E99DCB0C5847654EFA37FC1EFF4E782C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Count_m571D52D1CFC36A69BDAFBAC74B0F075F8BB773BC_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_m75273E2FDEA382223C6F78765C1A71E6A758CF9F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_m86F4130198090303E1C3BF94F8DCDDB031FF0DDA_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m10D87C6E0708CA912BBB02555BF7D0FBC5D7A2B3_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SubsystemManager_GetSubsystems_TisXRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C_m80B420587E83801A6C5F75FED3B6CEF1693D2C73_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* XRHandSubsystem_RegisterProcessor_TisHandProcessor_tB65F4982827071531E5561C27DB783A11A3E9270_mCD67CCBA02ABF3697173E24F8E496A84E9C01C3B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* XRHandSubsystem_UnregisterProcessor_TisHandProcessor_tB65F4982827071531E5561C27DB783A11A3E9270_m65F55E11E864D525A4FC903D1E656577323E5DE7_RuntimeMethod_var;
+struct Delegate_t_marshaled_com;
+struct Delegate_t_marshaled_pinvoke;
+
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
+struct GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF;
+struct JointVisualizerU5BU5D_tBE9067F8E5E225E6A76C5027CD08047938471342;
+struct LineRendererU5BU5D_t5AA0E11EC99A18A11BCCCABDF088C854E50D394A;
+struct Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C;
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+struct U3CModuleU3E_t462BE4D8E4AD28E51080C381D8A4EE01E425E52B 
+{
+};
+struct List_1_t6374200280C9D4D9E197123BCF3B71CB8726B89F  : public RuntimeObject
+{
+	JointToTransformReferenceU5BU5D_tB4EDF8357D13DD2A4E07436A2D5819F73E507A52* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D  : public RuntimeObject
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct List_1_t80AF51D5D3B90164EF2016D606DCD0ECAA4DC406  : public RuntimeObject
+{
+	ShaderContainerU5BU5D_t486180245366FAEFA5C4D2EF51F47D6A6F225567* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD  : public RuntimeObject
+{
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct List_1_tE4111BEC044D13259EFD4EC5907636C855887179  : public RuntimeObject
+{
+	XRHandSubsystemU5BU5D_t50FB94CEB7EB1A2A292728A49A7B732A8CF8C50F* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct U3CPrivateImplementationDetailsU3E_tED03EE4A916C409E9C8B3F447A436C67DA8EF95D  : public RuntimeObject
+{
+};
+struct ShaderContainer_t2C32A4E847EC4338A8CF5EE168E48D0E24049F52  : public RuntimeObject
+{
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___material;
+	bool ___useSRPShaderName;
+	String_t* ___scriptableRenderPipelineShaderName;
+	Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* ___scriptableRenderPipelineShader;
+	bool ___useBuiltinShaderName;
+	String_t* ___builtInPipelineShaderName;
+	Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* ___builtInPipelineShader;
+};
+struct String_t  : public RuntimeObject
+{
+	int32_t ____stringLength;
+	Il2CppChar ____firstChar;
+};
+struct SubsystemWithProvider_tC72E35EE2D413A4B0635B058154BABF265F31242  : public RuntimeObject
+{
+	bool ___U3CrunningU3Ek__BackingField;
+	SubsystemProvider_tE1865B8FE698C81A59AED35E0E536BD53F402455* ___U3CproviderBaseU3Ek__BackingField;
+};
+struct UnitySourceGeneratedAssemblyMonoScriptTypes_v1_t7668C3C4633617BBE6BF3CF11A0B7C37309F7EB6  : public RuntimeObject
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
+{
+};
+struct HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F  : public RuntimeObject
+{
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_HandRoot;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_DrawJointsParent;
+	GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* ___m_DrawJoints;
+	GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* ___m_VelocityParents;
+	LineRendererU5BU5D_t5AA0E11EC99A18A11BCCCABDF088C854E50D394A* ___m_Lines;
+	JointVisualizerU5BU5D_tBE9067F8E5E225E6A76C5027CD08047938471342* ___m_JointVisualizers;
+	XRHandMeshController_t670ADAE830016D758ED74153F39334564CD3D687* ___m_MeshController;
+};
+struct Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A 
+{
+	List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* ____list;
+	int32_t ____index;
+	int32_t ____version;
+	RuntimeObject* ____current;
+};
+struct Enumerator_t38A231BB01943CC3CC02D92799631EF4681643E9 
+{
+	List_1_t80AF51D5D3B90164EF2016D606DCD0ECAA4DC406* ____list;
+	int32_t ____index;
+	int32_t ____version;
+	ShaderContainer_t2C32A4E847EC4338A8CF5EE168E48D0E24049F52* ____current;
+};
+struct SubsystemWithProvider_3_tE926FFDCD0BC2F75B118A7CCE6FBFA422A41E2B2  : public SubsystemWithProvider_tC72E35EE2D413A4B0635B058154BABF265F31242
+{
+	XRHandSubsystemDescriptor_tAA2BE61B3F0591B2679C510BA4880412AEBF0C73* ___U3CsubsystemDescriptorU3Ek__BackingField;
+	XRHandSubsystemProvider_t29FF95FDBBF36BCA83900425EEB9562C6BA31996* ___U3CproviderU3Ek__BackingField;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22 
+{
+	bool ___m_value;
+};
+struct Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3 
+{
+	uint8_t ___m_value;
+};
+struct Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F 
+{
+	double ___m_value;
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
+{
+};
+struct Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C 
+{
+	int32_t ___m_value;
+};
+struct IntPtr_t 
+{
+	void* ___m_value;
+};
+struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+	float ___w;
+};
+struct Scene_tA1DC762B79745EB5140F054C884855B922318356 
+{
+	int32_t ___m_Handle;
+};
+struct Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C 
+{
+	float ___m_value;
+};
+struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+};
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
+	};
+};
+#pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D325_tEA61858874AAC6D561DB28A0B05449D9198C22B4 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D325_tEA61858874AAC6D561DB28A0B05449D9198C22B4__padding[325];
+	};
+};
+#pragma pack(pop, tp)
+#pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D416_tEAA1F7560F7E32AB0E0E2940064C485B5478FBA8 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D416_tEAA1F7560F7E32AB0E0E2940064C485B5478FBA8__padding[416];
+	};
+};
+#pragma pack(pop, tp)
+struct MonoScriptData_tF50C601B9FB7D0B824131FDA44DEA76DA6808B08 
+{
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___FilePathsData;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___TypesData;
+	int32_t ___TotalTypes;
+	int32_t ___TotalFiles;
+	bool ___IsEditorOnly;
+};
+struct MonoScriptData_tF50C601B9FB7D0B824131FDA44DEA76DA6808B08_marshaled_pinvoke
+{
+	Il2CppSafeArray* ___FilePathsData;
+	Il2CppSafeArray* ___TypesData;
+	int32_t ___TotalTypes;
+	int32_t ___TotalFiles;
+	int32_t ___IsEditorOnly;
+};
+struct MonoScriptData_tF50C601B9FB7D0B824131FDA44DEA76DA6808B08_marshaled_com
+{
+	Il2CppSafeArray* ___FilePathsData;
+	Il2CppSafeArray* ___TypesData;
+	int32_t ___TotalTypes;
+	int32_t ___TotalFiles;
+	int32_t ___IsEditorOnly;
+};
+struct U3CU3Ec__DisplayClass9_0_t18EF379C550C89A38B4C15EF582D09D97B3710DD 
+{
+	HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F* ___U3CU3E4__this;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___debugDrawPrefab;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___velocityPrefab;
+};
+struct Allocator_t996642592271AAD9EE688F142741D512C07B5824 
+{
+	int32_t ___value__;
+};
+struct Delegate_t  : public RuntimeObject
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	RuntimeObject* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	bool ___method_is_virtual;
+};
+struct Delegate_t_marshaled_pinvoke
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	Il2CppIUnknown* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	int32_t ___method_is_virtual;
+};
+struct Delegate_t_marshaled_com
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	Il2CppIUnknown* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	int32_t ___method_is_virtual;
+};
+struct Handedness_tC87DA4E9D99745447BF40B631E8B479E32D8E37F 
+{
+	int32_t ___value__;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C  : public RuntimeObject
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___position;
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___rotation;
+};
+struct RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 
+{
+	intptr_t ___value;
+};
+struct XRDetectedHandMeshLayout_t818D2C6006D25B90EB6E96A3507777304E478EE0 
+{
+	int32_t ___value__;
+};
+struct XRHandFingerID_tE48C9E276F8DF1E47199DC780D661392679A498D 
+{
+	int32_t ___value__;
+};
+struct XRHandJointID_tC0BE8E1AC7717425649709BB62AAD56304FCC081 
+{
+	int32_t ___value__;
+};
+struct XRHandJointTrackingState_tFAA84D8000155CA6945B5402532B00365379D6DA 
+{
+	int32_t ___value__;
+};
+struct ProcessorExampleMode_tFFC3B4AA82230EA42F3360BAE1051CDCCD14D49B 
+{
+	int32_t ___value__;
+};
+struct VelocityType_tF48EEE418E154AFBC73243BBBF471EEC2F660636 
+{
+	int32_t ___value__;
+};
+struct BackgroundBehavior_t4D397A0FC3ECD31C1A4DB8C2D09BBC4E71BFC1D6 
+{
+	int32_t ___value__;
+};
+struct EditorInputBehaviorInPlayMode_tC47B44FACCF39F8E2DCA21270D51417B5DEF814D 
+{
+	int32_t ___value__;
+};
+struct InputActionPropertyDrawerMode_t521985D556D158DCD4AF3C3B351D5EC081C89E86 
+{
+	int32_t ___value__;
+};
+struct ScrollDeltaBehavior_tFC5903AA0557D4ECD6CD332D3DDA61319F68A01D 
+{
+	int32_t ___value__;
+};
+struct UpdateMode_tCD49766B755C4CD8E1F2DE8D57798DAC2C5CBF32 
+{
+	int32_t ___value__;
+};
+struct UpdateSuccessFlags_t7457DB6474B1997021A99D28BFE0299887980B18 
+{
+	int32_t ___value__;
+};
+struct UpdateType_tCE27D53789D385F92F217486B54E13EE349CC32D 
+{
+	int32_t ___value__;
+};
+struct UpdateTypes_t5C5A1C4954B184CC81F8D7D5F9EFC13FF8BE20D9 
+{
+	int32_t ___value__;
+};
+struct NativeArray_1_t107C57D0357BCF9956A60495CD8FAADDF1D26AFB 
+{
+	void* ___m_Buffer;
+	int32_t ___m_Length;
+	int32_t ___m_AllocatorLabel;
+};
+struct NativeArray_1_t36BB6836F4E5DC4D944E821BA8F1E03B91E23347 
+{
+	void* ___m_Buffer;
+	int32_t ___m_Length;
+	int32_t ___m_AllocatorLabel;
+};
+struct NativeArray_1_t8B168617F2E2FBA4473810E911C21C95E6A2E9F6 
+{
+	void* ___m_Buffer;
+	int32_t ___m_Length;
+	int32_t ___m_AllocatorLabel;
+};
+struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct JointToTransformReference_t5DC7424A5741B60B0DFA15056D7F7EBF38721202 
+{
+	int32_t ___m_XRHandJointID;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___m_JointTransform;
+};
+struct JointToTransformReference_t5DC7424A5741B60B0DFA15056D7F7EBF38721202_marshaled_pinvoke
+{
+	int32_t ___m_XRHandJointID;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___m_JointTransform;
+};
+struct JointToTransformReference_t5DC7424A5741B60B0DFA15056D7F7EBF38721202_marshaled_com
+{
+	int32_t ___m_XRHandJointID;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___m_JointTransform;
+};
+struct Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct MulticastDelegate_t  : public Delegate_t
+{
+	DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771* ___delegates;
+};
+struct MulticastDelegate_t_marshaled_pinvoke : public Delegate_t_marshaled_pinvoke
+{
+	Delegate_t_marshaled_pinvoke** ___delegates;
+};
+struct MulticastDelegate_t_marshaled_com : public Delegate_t_marshaled_com
+{
+	Delegate_t_marshaled_com** ___delegates;
+};
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A_marshaled_pinvoke : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
+{
+};
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A_marshaled_com : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
+{
+};
+struct Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783 
+{
+	int32_t ___m_IdAndHandedness;
+	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___m_Pose;
+	float ___m_Radius;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_LinearVelocity;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_AngularVelocity;
+	int32_t ___m_TrackingState;
+};
+struct Action_3_t7D778238CD0A45B8368B3EAC4062AD2D477E1997  : public MulticastDelegate_t
+{
+};
+struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct InputSettings_tBA8835B505722A59702A08BCBA46ECF0B0274EEF  : public ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A
+{
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___m_SupportedDevices;
+	int32_t ___m_UpdateMode;
+	int32_t ___m_ScrollDeltaBehavior;
+	int32_t ___m_MaxEventBytesPerUpdate;
+	int32_t ___m_MaxQueuedEventsPerUpdate;
+	bool ___m_CompensateForScreenOrientation;
+	int32_t ___m_BackgroundBehavior;
+	int32_t ___m_EditorInputBehaviorInPlayMode;
+	int32_t ___m_InputActionPropertyDrawerMode;
+	float ___m_DefaultDeadzoneMin;
+	float ___m_DefaultDeadzoneMax;
+	float ___m_DefaultButtonPressPoint;
+	float ___m_ButtonReleaseThreshold;
+	float ___m_DefaultTapTime;
+	float ___m_DefaultSlowTapTime;
+	float ___m_DefaultHoldTime;
+	float ___m_TapRadius;
+	float ___m_MultiTapDelayTime;
+	bool ___m_DisableRedundantEventsMerging;
+	bool ___m_ShortcutKeysConsumeInputs;
+	HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* ___m_FeatureFlags;
+};
+struct MaterialPipelineHandler_tF073532612A2F16372CCBD89100FC0CCB47EDDDC  : public ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A
+{
+	List_1_t80AF51D5D3B90164EF2016D606DCD0ECAA4DC406* ___m_ShaderContainers;
+	bool ___m_AutoRefreshShaders;
+};
+struct RenderPipelineAsset_t5F9BF815BF931E1314B184E7F9070FB649C7054E  : public ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A
+{
+};
+struct Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 
+{
+	NativeArray_1_t8B168617F2E2FBA4473810E911C21C95E6A2E9F6 ___m_Joints;
+	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___m_RootPose;
+	int32_t ___m_Handedness;
+	bool ___U3CisTrackedU3Ek__BackingField;
+};
+struct XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471_marshaled_pinvoke
+{
+	NativeArray_1_t8B168617F2E2FBA4473810E911C21C95E6A2E9F6 ___m_Joints;
+	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___m_RootPose;
+	int32_t ___m_Handedness;
+	int32_t ___U3CisTrackedU3Ek__BackingField;
+};
+struct XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471_marshaled_com
+{
+	NativeArray_1_t8B168617F2E2FBA4473810E911C21C95E6A2E9F6 ___m_Joints;
+	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___m_RootPose;
+	int32_t ___m_Handedness;
+	int32_t ___U3CisTrackedU3Ek__BackingField;
+};
+struct Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752  : public MulticastDelegate_t
+{
+};
+struct LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D  : public Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF
+{
+};
+struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+	CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* ___m_CancellationTokenSource;
+};
+struct SkinnedMeshRenderer_t020C4E8648EA1C4C6BA5C41502919B387E7E1C2E  : public Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF
+{
+};
+struct XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C  : public SubsystemWithProvider_3_tE926FFDCD0BC2F75B118A7CCE6FBFA422A41E2B2
+{
+	XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 ___m_LeftHand;
+	XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 ___m_RightHand;
+	NativeArray_1_t107C57D0357BCF9956A60495CD8FAADDF1D26AFB ___m_JointsInLayout;
+	int32_t ___U3CupdateSuccessFlagsU3Ek__BackingField;
+	Action_3_t7D778238CD0A45B8368B3EAC4062AD2D477E1997* ___updatedHands;
+	Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752* ___trackingAcquired;
+	Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752* ___trackingLost;
+	Action_3_t7D778238CD0A45B8368B3EAC4062AD2D477E1997* ___preprocessJoints;
+	List_1_t8463D6E8766F823573C7FF81CA9AC38D1F351FFF* ___m_Processors;
+	XRCommonHandGestures_tB24C5F4CF6285CC0D00E1830EE0D3FEB331CC926* ___m_LeftHandCommonGestures;
+	XRCommonHandGestures_tB24C5F4CF6285CC0D00E1830EE0D3FEB331CC926* ___m_RightHandCommonGestures;
+	Action_2_tA93638A9D51C46813D719FA524415A74B9B2EADF* ___handsUpdated;
+};
+struct HandProcessor_tB65F4982827071531E5561C27DB783A11A3E9270  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	bool ___m_FirstFrame;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_LastLeftHandPosition;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_LastRightHandPosition;
+	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___m_LeftHandPose;
+	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___m_RightHandPose;
+	int32_t ___m_ProcessorExampleMode;
+	int32_t ___m_LastProcessorExampleMode;
+	float ___m_LeftHandSmoothingFactor;
+	float ___m_RightHandSmoothingFactor;
+	XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* ___m_Subsystem;
+};
+struct HandVisualizer_tA85C45A230DA7AFCC9377FE418CDA2F75AFE49B6  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	bool ___m_UseOptimizedControls;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_MetaQuestLeftHandMesh;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_MetaQuestRightHandMesh;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_AndroidXRLeftHandMesh;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_AndroidXRRightHandMesh;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___m_HandMeshMaterial;
+	bool ___m_DrawMeshes;
+	bool ___m_PreviousDrawMeshes;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_DebugDrawPrefab;
+	bool ___m_DebugDrawJoints;
+	bool ___m_PreviousDebugDrawJoints;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_VelocityPrefab;
+	int32_t ___m_VelocityType;
+	int32_t ___m_PreviousVelocityType;
+	XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* ___m_Subsystem;
+	HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F* ___m_LeftHandGameObjects;
+	HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F* ___m_RightHandGameObjects;
+};
+struct JointVisualizer_t00D07115B1B09275653E1814C92C73DF8EEABFD6  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_JointVisual;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___m_HighFidelityJointMaterial;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___m_LowFidelityJointMaterial;
+	bool ___m_HighFidelityJoint;
+	Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* ___m_JointRenderer;
+};
+struct XRHandMeshController_t670ADAE830016D758ED74153F39334564CD3D687  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	XRHandTrackingEvents_tF1DA1153E15422968E62D8B84B99D5C00018574C* ___m_XRHandTrackingEvents;
+	Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* ___m_HandMeshRenderer;
+	bool ___m_ShowMeshWhenTrackingIsAcquired;
+	bool ___m_HideMeshWhenTrackingIsLost;
+	bool ___m_HandIsTracked;
+};
+struct XRHandSkeletonDriver_t549956F17FD2C98A8FC1C9DF04ED4218610321A9  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	XRHandTrackingEvents_tF1DA1153E15422968E62D8B84B99D5C00018574C* ___m_XRHandTrackingEvents;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___m_RootTransform;
+	List_1_t6374200280C9D4D9E197123BCF3B71CB8726B89F* ___m_JointTransformReferences;
+	TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* ___m_JointTransforms;
+	BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* ___m_HasJointTransformMask;
+	bool ___m_HasRootTransform;
+	NativeArray_1_t36BB6836F4E5DC4D944E821BA8F1E03B91E23347 ___m_JointLocalPoses;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_RootOffset;
+	bool ___m_HasRootOffset;
+};
+struct XRHandTrackingEvents_tF1DA1153E15422968E62D8B84B99D5C00018574C  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	int32_t ___m_Handedness;
+	int32_t ___m_UpdateType;
+	UnityEvent_1_t54BA1D8882A4ED7444196057CE1488D5D96F0E8A* ___m_PoseUpdated;
+	HandUpdatedEvent_t74C37E98CEE73FC31A297B62298B2B48C247ED4F* ___m_JointsUpdated;
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___m_TrackingAcquired;
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___m_TrackingLost;
+	UnityEvent_1_tEEB36A367DCB5867E93AAF6BECAF3558CA71BECB* ___m_TrackingChanged;
+	BindableVariable_1_t0A132E58B7C86338FD58C5F09A28A660DB5A4F50* ___m_HandIsTracked;
+	XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* ___m_Subsystem;
+	XRHandJointsUpdatedEventArgs_t23369A3B3D49D837CF21B765B7F0E248F362E31F* ___m_HandJointsUpdatedEventArgs;
+};
+struct List_1_t6374200280C9D4D9E197123BCF3B71CB8726B89F_StaticFields
+{
+	JointToTransformReferenceU5BU5D_tB4EDF8357D13DD2A4E07436A2D5819F73E507A52* ___s_emptyArray;
+};
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D_StaticFields
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___s_emptyArray;
+};
+struct List_1_t80AF51D5D3B90164EF2016D606DCD0ECAA4DC406_StaticFields
+{
+	ShaderContainerU5BU5D_t486180245366FAEFA5C4D2EF51F47D6A6F225567* ___s_emptyArray;
+};
+struct List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_StaticFields
+{
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___s_emptyArray;
+};
+struct List_1_tE4111BEC044D13259EFD4EC5907636C855887179_StaticFields
+{
+	XRHandSubsystemU5BU5D_t50FB94CEB7EB1A2A292728A49A7B732A8CF8C50F* ___s_emptyArray;
+};
+struct U3CPrivateImplementationDetailsU3E_tED03EE4A916C409E9C8B3F447A436C67DA8EF95D_StaticFields
+{
+	__StaticArrayInitTypeSizeU3D325_tEA61858874AAC6D561DB28A0B05449D9198C22B4 ___7853A4E5E739BACEDA0F69E99FCE1D272FD6B628CE98D088CB10FB0E6DD81B21;
+	__StaticArrayInitTypeSizeU3D416_tEAA1F7560F7E32AB0E0E2940064C485B5478FBA8 ___D071707EEEB2BDC45E405D4A05F1162C406A25FAB6F15959806AB233E0BC7D49;
+};
+struct String_t_StaticFields
+{
+	String_t* ___Empty;
+};
+struct HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F_StaticFields
+{
+	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___s_LinePointsReuse;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
+{
+	String_t* ___TrueString;
+	String_t* ___FalseString;
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_StaticFields
+{
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___enumSeperatorCharArray;
+};
+struct IntPtr_t_StaticFields
+{
+	intptr_t ___Zero;
+};
+struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_StaticFields
+{
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___identityQuaternion;
+};
+struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___zeroVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___oneVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___upVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___downVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___leftVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___rightVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___forwardVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___backVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___positiveInfinityVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___negativeInfinityVector;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
+{
+	int32_t ___OffsetOfInstanceIDInCPlusPlusObject;
+};
+struct Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_StaticFields
+{
+	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___k_Identity;
+};
+struct Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3_StaticFields
+{
+	int32_t ___k_ColorId;
+	int32_t ___k_MainTexId;
+};
+struct HandProcessor_tB65F4982827071531E5561C27DB783A11A3E9270_StaticFields
+{
+	List_1_tE4111BEC044D13259EFD4EC5907636C855887179* ___s_SubsystemsReuse;
+};
+struct HandVisualizer_tA85C45A230DA7AFCC9377FE418CDA2F75AFE49B6_StaticFields
+{
+	List_1_tE4111BEC044D13259EFD4EC5907636C855887179* ___s_SubsystemsReuse;
+};
+struct XRHandTrackingEvents_tF1DA1153E15422968E62D8B84B99D5C00018574C_StaticFields
+{
+	List_1_tE4111BEC044D13259EFD4EC5907636C855887179* ___k_SubsystemsReuse;
+};
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031  : public RuntimeArray
+{
+	ALIGN_FIELD (8) uint8_t m_Items[1];
+
+	inline uint8_t GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline uint8_t* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, uint8_t value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline uint8_t GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline uint8_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, uint8_t value)
+	{
+		m_Items[index] = value;
+	}
+};
+struct GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF  : public RuntimeArray
+{
+	ALIGN_FIELD (8) GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* m_Items[1];
+
+	inline GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline GameObject_t76FEDD663AB33C991A9C9A23129337651094216F** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline GameObject_t76FEDD663AB33C991A9C9A23129337651094216F** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct LineRendererU5BU5D_t5AA0E11EC99A18A11BCCCABDF088C854E50D394A  : public RuntimeArray
+{
+	ALIGN_FIELD (8) LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* m_Items[1];
+
+	inline LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct JointVisualizerU5BU5D_tBE9067F8E5E225E6A76C5027CD08047938471342  : public RuntimeArray
+{
+	ALIGN_FIELD (8) JointVisualizer_t00D07115B1B09275653E1814C92C73DF8EEABFD6* m_Items[1];
+
+	inline JointVisualizer_t00D07115B1B09275653E1814C92C73DF8EEABFD6* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline JointVisualizer_t00D07115B1B09275653E1814C92C73DF8EEABFD6** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, JointVisualizer_t00D07115B1B09275653E1814C92C73DF8EEABFD6* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline JointVisualizer_t00D07115B1B09275653E1814C92C73DF8EEABFD6* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline JointVisualizer_t00D07115B1B09275653E1814C92C73DF8EEABFD6** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, JointVisualizer_t00D07115B1B09275653E1814C92C73DF8EEABFD6* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C  : public RuntimeArray
+{
+	ALIGN_FIELD (8) Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 m_Items[1];
+
+	inline Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 value)
+	{
+		m_Items[index] = value;
+	}
+};
+
+
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SubsystemManager_GetSubsystems_TisRuntimeObject_mB633541A66EAE1B89E7819DD3468958B65E38FD4_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* ___0_subsystems, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, int32_t ___0_index, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandSubsystem_RegisterProcessor_TisRuntimeObject_m8549212DAE58CF496F01278973BF8E4DFA113A34_gshared (XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* __this, RuntimeObject* ___0_processor, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandSubsystem_UnregisterProcessor_TisRuntimeObject_mE601F1ACA209A399184741A3DB88BF514565DC6D_gshared (XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* __this, RuntimeObject* ___0_processor, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_m853F8C94BDD185D55096797BC53A6FF2038389BC_gshared (Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_3__ctor_m7EB2124968FA6CF7D296DEF84B56419B5D879A3D_gshared (Action_3_tC91FC800177E916F453E3699E82BA62A10797E2A* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Object_Instantiate_TisRuntimeObject_m75BF3B0A3747B60491845FA41612FE7F795F0A59_gshared (RuntimeObject* ___0_original, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___1_parent, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GameObject_GetComponent_TisRuntimeObject_m6EAED4AA356F0F48288F67899E5958792395563B_gshared (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GameObject_AddComponent_TisRuntimeObject_m69B93700FACCF372F5753371C6E8FB780800B824_gshared (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Component_TryGetComponent_TisRuntimeObject_m69D4ED21F14D49D805A2337F4332934CDA07DEDB_gshared (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, RuntimeObject** ___0_component, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_mF9E011AC0B45B83F28F733B52084915C67A264CD_gshared (List_1_t6374200280C9D4D9E197123BCF3B71CB8726B89F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JointToTransformReference_t5DC7424A5741B60B0DFA15056D7F7EBF38721202 List_1_get_Item_m86F4130198090303E1C3BF94F8DCDDB031FF0DDA_gshared (List_1_t6374200280C9D4D9E197123BCF3B71CB8726B89F* __this, int32_t ___0_index, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m209A9B25E99DCB0C5847654EFA37FC1EFF4E782C_gshared_inline (List_1_t6374200280C9D4D9E197123BCF3B71CB8726B89F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandGameObjects_ToggleRenderers_TisRuntimeObject_m21CF32A9DCEE9F23E70AEB08222E216637EAA206_gshared (bool ___0_toggle, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___1_rendererTransform, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GameObject_TryGetComponent_TisRuntimeObject_m4D430300D2DFB9276DE980D78F60A05D271D3630_gshared (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, RuntimeObject** ___0_component, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Object_Instantiate_TisRuntimeObject_m90A1E6C4C2B445D2E848DB75C772D1B95AAC046A_gshared (RuntimeObject* ___0_original, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A List_1_GetEnumerator_mD8294A7FA2BEB1929487127D476F8EC1CDC23BFC_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enumerator_Dispose_mD9DC3E3C3697830A4823047AB29A77DBBB5ED419_gshared (Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_gshared_inline (Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enumerator_MoveNext_mE921CC8F29FBBDE7CC3209A0ED0D921D58D00BCB_gshared (Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A* __this, const RuntimeMethod* method) ;
+
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B (RuntimeArray* ___0_array, RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 ___1_fldHandle, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandProcessor_SmoothHandsExample_mA4CDE58B592B8073552EC6600EDC740DA4536C05 (HandProcessor_tB65F4982827071531E5561C27DB783A11A3E9270* __this, XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* ___0_subsystem, int32_t ___1_successFlags, int32_t ___2_updateType, bool ___3_modeChanged, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandProcessor_InvertHandsExample_m687CDDC448C97A6991929570A925D19BB6DC6E54 (HandProcessor_tB65F4982827071531E5561C27DB783A11A3E9270* __this, XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* ___0_subsystem, int32_t ___1_successFlags, int32_t ___2_updateType, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 XRHandSubsystem_get_leftHand_mD3B931E5129348FEE34C3965A0CF8E62A0CFFB97_inline (XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 XRHandSubsystem_get_rightHand_mDE333FDF35460E1A06BE051AF9C2144B7053ED3C_inline (XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool XRHand_get_isTracked_mDFC9D4FDE271E2DC90D5459B1A6EA304F97B7428_inline (XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 XRHand_get_rootPose_m4F34E7F55AEBFD2FF7491364ADB00B27BF86F1A5_inline (XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865 (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_Lerp_m3A906D0530A94FAABB94F0F905E84D99BE85C3F8_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, float ___2_t, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandProcessingUtility_SetRootPose_m116319D83FE5DC86798991011D0230A2531E35EE (XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471* ___0_hand, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 ___1_rootPose, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandProcessingUtility_SetCorrespondingHand_m7AB9505CF0D27B84D54B7AB39746D4B66EED9CD7 (XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* ___0_subsystem, XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 ___1_hand, const RuntimeMethod* method) ;
+inline void SubsystemManager_GetSubsystems_TisXRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C_m80B420587E83801A6C5F75FED3B6CEF1693D2C73 (List_1_tE4111BEC044D13259EFD4EC5907636C855887179* ___0_subsystems, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tE4111BEC044D13259EFD4EC5907636C855887179*, const RuntimeMethod*))SubsystemManager_GetSubsystems_TisRuntimeObject_mB633541A66EAE1B89E7819DD3468958B65E38FD4_gshared)(___0_subsystems, method);
+}
+inline int32_t List_1_get_Count_m571D52D1CFC36A69BDAFBAC74B0F075F8BB773BC_inline (List_1_tE4111BEC044D13259EFD4EC5907636C855887179* __this, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (List_1_tE4111BEC044D13259EFD4EC5907636C855887179*, const RuntimeMethod*))List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline)(__this, method);
+}
+inline XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* List_1_get_Item_m75273E2FDEA382223C6F78765C1A71E6A758CF9F (List_1_tE4111BEC044D13259EFD4EC5907636C855887179* __this, int32_t ___0_index, const RuntimeMethod* method)
+{
+	return ((  XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* (*) (List_1_tE4111BEC044D13259EFD4EC5907636C855887179*, int32_t, const RuntimeMethod*))List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared)(__this, ___0_index, method);
+}
+inline void XRHandSubsystem_RegisterProcessor_TisHandProcessor_tB65F4982827071531E5561C27DB783A11A3E9270_mCD67CCBA02ABF3697173E24F8E496A84E9C01C3B (XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* __this, HandProcessor_tB65F4982827071531E5561C27DB783A11A3E9270* ___0_processor, const RuntimeMethod* method)
+{
+	((  void (*) (XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C*, HandProcessor_tB65F4982827071531E5561C27DB783A11A3E9270*, const RuntimeMethod*))XRHandSubsystem_RegisterProcessor_TisRuntimeObject_m8549212DAE58CF496F01278973BF8E4DFA113A34_gshared)(__this, ___0_processor, method);
+}
+inline void XRHandSubsystem_UnregisterProcessor_TisHandProcessor_tB65F4982827071531E5561C27DB783A11A3E9270_m65F55E11E864D525A4FC903D1E656577323E5DE7 (XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* __this, HandProcessor_tB65F4982827071531E5561C27DB783A11A3E9270* ___0_processor, const RuntimeMethod* method)
+{
+	((  void (*) (XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C*, HandProcessor_tB65F4982827071531E5561C27DB783A11A3E9270*, const RuntimeMethod*))XRHandSubsystem_UnregisterProcessor_TisRuntimeObject_mE601F1ACA209A399184741A3DB88BF514565DC6D_gshared)(__this, ___0_processor, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 Pose_get_identity_m145C7BA9D895CD7F8CCE2483B69764F7A9FEC66E (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, const RuntimeMethod* method) ;
+inline void List_1__ctor_m9991CB9E0E4608CAE947384283EE27BCF3DAC2D4 (List_1_tE4111BEC044D13259EFD4EC5907636C855887179* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tE4111BEC044D13259EFD4EC5907636C855887179*, const RuntimeMethod*))List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR InputSettings_tBA8835B505722A59702A08BCBA46ECF0B0274EEF* InputSystem_get_settings_m8E3E9C0907904CBDBAE96354142AB0A87C7A3B74 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputSettings_SetInternalFeatureFlag_mF593642B414A97107C5F4835FDFB2F185F1933E0 (InputSettings_tBA8835B505722A59702A08BCBA46ECF0B0274EEF* __this, String_t* ___0_featureName, bool ___1_enabled, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandVisualizer_UpdateRenderingVisibility_mFBC70B71322E6C97E3882E9DCE6E1F616CDC9BD1 (HandVisualizer_tA85C45A230DA7AFCC9377FE418CDA2F75AFE49B6* __this, HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F* ___0_handGameObjects, bool ___1_isTracked, const RuntimeMethod* method) ;
+inline void Action_1__ctor_m853F8C94BDD185D55096797BC53A6FF2038389BC (Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
+{
+	((  void (*) (Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_1__ctor_m853F8C94BDD185D55096797BC53A6FF2038389BC_gshared)(__this, ___0_object, ___1_method, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3 (Delegate_t* ___0_source, Delegate_t* ___1_value, const RuntimeMethod* method) ;
+inline void Action_3__ctor_m3AB504B4A53E26F38ACFEC08DD59973F0169F14B (Action_3_t7D778238CD0A45B8368B3EAC4062AD2D477E1997* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
+{
+	((  void (*) (Action_3_t7D778238CD0A45B8368B3EAC4062AD2D477E1997*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_3__ctor_m7EB2124968FA6CF7D296DEF84B56419B5D879A3D_gshared)(__this, ___0_object, ___1_method, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandGameObjects_OnDestroy_mDC01BE3680763342F2F89A8788D9B6A42ED7BBD6 (HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool SubsystemWithProvider_get_running_m6BF31FC3BDA38C56C0F60FEA37767A4151B22C44_inline (SubsystemWithProvider_tC72E35EE2D413A4B0635B058154BABF265F31242* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandVisualizer_UnsubscribeHandSubsystem_m4FB54A65D825A9218998D66F0099C171D4A2DBB9 (HandVisualizer_tA85C45A230DA7AFCC9377FE418CDA2F75AFE49B6* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XRHandSubsystem_get_detectedHandMeshLayout_mF9302D3A002D17493BD0DA787BF462F3D1406B3B (XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandGameObjects__ctor_mE5FE6A2F0C183C672EB9F6584039CE9F6F0ED458 (HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F* __this, int32_t ___0_handedness, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___1_parent, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___2_meshPrefab, Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___3_meshMaterial, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___4_debugDrawPrefab, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___5_velocityPrefab, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandVisualizer_SubscribeHandSubsystem_mC8DF8C9AD2E5B23D5593833681DADD53C31B28FF (HandVisualizer_tA85C45A230DA7AFCC9377FE418CDA2F75AFE49B6* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00 (Delegate_t* ___0_a, Delegate_t* ___1_b, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandGameObjects_ToggleDrawMesh_m3EC9E4B67721C48B59B52B1A6E146E7AF07BF259 (HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F* __this, bool ___0_drawMesh, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandGameObjects_ToggleDebugDrawJoints_m5897D801494BFAAA40B96964AE976A7F71214752 (HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F* __this, bool ___0_debugDrawJoints, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandGameObjects_SetVelocityType_m13CFD04600696F6E2F6F158999D472867AE31C3C (HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F* __this, int32_t ___0_velocityType, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t XRHand_get_handedness_m87563F81CAF693404C49463EAC73DA29D517F752_inline (XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandGameObjects_UpdateJoints_m3CB0C822FD81C182BD37B90C2753724285A0BF2D (HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F* __this, XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 ___0_hand, bool ___1_areJointsTracked, bool ___2_debugDrawJoints, int32_t ___3_velocityType, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XRHandJointIDUtility_ToIndex_mBF5EC77C077B14029F71E64F112F37544BFD9E02 (int32_t ___0_jointId, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Scene_tA1DC762B79745EB5140F054C884855B922318356 GameObject_get_scene_m747D45E8CECC56DD47D1E103F9E51D5FBEDA4B01 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Scene_IsValid_m0D5200731D3E26ECBBB55803F9242965A14A4599 (Scene_tA1DC762B79745EB5140F054C884855B922318356* __this, const RuntimeMethod* method) ;
+inline GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_original, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___1_parent, const RuntimeMethod* method)
+{
+	return ((  GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*, const RuntimeMethod*))Object_Instantiate_TisRuntimeObject_m75BF3B0A3747B60491845FA41612FE7F795F0A59_gshared)(___0_original, ___1_parent, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_localRotation_mAB4A011D134BA58AB780BECC0025CA65F16185FA (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_value, const RuntimeMethod* method) ;
+inline XRHandTrackingEvents_tF1DA1153E15422968E62D8B84B99D5C00018574C* GameObject_GetComponent_TisXRHandTrackingEvents_tF1DA1153E15422968E62D8B84B99D5C00018574C_m6497F69000D8E4A8EB16945591E0EA5C21D1CA2A (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
+{
+	return ((  XRHandTrackingEvents_tF1DA1153E15422968E62D8B84B99D5C00018574C* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_GetComponent_TisRuntimeObject_m6EAED4AA356F0F48288F67899E5958792395563B_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
+inline XRHandTrackingEvents_tF1DA1153E15422968E62D8B84B99D5C00018574C* GameObject_AddComponent_TisXRHandTrackingEvents_tF1DA1153E15422968E62D8B84B99D5C00018574C_mADC3C017664513070D3093477B302FC7198E8F2A (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
+{
+	return ((  XRHandTrackingEvents_tF1DA1153E15422968E62D8B84B99D5C00018574C* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_AddComponent_TisRuntimeObject_m69B93700FACCF372F5753371C6E8FB780800B824_gshared)(__this, method);
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XRHandTrackingEvents_set_updateType_m7AD23779101D561EAEC21BA41FD45AF39679DFA7_inline (XRHandTrackingEvents_tF1DA1153E15422968E62D8B84B99D5C00018574C* __this, int32_t ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XRHandTrackingEvents_set_handedness_m2CBB79E143E81785877F131703B624082DDA8622_inline (XRHandTrackingEvents_tF1DA1153E15422968E62D8B84B99D5C00018574C* __this, int32_t ___0_value, const RuntimeMethod* method) ;
+inline XRHandMeshController_t670ADAE830016D758ED74153F39334564CD3D687* GameObject_GetComponent_TisXRHandMeshController_t670ADAE830016D758ED74153F39334564CD3D687_mFAD7BA6D178A79C7E03843EA1B08D4CE16E248B2 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
+{
+	return ((  XRHandMeshController_t670ADAE830016D758ED74153F39334564CD3D687* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_GetComponent_TisRuntimeObject_m6EAED4AA356F0F48288F67899E5958792395563B_gshared)(__this, method);
+}
+inline XRHandMeshController_t670ADAE830016D758ED74153F39334564CD3D687* GameObject_AddComponent_TisXRHandMeshController_t670ADAE830016D758ED74153F39334564CD3D687_m0EF34ABB02714F807910BD0C78AB85F2D25D023D (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
+{
+	return ((  XRHandMeshController_t670ADAE830016D758ED74153F39334564CD3D687* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_AddComponent_TisRuntimeObject_m69B93700FACCF372F5753371C6E8FB780800B824_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* Transform_GetChild_mE686DF0C7AAC1F7AEF356967B1C04D8B8E240EAF (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, int32_t ___0_index, const RuntimeMethod* method) ;
+inline bool Component_TryGetComponent_TisSkinnedMeshRenderer_t020C4E8648EA1C4C6BA5C41502919B387E7E1C2E_m95CEC209AB48BA4465F3CB2C9453CCA6322D2A63 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, SkinnedMeshRenderer_t020C4E8648EA1C4C6BA5C41502919B387E7E1C2E** ___0_component, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, SkinnedMeshRenderer_t020C4E8648EA1C4C6BA5C41502919B387E7E1C2E**, const RuntimeMethod*))Component_TryGetComponent_TisRuntimeObject_m69D4ED21F14D49D805A2337F4332934CDA07DEDB_gshared)(__this, ___0_component, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandMeshController_set_handMeshRenderer_m56394DC5C6AA24438CAB55232CFC655B7359111A (XRHandMeshController_t670ADAE830016D758ED74153F39334564CD3D687* __this, Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Transform_get_childCount_mE9C29C702AB662CC540CA053EDE48BDAFA35B4B0 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandMeshController_set_handTrackingEvents_m43A14C42AE793D0BEB8086ACC4DD9F0B46E4C9DD (XRHandMeshController_t670ADAE830016D758ED74153F39334564CD3D687* __this, XRHandTrackingEvents_tF1DA1153E15422968E62D8B84B99D5C00018574C* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* XRHandMeshController_get_handMeshRenderer_m0C5AC2BC5788FB733B7F0B912DE86CB093136B18_inline (XRHandMeshController_t670ADAE830016D758ED74153F39334564CD3D687* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Renderer_set_sharedMaterial_m5E842F9A06CFB7B77656EB319881CB4B3E8E4288 (Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* __this, Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_value, const RuntimeMethod* method) ;
+inline XRHandSkeletonDriver_t549956F17FD2C98A8FC1C9DF04ED4218610321A9* GameObject_GetComponent_TisXRHandSkeletonDriver_t549956F17FD2C98A8FC1C9DF04ED4218610321A9_m3BF356CDEFCB41719801691285453F0D76FB5251 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
+{
+	return ((  XRHandSkeletonDriver_t549956F17FD2C98A8FC1C9DF04ED4218610321A9* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_GetComponent_TisRuntimeObject_m6EAED4AA356F0F48288F67899E5958792395563B_gshared)(__this, method);
+}
+inline XRHandSkeletonDriver_t549956F17FD2C98A8FC1C9DF04ED4218610321A9* GameObject_AddComponent_TisXRHandSkeletonDriver_t549956F17FD2C98A8FC1C9DF04ED4218610321A9_m8D2D63A6AD343A90A9DDF71D360B7AD36BC3B4F2 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
+{
+	return ((  XRHandSkeletonDriver_t549956F17FD2C98A8FC1C9DF04ED4218610321A9* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_AddComponent_TisRuntimeObject_m69B93700FACCF372F5753371C6E8FB780800B824_gshared)(__this, method);
+}
+inline void List_1__ctor_mF9E011AC0B45B83F28F733B52084915C67A264CD (List_1_t6374200280C9D4D9E197123BCF3B71CB8726B89F* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t6374200280C9D4D9E197123BCF3B71CB8726B89F*, const RuntimeMethod*))List_1__ctor_mF9E011AC0B45B83F28F733B52084915C67A264CD_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandSkeletonDriver_set_jointTransformReferences_m1498B75A0BDB9AF2603CF62C118DE8FFA84E9E36 (XRHandSkeletonDriver_t549956F17FD2C98A8FC1C9DF04ED4218610321A9* __this, List_1_t6374200280C9D4D9E197123BCF3B71CB8726B89F* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Object_get_name_mAC2F6B897CF1303BA4249B4CB55271AFACBB6392 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741 (RuntimeObject* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_EndsWith_mCD3754F5401E19CE7821CD398986E4EAA6AD87DC (String_t* __this, String_t* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandSkeletonDriver_set_rootTransform_mE5EA2C57F67949501CEC763615F2CFC3309BA34D (XRHandSkeletonDriver_t549956F17FD2C98A8FC1C9DF04ED4218610321A9* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandSkeletonDriverUtility_FindJointsFromRoot_mF7F7E290233CB82676A5CEE92A8BBE25E320359D (XRHandSkeletonDriver_t549956F17FD2C98A8FC1C9DF04ED4218610321A9* ___0_skeletonDriver, List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___1_missingJointNames, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandSkeletonDriver_InitializeFromSerializedReferences_m1CADD44CEE67DBFF31D4C3D11CFC5C103573A314 (XRHandSkeletonDriver_t549956F17FD2C98A8FC1C9DF04ED4218610321A9* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandSkeletonDriver_set_handTrackingEvents_m615CEE297FCB6AF371B2CA123292C03C32008FF8 (XRHandSkeletonDriver_t549956F17FD2C98A8FC1C9DF04ED4218610321A9* __this, XRHandTrackingEvents_tF1DA1153E15422968E62D8B84B99D5C00018574C* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObject__ctor_m7D0340DE160786E6EFA8DABD39EC3B694DA30AAD (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_parent_m9BD5E563B539DD5BEC342736B03F97B38A243234 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9E3155FB84015C823606188F53B47CB44C444991 (String_t* ___0_str0, String_t* ___1_str1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_set_name_mC79E6DC8FFD72479C90F0C4CC7F42A0FEAF5AE47 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* __this, String_t* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR List_1_t6374200280C9D4D9E197123BCF3B71CB8726B89F* XRHandSkeletonDriver_get_jointTransformReferences_m11FAA540585CB0A29A3A1EFE54CAD133545736F0_inline (XRHandSkeletonDriver_t549956F17FD2C98A8FC1C9DF04ED4218610321A9* __this, const RuntimeMethod* method) ;
+inline JointToTransformReference_t5DC7424A5741B60B0DFA15056D7F7EBF38721202 List_1_get_Item_m86F4130198090303E1C3BF94F8DCDDB031FF0DDA (List_1_t6374200280C9D4D9E197123BCF3B71CB8726B89F* __this, int32_t ___0_index, const RuntimeMethod* method)
+{
+	return ((  JointToTransformReference_t5DC7424A5741B60B0DFA15056D7F7EBF38721202 (*) (List_1_t6374200280C9D4D9E197123BCF3B71CB8726B89F*, int32_t, const RuntimeMethod*))List_1_get_Item_m86F4130198090303E1C3BF94F8DCDDB031FF0DDA_gshared)(__this, ___0_index, method);
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* JointToTransformReference_get_jointTransform_m81EAC20A1665D7F6AA85653F77AFFD9E4980AC40_inline (JointToTransformReference_t5DC7424A5741B60B0DFA15056D7F7EBF38721202* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t JointToTransformReference_get_xrHandJointID_m07248164E6B8E31BA297F25AFEBA64AF30F79BF4_inline (JointToTransformReference_t5DC7424A5741B60B0DFA15056D7F7EBF38721202* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandGameObjects_U3C_ctorU3Eg__AssignJointU7C9_0_m7245539D5FC3F7CEBC5B6E4EBB30628DAA7DFE08 (HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F* __this, int32_t ___0_jointId, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___1_jointDrivenTransform, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___2_drawJointsParent, U3CU3Ec__DisplayClass9_0_t18EF379C550C89A38B4C15EF582D09D97B3710DD* ___3_p, const RuntimeMethod* method) ;
+inline int32_t List_1_get_Count_m209A9B25E99DCB0C5847654EFA37FC1EFF4E782C_inline (List_1_t6374200280C9D4D9E197123BCF3B71CB8726B89F* __this, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (List_1_t6374200280C9D4D9E197123BCF3B71CB8726B89F*, const RuntimeMethod*))List_1_get_Count_m209A9B25E99DCB0C5847654EFA37FC1EFF4E782C_gshared_inline)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_obj, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A (Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Renderer_set_enabled_m015E6D7B825528A31182F267234CC6A925F71DA8 (Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* __this, bool ___0_value, const RuntimeMethod* method) ;
+inline void HandGameObjects_ToggleRenderers_TisMeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE_m8BC9ACC0C9BBB0A272F874B4A594AB98EF2FEFAD (bool ___0_toggle, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___1_rendererTransform, const RuntimeMethod* method)
+{
+	((  void (*) (bool, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*, const RuntimeMethod*))HandGameObjects_ToggleRenderers_TisRuntimeObject_m21CF32A9DCEE9F23E70AEB08222E216637EAA206_gshared)(___0_toggle, ___1_rendererTransform, method);
+}
+inline void HandGameObjects_ToggleRenderers_TisLineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D_mD52F431B7896E3957C42E662CECB52F1226E2834 (bool ___0_toggle, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___1_rendererTransform, const RuntimeMethod* method)
+{
+	((  void (*) (bool, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*, const RuntimeMethod*))HandGameObjects_ToggleRenderers_TisRuntimeObject_m21CF32A9DCEE9F23E70AEB08222E216637EAA206_gshared)(___0_toggle, ___1_rendererTransform, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783 XRHand_GetJoint_mDD5E7D4F45C9701AF8911EA4394F258CB5E68035 (XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471* __this, int32_t ___0_id, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandGameObjects_UpdateJoint_mC83C6757020AA8C0F9BCE9DB2D5AF8DFAEBD44B2 (HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F* __this, bool ___0_debugDrawJoints, int32_t ___1_velocityType, XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783 ___2_joint, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* ___3_parentPose, int32_t* ___4_parentIndex, bool ___5_cacheParentPose, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XRHandJointIDUtility_GetBackJointID_m944463FBA57D581AFBF5A68F7CA59FC1673F386F (int32_t ___0_fingerId, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XRHandJointIDUtility_GetFrontJointID_mDAAB2FBD81037762DB147BA18C1381192A2A7313 (int32_t ___0_fingerId, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XRHandJointIDUtility_FromIndex_m3A7C3DE3C3C5F89090C7B3B01B2E93ADC526BA2E (int32_t ___0_index, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XRHandJoint_get_id_m22F4DAECB98383D196AA9549A8682B73270AB394 (XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t XRHandJoint_get_trackingState_mD1202D64E796D92C38FA87BD02DFBD58AF5E4696_inline (XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JointVisualizer_NotifyTrackingState_m34E6715AEB12229493AAFC3EF5B82584610B30BC (JointVisualizer_t00D07115B1B09275653E1814C92C73DF8EEABFD6* __this, int32_t ___0_jointTrackingState, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRHandJoint_TryGetPose_m1AA1E69E7753E1CC4E64F8649751BF7D30CE113E (XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783* __this, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* ___0_pose, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LineRenderer_SetPositions_m7F7B7B54428437D0BF5256D4C82F92180B577B02 (LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* __this, Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___0_positions, const RuntimeMethod* method) ;
+inline bool GameObject_TryGetComponent_TisLineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D_m919DC9D848A0522F28DB3039F8C2F06147A76AFC (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D** ___0_component, const RuntimeMethod* method)
+{
+	return ((  bool (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D**, const RuntimeMethod*))GameObject_TryGetComponent_TisRuntimeObject_m4D430300D2DFB9276DE980D78F60A05D271D3630_gshared)(__this, ___0_component, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRHandJoint_TryGetLinearVelocity_m3BC24DBDEB210B51568D21317B1B3574A6B57F6B (XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___0_linearVelocity, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRHandJoint_TryGetAngularVelocity_mA486ED68AE5883EC4EE22A4403457E5F3F64CF63 (XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___0_angularVelocity, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_normalized_m736BBF65D5CDA7A18414370D15B4DFCC1E466F07_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Multiply_m7F3B0FA9256CE368D7636558EFEFC4AB0E1A0F41_inline (float ___0_d, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_a, const RuntimeMethod* method) ;
+inline GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m10D87C6E0708CA912BBB02555BF7D0FBC5D7A2B3 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_original, const RuntimeMethod* method)
+{
+	return ((  GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))Object_Instantiate_TisRuntimeObject_m90A1E6C4C2B445D2E848DB75C772D1B95AAC046A_gshared)(___0_original, method);
+}
+inline LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* GameObject_GetComponent_TisLineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D_mE703918F1B04E115CCE78A5FF891A12648B04D75 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
+{
+	return ((  LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_GetComponent_TisRuntimeObject_m6EAED4AA356F0F48288F67899E5958792395563B_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LineRenderer_set_endWidth_mC7260401655C8BE1CBDFB832009295C89613F81D (LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* __this, float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LineRenderer_set_startWidth_m3899722E198D636DB216CB61C980214707069F4A (LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* __this, float ___0_value, const RuntimeMethod* method) ;
+inline bool GameObject_TryGetComponent_TisJointVisualizer_t00D07115B1B09275653E1814C92C73DF8EEABFD6_m4E537C6050282B04C41F7DC10D42537D88D4D0D1 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, JointVisualizer_t00D07115B1B09275653E1814C92C73DF8EEABFD6** ___0_component, const RuntimeMethod* method)
+{
+	return ((  bool (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, JointVisualizer_t00D07115B1B09275653E1814C92C73DF8EEABFD6**, const RuntimeMethod*))GameObject_TryGetComponent_TisRuntimeObject_m4D430300D2DFB9276DE980D78F60A05D271D3630_gshared)(__this, ___0_component, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Renderer_set_material_m21E88977071E0A914D62F3D9CFF0193B3117C45A (Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* __this, Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_value, const RuntimeMethod* method) ;
+inline bool GameObject_TryGetComponent_TisRenderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF_m94C50070B14D12C76D11D93CEFD1902642A8BB79 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF** ___0_component, const RuntimeMethod* method)
+{
+	return ((  bool (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF**, const RuntimeMethod*))GameObject_TryGetComponent_TisRuntimeObject_m4D430300D2DFB9276DE980D78F60A05D271D3630_gshared)(__this, ___0_component, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaterialPipelineHandler_SetPipelineShaders_mC44CCA2781AD703384B2C1BB07C5E924666852F5 (MaterialPipelineHandler_tF073532612A2F16372CCBD89100FC0CCB47EDDDC* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RenderPipelineAsset_t5F9BF815BF931E1314B184E7F9070FB649C7054E* GraphicsSettings_get_currentRenderPipeline_mEC94DC23DE4F901D6A629E2DE882982686AF75F1 (const RuntimeMethod* method) ;
+inline Enumerator_t38A231BB01943CC3CC02D92799631EF4681643E9 List_1_GetEnumerator_m653BD90E86DAC4C19518CC4C56AB6F3D6AB463E7 (List_1_t80AF51D5D3B90164EF2016D606DCD0ECAA4DC406* __this, const RuntimeMethod* method)
+{
+	return ((  Enumerator_t38A231BB01943CC3CC02D92799631EF4681643E9 (*) (List_1_t80AF51D5D3B90164EF2016D606DCD0ECAA4DC406*, const RuntimeMethod*))List_1_GetEnumerator_mD8294A7FA2BEB1929487127D476F8EC1CDC23BFC_gshared)(__this, method);
+}
+inline void Enumerator_Dispose_m2A316758173D3AF217BD415516279FBE46931C17 (Enumerator_t38A231BB01943CC3CC02D92799631EF4681643E9* __this, const RuntimeMethod* method)
+{
+	((  void (*) (Enumerator_t38A231BB01943CC3CC02D92799631EF4681643E9*, const RuntimeMethod*))Enumerator_Dispose_mD9DC3E3C3697830A4823047AB29A77DBBB5ED419_gshared)(__this, method);
+}
+inline ShaderContainer_t2C32A4E847EC4338A8CF5EE168E48D0E24049F52* Enumerator_get_Current_m04EA4373946F8720DED1255002B9C83EA0ABB7EB_inline (Enumerator_t38A231BB01943CC3CC02D92799631EF4681643E9* __this, const RuntimeMethod* method)
+{
+	return ((  ShaderContainer_t2C32A4E847EC4338A8CF5EE168E48D0E24049F52* (*) (Enumerator_t38A231BB01943CC3CC02D92799631EF4681643E9*, const RuntimeMethod*))Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_gshared_inline)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* Shader_Find_m183AA54F78320212DDEC811592F98456898A41C5 (String_t* ___0_name, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* Material_get_shader_m8B0C11AE6F2AD7DE30AF52D3195EB716F7A71983 (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Material_set_shader_mBD3A0D9AB14DE2F7CD5F2775E9AD58E15424C171 (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* __this, Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaterialPipelineHandler_MarkMaterialModified_m2C07959C6249B610A28CF28C5F1DD029390AE050 (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_material, const RuntimeMethod* method) ;
+inline bool Enumerator_MoveNext_m9FB5C17BEA2305D525582DF38C21BE94ABE5D326 (Enumerator_t38A231BB01943CC3CC02D92799631EF4681643E9* __this, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Enumerator_t38A231BB01943CC3CC02D92799631EF4681643E9*, const RuntimeMethod*))Enumerator_MoveNext_mE921CC8F29FBBDE7CC3209A0ED0D921D58D00BCB_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScriptableObject__ctor_mD037FDB0B487295EA47F79A4DB1BF1846C9087FF (ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline (float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_Normalize_mEF8349CC39674236CFC694189AFD36E31F89AC8F_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_Magnitude_m21652D951393A3D7CE92CE40049A0E7F76544D1B_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_vector, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Division_mCC6BB24E372AB96B8380D1678446EF6A8BAE13BB_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, float ___1_d, const RuntimeMethod* method) ;
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 131219
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_tF50C601B9FB7D0B824131FDA44DEA76DA6808B08 UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m4B3248C322A66BDBA3CD5BFB1772120127EC39A7 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_tED03EE4A916C409E9C8B3F447A436C67DA8EF95D____7853A4E5E739BACEDA0F69E99FCE1D272FD6B628CE98D088CB10FB0E6DD81B21_FieldInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_tED03EE4A916C409E9C8B3F447A436C67DA8EF95D____D071707EEEB2BDC45E405D4A05F1162C406A25FAB6F15959806AB233E0BC7D49_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	MonoScriptData_tF50C601B9FB7D0B824131FDA44DEA76DA6808B08 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(MonoScriptData_tF50C601B9FB7D0B824131FDA44DEA76DA6808B08));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)325));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = L_0;
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_2 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_tED03EE4A916C409E9C8B3F447A436C67DA8EF95D____7853A4E5E739BACEDA0F69E99FCE1D272FD6B628CE98D088CB10FB0E6DD81B21_FieldInfo_var) };
+		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_1, L_2, NULL);
+		(&V_0)->___FilePathsData = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___FilePathsData), (void*)L_1);
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)416));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4 = L_3;
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_5 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_tED03EE4A916C409E9C8B3F447A436C67DA8EF95D____D071707EEEB2BDC45E405D4A05F1162C406A25FAB6F15959806AB233E0BC7D49_FieldInfo_var) };
+		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_4, L_5, NULL);
+		(&V_0)->___TypesData = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___TypesData), (void*)L_4);
+		(&V_0)->___TotalFiles = 4;
+		(&V_0)->___TotalTypes = 6;
+		(&V_0)->___IsEditorOnly = (bool)0;
+		MonoScriptData_tF50C601B9FB7D0B824131FDA44DEA76DA6808B08 L_6 = V_0;
+		return L_6;
+	}
+}
+// Method Definition Index: 131220
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m60A4D90625F91B9B8D47C83D0385C367755F1886 (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_t7668C3C4633617BBE6BF3CF11A0B7C37309F7EB6* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C void MonoScriptData_tF50C601B9FB7D0B824131FDA44DEA76DA6808B08_marshal_pinvoke(const MonoScriptData_tF50C601B9FB7D0B824131FDA44DEA76DA6808B08& unmarshaled, MonoScriptData_tF50C601B9FB7D0B824131FDA44DEA76DA6808B08_marshaled_pinvoke& marshaled)
+{
+	marshaled.___FilePathsData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___FilePathsData);
+	marshaled.___TypesData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___TypesData);
+	marshaled.___TotalTypes = unmarshaled.___TotalTypes;
+	marshaled.___TotalFiles = unmarshaled.___TotalFiles;
+	marshaled.___IsEditorOnly = static_cast<int32_t>(unmarshaled.___IsEditorOnly);
+}
+IL2CPP_EXTERN_C void MonoScriptData_tF50C601B9FB7D0B824131FDA44DEA76DA6808B08_marshal_pinvoke_back(const MonoScriptData_tF50C601B9FB7D0B824131FDA44DEA76DA6808B08_marshaled_pinvoke& marshaled, MonoScriptData_tF50C601B9FB7D0B824131FDA44DEA76DA6808B08& unmarshaled)
+{
+	unmarshaled.___FilePathsData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___FilePathsData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData));
+	unmarshaled.___TypesData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___TypesData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData));
+	int32_t unmarshaledTotalTypes_temp_2 = 0;
+	unmarshaledTotalTypes_temp_2 = marshaled.___TotalTypes;
+	unmarshaled.___TotalTypes = unmarshaledTotalTypes_temp_2;
+	int32_t unmarshaledTotalFiles_temp_3 = 0;
+	unmarshaledTotalFiles_temp_3 = marshaled.___TotalFiles;
+	unmarshaled.___TotalFiles = unmarshaledTotalFiles_temp_3;
+	bool unmarshaledIsEditorOnly_temp_4 = false;
+	unmarshaledIsEditorOnly_temp_4 = static_cast<bool>(marshaled.___IsEditorOnly);
+	unmarshaled.___IsEditorOnly = unmarshaledIsEditorOnly_temp_4;
+}
+IL2CPP_EXTERN_C void MonoScriptData_tF50C601B9FB7D0B824131FDA44DEA76DA6808B08_marshal_pinvoke_cleanup(MonoScriptData_tF50C601B9FB7D0B824131FDA44DEA76DA6808B08_marshaled_pinvoke& marshaled)
+{
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___FilePathsData);
+	marshaled.___FilePathsData = NULL;
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___TypesData);
+	marshaled.___TypesData = NULL;
+}
+IL2CPP_EXTERN_C void MonoScriptData_tF50C601B9FB7D0B824131FDA44DEA76DA6808B08_marshal_com(const MonoScriptData_tF50C601B9FB7D0B824131FDA44DEA76DA6808B08& unmarshaled, MonoScriptData_tF50C601B9FB7D0B824131FDA44DEA76DA6808B08_marshaled_com& marshaled)
+{
+	marshaled.___FilePathsData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___FilePathsData);
+	marshaled.___TypesData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___TypesData);
+	marshaled.___TotalTypes = unmarshaled.___TotalTypes;
+	marshaled.___TotalFiles = unmarshaled.___TotalFiles;
+	marshaled.___IsEditorOnly = static_cast<int32_t>(unmarshaled.___IsEditorOnly);
+}
+IL2CPP_EXTERN_C void MonoScriptData_tF50C601B9FB7D0B824131FDA44DEA76DA6808B08_marshal_com_back(const MonoScriptData_tF50C601B9FB7D0B824131FDA44DEA76DA6808B08_marshaled_com& marshaled, MonoScriptData_tF50C601B9FB7D0B824131FDA44DEA76DA6808B08& unmarshaled)
+{
+	unmarshaled.___FilePathsData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___FilePathsData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData));
+	unmarshaled.___TypesData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___TypesData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData));
+	int32_t unmarshaledTotalTypes_temp_2 = 0;
+	unmarshaledTotalTypes_temp_2 = marshaled.___TotalTypes;
+	unmarshaled.___TotalTypes = unmarshaledTotalTypes_temp_2;
+	int32_t unmarshaledTotalFiles_temp_3 = 0;
+	unmarshaledTotalFiles_temp_3 = marshaled.___TotalFiles;
+	unmarshaled.___TotalFiles = unmarshaledTotalFiles_temp_3;
+	bool unmarshaledIsEditorOnly_temp_4 = false;
+	unmarshaledIsEditorOnly_temp_4 = static_cast<bool>(marshaled.___IsEditorOnly);
+	unmarshaled.___IsEditorOnly = unmarshaledIsEditorOnly_temp_4;
+}
+IL2CPP_EXTERN_C void MonoScriptData_tF50C601B9FB7D0B824131FDA44DEA76DA6808B08_marshal_com_cleanup(MonoScriptData_tF50C601B9FB7D0B824131FDA44DEA76DA6808B08_marshaled_com& marshaled)
+{
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___FilePathsData);
+	marshaled.___FilePathsData = NULL;
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___TypesData);
+	marshaled.___TypesData = NULL;
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 131221
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t HandProcessor_get_callbackOrder_m3F2EF2D3D2C2C58FDADEE00CE9157B9C585FA8F7 (HandProcessor_tB65F4982827071531E5561C27DB783A11A3E9270* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandProcessor.cs:14>
+		return 0;
+	}
+}
+// Method Definition Index: 131222
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t HandProcessor_get_processorExampleMode_m676693753425671E2723428A5D9B7B244F5B7494 (HandProcessor_tB65F4982827071531E5561C27DB783A11A3E9270* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandProcessor.cs:54>
+		int32_t L_0 = __this->___m_ProcessorExampleMode;
+		return L_0;
+	}
+}
+// Method Definition Index: 131223
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandProcessor_set_processorExampleMode_mE2759A5B11698877F2FD1FD6046042CD29AF48FE (HandProcessor_tB65F4982827071531E5561C27DB783A11A3E9270* __this, int32_t ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandProcessor.cs:55>
+		int32_t L_0 = ___0_value;
+		__this->___m_ProcessorExampleMode = L_0;
+		return;
+	}
+}
+// Method Definition Index: 131224
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandProcessor_ProcessJoints_m6FA3EA45A43E877F8FC9268E133CA424D5FAD2C1 (HandProcessor_tB65F4982827071531E5561C27DB783A11A3E9270* __this, XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* ___0_subsystem, int32_t ___1_successFlags, int32_t ___2_updateType, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandProcessor.cs:71>
+		int32_t L_0 = __this->___m_ProcessorExampleMode;
+		V_0 = L_0;
+		int32_t L_1 = V_0;
+		if ((((int32_t)L_1) == ((int32_t)1)))
+		{
+			goto IL_0011;
+		}
+	}
+	{
+		int32_t L_2 = V_0;
+		if ((((int32_t)L_2) == ((int32_t)2)))
+		{
+			goto IL_002d;
+		}
+	}
+	{
+		goto IL_0036;
+	}
+
+IL_0011:
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandProcessor.cs:74>
+		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_3 = ___0_subsystem;
+		int32_t L_4 = ___1_successFlags;
+		int32_t L_5 = ___2_updateType;
+		int32_t L_6 = __this->___m_LastProcessorExampleMode;
+		int32_t L_7 = __this->___m_ProcessorExampleMode;
+		HandProcessor_SmoothHandsExample_mA4CDE58B592B8073552EC6600EDC740DA4536C05(__this, L_3, L_4, L_5, (bool)((((int32_t)((((int32_t)L_6) == ((int32_t)L_7))? 1 : 0)) == ((int32_t)0))? 1 : 0), NULL);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandProcessor.cs:75>
+		goto IL_0036;
+	}
+
+IL_002d:
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandProcessor.cs:78>
+		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_8 = ___0_subsystem;
+		int32_t L_9 = ___1_successFlags;
+		int32_t L_10 = ___2_updateType;
+		HandProcessor_InvertHandsExample_m687CDDC448C97A6991929570A925D19BB6DC6E54(__this, L_8, L_9, L_10, NULL);
+	}
+
+IL_0036:
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandProcessor.cs:82>
+		int32_t L_11 = __this->___m_ProcessorExampleMode;
+		__this->___m_LastProcessorExampleMode = L_11;
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandProcessor.cs:83>
+		return;
+	}
+}
+// Method Definition Index: 131225
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandProcessor_SmoothHandsExample_mA4CDE58B592B8073552EC6600EDC740DA4536C05 (HandProcessor_tB65F4982827071531E5561C27DB783A11A3E9270* __this, XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* ___0_subsystem, int32_t ___1_successFlags, int32_t ___2_updateType, bool ___3_modeChanged, const RuntimeMethod* method) 
+{
+	XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	float V_4 = 0.0f;
+	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	float V_7 = 0.0f;
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandProcessor.cs:89>
+		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_0 = ___0_subsystem;
+		NullCheck(L_0);
+		XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 L_1;
+		L_1 = XRHandSubsystem_get_leftHand_mD3B931E5129348FEE34C3965A0CF8E62A0CFFB97_inline(L_0, NULL);
+		V_0 = L_1;
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandProcessor.cs:90>
+		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_2 = ___0_subsystem;
+		NullCheck(L_2);
+		XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 L_3;
+		L_3 = XRHandSubsystem_get_rightHand_mDE333FDF35460E1A06BE051AF9C2144B7053ED3C_inline(L_2, NULL);
+		V_1 = L_3;
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandProcessor.cs:92>
+		bool L_4;
+		L_4 = XRHand_get_isTracked_mDFC9D4FDE271E2DC90D5459B1A6EA304F97B7428_inline((&V_0), NULL);
+		if (!L_4)
+		{
+			goto IL_0094;
+		}
+	}
+	{
+		float L_5 = __this->___m_LeftHandSmoothingFactor;
+		if ((!(((float)L_5) > ((float)(0.0f)))))
+		{
+			goto IL_0094;
+		}
+	}
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandProcessor.cs:94>
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_6;
+		L_6 = XRHand_get_rootPose_m4F34E7F55AEBFD2FF7491364ADB00B27BF86F1A5_inline((&V_0), NULL);
+		V_2 = L_6;
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandProcessor.cs:95>
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_7 = V_2;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = L_7.___position;
+		V_3 = L_8;
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandProcessor.cs:96>
+		bool L_9 = __this->___m_FirstFrame;
+		if (L_9)
+		{
+			goto IL_008d;
+		}
+	}
+	{
+		bool L_10 = ___3_modeChanged;
+		if (L_10)
+		{
+			goto IL_008d;
+		}
+	}
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandProcessor.cs:98>
+		float L_11;
+		L_11 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		float L_12 = __this->___m_LeftHandSmoothingFactor;
+		V_4 = ((float)il2cpp_codegen_multiply(L_11, L_12));
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandProcessor.cs:99>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = __this->___m_LastLeftHandPosition;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14 = V_3;
+		float L_15 = V_4;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16;
+		L_16 = Vector3_Lerp_m3A906D0530A94FAABB94F0F905E84D99BE85C3F8_inline(L_13, L_14, L_15, NULL);
+		V_3 = L_16;
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandProcessor.cs:100>
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_17 = (Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971*)(&__this->___m_LeftHandPose);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_18 = V_3;
+		L_17->___position = L_18;
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandProcessor.cs:101>
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_19 = (Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971*)(&__this->___m_LeftHandPose);
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_20 = V_2;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_21 = L_20.___rotation;
+		L_19->___rotation = L_21;
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandProcessor.cs:103>
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_22 = __this->___m_LeftHandPose;
+		XRHandProcessingUtility_SetRootPose_m116319D83FE5DC86798991011D0230A2531E35EE((&V_0), L_22, NULL);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandProcessor.cs:104>
+		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_23 = ___0_subsystem;
+		XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 L_24 = V_0;
+		XRHandProcessingUtility_SetCorrespondingHand_m7AB9505CF0D27B84D54B7AB39746D4B66EED9CD7(L_23, L_24, NULL);
+	}
+
+IL_008d:
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandProcessor.cs:106>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_25 = V_3;
+		__this->___m_LastLeftHandPosition = L_25;
+	}
+
+IL_0094:
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandProcessor.cs:109>
+		bool L_26;
+		L_26 = XRHand_get_isTracked_mDFC9D4FDE271E2DC90D5459B1A6EA304F97B7428_inline((&V_1), NULL);
+		if (!L_26)
+		{
+			goto IL_0125;
+		}
+	}
+	{
+		float L_27 = __this->___m_RightHandSmoothingFactor;
+		if ((!(((float)L_27) > ((float)(0.0f)))))
+		{
+			goto IL_0125;
+		}
+	}
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandProcessor.cs:111>
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_28;
+		L_28 = XRHand_get_rootPose_m4F34E7F55AEBFD2FF7491364ADB00B27BF86F1A5_inline((&V_1), NULL);
+		V_5 = L_28;
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandProcessor.cs:112>
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_29 = V_5;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_30 = L_29.___position;
+		V_6 = L_30;
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandProcessor.cs:113>
+		bool L_31 = __this->___m_FirstFrame;
+		if (L_31)
+		{
+			goto IL_011d;
+		}
+	}
+	{
+		bool L_32 = ___3_modeChanged;
+		if (L_32)
+		{
+			goto IL_011d;
+		}
+	}
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandProcessor.cs:115>
+		float L_33;
+		L_33 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		float L_34 = __this->___m_RightHandSmoothingFactor;
+		V_7 = ((float)il2cpp_codegen_multiply(L_33, L_34));
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandProcessor.cs:116>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_35 = __this->___m_LastRightHandPosition;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_36 = V_6;
+		float L_37 = V_7;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_38;
+		L_38 = Vector3_Lerp_m3A906D0530A94FAABB94F0F905E84D99BE85C3F8_inline(L_35, L_36, L_37, NULL);
+		V_6 = L_38;
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandProcessor.cs:117>
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_39 = (Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971*)(&__this->___m_RightHandPose);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_40 = V_6;
+		L_39->___position = L_40;
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandProcessor.cs:118>
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_41 = (Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971*)(&__this->___m_RightHandPose);
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_42 = V_5;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_43 = L_42.___rotation;
+		L_41->___rotation = L_43;
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandProcessor.cs:120>
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_44 = __this->___m_RightHandPose;
+		XRHandProcessingUtility_SetRootPose_m116319D83FE5DC86798991011D0230A2531E35EE((&V_1), L_44, NULL);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandProcessor.cs:121>
+		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_45 = ___0_subsystem;
+		XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 L_46 = V_1;
+		XRHandProcessingUtility_SetCorrespondingHand_m7AB9505CF0D27B84D54B7AB39746D4B66EED9CD7(L_45, L_46, NULL);
+	}
+
+IL_011d:
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandProcessor.cs:123>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_47 = V_6;
+		__this->___m_LastRightHandPosition = L_47;
+	}
+
+IL_0125:
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandProcessor.cs:125>
+		return;
+	}
+}
+// Method Definition Index: 131226
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandProcessor_InvertHandsExample_m687CDDC448C97A6991929570A925D19BB6DC6E54 (HandProcessor_tB65F4982827071531E5561C27DB783A11A3E9270* __this, XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* ___0_subsystem, int32_t ___1_successFlags, int32_t ___2_updateType, const RuntimeMethod* method) 
+{
+	XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandProcessor.cs:130>
+		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_0 = ___0_subsystem;
+		NullCheck(L_0);
+		XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 L_1;
+		L_1 = XRHandSubsystem_get_leftHand_mD3B931E5129348FEE34C3965A0CF8E62A0CFFB97_inline(L_0, NULL);
+		V_0 = L_1;
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandProcessor.cs:131>
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_2;
+		L_2 = XRHand_get_rootPose_m4F34E7F55AEBFD2FF7491364ADB00B27BF86F1A5_inline((&V_0), NULL);
+		V_1 = L_2;
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandProcessor.cs:133>
+		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_3 = ___0_subsystem;
+		NullCheck(L_3);
+		XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 L_4;
+		L_4 = XRHandSubsystem_get_rightHand_mDE333FDF35460E1A06BE051AF9C2144B7053ED3C_inline(L_3, NULL);
+		V_2 = L_4;
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandProcessor.cs:134>
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_5;
+		L_5 = XRHand_get_rootPose_m4F34E7F55AEBFD2FF7491364ADB00B27BF86F1A5_inline((&V_2), NULL);
+		V_3 = L_5;
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandProcessor.cs:136>
+		bool L_6;
+		L_6 = XRHand_get_isTracked_mDFC9D4FDE271E2DC90D5459B1A6EA304F97B7428_inline((&V_0), NULL);
+		if (!L_6)
+		{
+			goto IL_0045;
+		}
+	}
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandProcessor.cs:138>
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_7 = V_3;
+		XRHandProcessingUtility_SetRootPose_m116319D83FE5DC86798991011D0230A2531E35EE((&V_0), L_7, NULL);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandProcessor.cs:139>
+		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_8 = ___0_subsystem;
+		XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 L_9 = V_0;
+		XRHandProcessingUtility_SetCorrespondingHand_m7AB9505CF0D27B84D54B7AB39746D4B66EED9CD7(L_8, L_9, NULL);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandProcessor.cs:141>
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_10 = V_1;
+		XRHandProcessingUtility_SetRootPose_m116319D83FE5DC86798991011D0230A2531E35EE((&V_2), L_10, NULL);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandProcessor.cs:142>
+		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_11 = ___0_subsystem;
+		XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 L_12 = V_2;
+		XRHandProcessingUtility_SetCorrespondingHand_m7AB9505CF0D27B84D54B7AB39746D4B66EED9CD7(L_11, L_12, NULL);
+	}
+
+IL_0045:
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandProcessor.cs:144>
+		return;
+	}
+}
+// Method Definition Index: 131227
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandProcessor_Update_mBBDC1E75C79B02410EBA836F5319A620CC9DB68C (HandProcessor_tB65F4982827071531E5561C27DB783A11A3E9270* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HandProcessor_tB65F4982827071531E5561C27DB783A11A3E9270_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_m571D52D1CFC36A69BDAFBAC74B0F075F8BB773BC_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_m75273E2FDEA382223C6F78765C1A71E6A758CF9F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SubsystemManager_GetSubsystems_TisXRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C_m80B420587E83801A6C5F75FED3B6CEF1693D2C73_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SubsystemManager_t9A7261E4D0B53B996F04B8707D8E1C33AB65E824_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRHandSubsystem_RegisterProcessor_TisHandProcessor_tB65F4982827071531E5561C27DB783A11A3E9270_mCD67CCBA02ABF3697173E24F8E496A84E9C01C3B_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandProcessor.cs:148>
+		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_0 = __this->___m_Subsystem;
+		if (!L_0)
+		{
+			goto IL_0009;
+		}
+	}
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandProcessor.cs:149>
+		return;
+	}
+
+IL_0009:
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandProcessor.cs:151>
+		il2cpp_codegen_runtime_class_init_inline(HandProcessor_tB65F4982827071531E5561C27DB783A11A3E9270_il2cpp_TypeInfo_var);
+		List_1_tE4111BEC044D13259EFD4EC5907636C855887179* L_1 = ((HandProcessor_tB65F4982827071531E5561C27DB783A11A3E9270_StaticFields*)il2cpp_codegen_static_fields_for(HandProcessor_tB65F4982827071531E5561C27DB783A11A3E9270_il2cpp_TypeInfo_var))->___s_SubsystemsReuse;
+		il2cpp_codegen_runtime_class_init_inline(SubsystemManager_t9A7261E4D0B53B996F04B8707D8E1C33AB65E824_il2cpp_TypeInfo_var);
+		SubsystemManager_GetSubsystems_TisXRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C_m80B420587E83801A6C5F75FED3B6CEF1693D2C73(L_1, SubsystemManager_GetSubsystems_TisXRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C_m80B420587E83801A6C5F75FED3B6CEF1693D2C73_RuntimeMethod_var);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandProcessor.cs:152>
+		List_1_tE4111BEC044D13259EFD4EC5907636C855887179* L_2 = ((HandProcessor_tB65F4982827071531E5561C27DB783A11A3E9270_StaticFields*)il2cpp_codegen_static_fields_for(HandProcessor_tB65F4982827071531E5561C27DB783A11A3E9270_il2cpp_TypeInfo_var))->___s_SubsystemsReuse;
+		NullCheck(L_2);
+		int32_t L_3;
+		L_3 = List_1_get_Count_m571D52D1CFC36A69BDAFBAC74B0F075F8BB773BC_inline(L_2, List_1_get_Count_m571D52D1CFC36A69BDAFBAC74B0F075F8BB773BC_RuntimeMethod_var);
+		if (L_3)
+		{
+			goto IL_0020;
+		}
+	}
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandProcessor.cs:153>
+		return;
+	}
+
+IL_0020:
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandProcessor.cs:155>
+		il2cpp_codegen_runtime_class_init_inline(HandProcessor_tB65F4982827071531E5561C27DB783A11A3E9270_il2cpp_TypeInfo_var);
+		List_1_tE4111BEC044D13259EFD4EC5907636C855887179* L_4 = ((HandProcessor_tB65F4982827071531E5561C27DB783A11A3E9270_StaticFields*)il2cpp_codegen_static_fields_for(HandProcessor_tB65F4982827071531E5561C27DB783A11A3E9270_il2cpp_TypeInfo_var))->___s_SubsystemsReuse;
+		NullCheck(L_4);
+		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_5;
+		L_5 = List_1_get_Item_m75273E2FDEA382223C6F78765C1A71E6A758CF9F(L_4, 0, List_1_get_Item_m75273E2FDEA382223C6F78765C1A71E6A758CF9F_RuntimeMethod_var);
+		__this->___m_Subsystem = L_5;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Subsystem), (void*)L_5);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandProcessor.cs:156>
+		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_6 = __this->___m_Subsystem;
+		NullCheck(L_6);
+		XRHandSubsystem_RegisterProcessor_TisHandProcessor_tB65F4982827071531E5561C27DB783A11A3E9270_mCD67CCBA02ABF3697173E24F8E496A84E9C01C3B(L_6, __this, XRHandSubsystem_RegisterProcessor_TisHandProcessor_tB65F4982827071531E5561C27DB783A11A3E9270_mCD67CCBA02ABF3697173E24F8E496A84E9C01C3B_RuntimeMethod_var);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandProcessor.cs:157>
+		return;
+	}
+}
+// Method Definition Index: 131228
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandProcessor_OnDisable_m6974EEBFCE6402FA180EA4F49BC9170BE1B8D7C2 (HandProcessor_tB65F4982827071531E5561C27DB783A11A3E9270* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRHandSubsystem_UnregisterProcessor_TisHandProcessor_tB65F4982827071531E5561C27DB783A11A3E9270_m65F55E11E864D525A4FC903D1E656577323E5DE7_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandProcessor.cs:161>
+		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_0 = __this->___m_Subsystem;
+		if (!L_0)
+		{
+			goto IL_001b;
+		}
+	}
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandProcessor.cs:163>
+		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_1 = __this->___m_Subsystem;
+		NullCheck(L_1);
+		XRHandSubsystem_UnregisterProcessor_TisHandProcessor_tB65F4982827071531E5561C27DB783A11A3E9270_m65F55E11E864D525A4FC903D1E656577323E5DE7(L_1, __this, XRHandSubsystem_UnregisterProcessor_TisHandProcessor_tB65F4982827071531E5561C27DB783A11A3E9270_m65F55E11E864D525A4FC903D1E656577323E5DE7_RuntimeMethod_var);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandProcessor.cs:164>
+		__this->___m_Subsystem = (XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Subsystem), (void*)(XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C*)NULL);
+	}
+
+IL_001b:
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandProcessor.cs:166>
+		return;
+	}
+}
+// Method Definition Index: 131229
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandProcessor__ctor_mF09F8BA24E05E370C6FA8C234656527187D9590C (HandProcessor_tB65F4982827071531E5561C27DB783A11A3E9270* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandProcessor.cs:41>
+		il2cpp_codegen_runtime_class_init_inline(Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_il2cpp_TypeInfo_var);
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_0;
+		L_0 = Pose_get_identity_m145C7BA9D895CD7F8CCE2483B69764F7A9FEC66E(NULL);
+		__this->___m_LeftHandPose = L_0;
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandProcessor.cs:42>
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_1;
+		L_1 = Pose_get_identity_m145C7BA9D895CD7F8CCE2483B69764F7A9FEC66E(NULL);
+		__this->___m_RightHandPose = L_1;
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandProcessor.cs:46>
+		__this->___m_ProcessorExampleMode = 1;
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandProcessor.cs:62>
+		__this->___m_LeftHandSmoothingFactor = (16.0f);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandProcessor.cs:66>
+		__this->___m_RightHandSmoothingFactor = (16.0f);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+// Method Definition Index: 131230
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandProcessor__cctor_m167C4F42BCBA3FB91CD65AF8CC4F7AC8F45E563B (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HandProcessor_tB65F4982827071531E5561C27DB783A11A3E9270_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_m9991CB9E0E4608CAE947384283EE27BCF3DAC2D4_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_tE4111BEC044D13259EFD4EC5907636C855887179_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandProcessor.cs:169>
+		List_1_tE4111BEC044D13259EFD4EC5907636C855887179* L_0 = (List_1_tE4111BEC044D13259EFD4EC5907636C855887179*)il2cpp_codegen_object_new(List_1_tE4111BEC044D13259EFD4EC5907636C855887179_il2cpp_TypeInfo_var);
+		List_1__ctor_m9991CB9E0E4608CAE947384283EE27BCF3DAC2D4(L_0, List_1__ctor_m9991CB9E0E4608CAE947384283EE27BCF3DAC2D4_RuntimeMethod_var);
+		((HandProcessor_tB65F4982827071531E5561C27DB783A11A3E9270_StaticFields*)il2cpp_codegen_static_fields_for(HandProcessor_tB65F4982827071531E5561C27DB783A11A3E9270_il2cpp_TypeInfo_var))->___s_SubsystemsReuse = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&((HandProcessor_tB65F4982827071531E5561C27DB783A11A3E9270_StaticFields*)il2cpp_codegen_static_fields_for(HandProcessor_tB65F4982827071531E5561C27DB783A11A3E9270_il2cpp_TypeInfo_var))->___s_SubsystemsReuse), (void*)L_0);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 131231
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HandVisualizer_get_drawMeshes_m819F8F7A4BD67F4A2F1B900B0894DA8D1AAA35DA (HandVisualizer_tA85C45A230DA7AFCC9377FE418CDA2F75AFE49B6* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:76>
+		bool L_0 = __this->___m_DrawMeshes;
+		return L_0;
+	}
+}
+// Method Definition Index: 131232
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandVisualizer_set_drawMeshes_m04694763530BE9498ABECBB67CF61C1FAA404501 (HandVisualizer_tA85C45A230DA7AFCC9377FE418CDA2F75AFE49B6* __this, bool ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:77>
+		bool L_0 = ___0_value;
+		__this->___m_DrawMeshes = L_0;
+		return;
+	}
+}
+// Method Definition Index: 131233
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HandVisualizer_get_debugDrawJoints_mF00F4130C8C43341BA96062EA480188592A07E76 (HandVisualizer_tA85C45A230DA7AFCC9377FE418CDA2F75AFE49B6* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:94>
+		bool L_0 = __this->___m_DebugDrawJoints;
+		return L_0;
+	}
+}
+// Method Definition Index: 131234
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandVisualizer_set_debugDrawJoints_m48799BD9CCFCAB52720C5A66743B11632D1A334C (HandVisualizer_tA85C45A230DA7AFCC9377FE418CDA2F75AFE49B6* __this, bool ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:95>
+		bool L_0 = ___0_value;
+		__this->___m_DebugDrawJoints = L_0;
+		return;
+	}
+}
+// Method Definition Index: 131235
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t HandVisualizer_get_velocityType_m31F64C6FF2671B1019BBED2EF639959287698249 (HandVisualizer_tA85C45A230DA7AFCC9377FE418CDA2F75AFE49B6* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:112>
+		int32_t L_0 = __this->___m_VelocityType;
+		return L_0;
+	}
+}
+// Method Definition Index: 131236
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandVisualizer_set_velocityType_mE2593C4D1B6D37DF7DE56634995945D5F6BD0879 (HandVisualizer_tA85C45A230DA7AFCC9377FE418CDA2F75AFE49B6* __this, int32_t ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:113>
+		int32_t L_0 = ___0_value;
+		__this->___m_VelocityType = L_0;
+		return;
+	}
+}
+// Method Definition Index: 131237
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandVisualizer_Awake_m5D0351B5F4C5D103A9A6A718ADABFBA348BE8C85 (HandVisualizer_tA85C45A230DA7AFCC9377FE418CDA2F75AFE49B6* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputSystem_t4120CA4FE7DCFD56AF9391933FC3F1F485350164_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE16EED961058125D81E09FCA0B5A362770A7CAB5);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:128>
+		bool L_0 = __this->___m_UseOptimizedControls;
+		if (!L_0)
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:129>
+		il2cpp_codegen_runtime_class_init_inline(InputSystem_t4120CA4FE7DCFD56AF9391933FC3F1F485350164_il2cpp_TypeInfo_var);
+		InputSettings_tBA8835B505722A59702A08BCBA46ECF0B0274EEF* L_1;
+		L_1 = InputSystem_get_settings_m8E3E9C0907904CBDBAE96354142AB0A87C7A3B74(NULL);
+		NullCheck(L_1);
+		InputSettings_SetInternalFeatureFlag_mF593642B414A97107C5F4835FDFB2F185F1933E0(L_1, _stringLiteralE16EED961058125D81E09FCA0B5A362770A7CAB5, (bool)1, NULL);
+	}
+
+IL_0018:
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:131>
+		return;
+	}
+}
+// Method Definition Index: 131238
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandVisualizer_OnEnable_m153D5811DA0274C7203D5C031F3B2CAA571DAF43 (HandVisualizer_tA85C45A230DA7AFCC9377FE418CDA2F75AFE49B6* __this, const RuntimeMethod* method) 
+{
+	XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:138>
+		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_0 = __this->___m_Subsystem;
+		if (L_0)
+		{
+			goto IL_0009;
+		}
+	}
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:139>
+		return;
+	}
+
+IL_0009:
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:141>
+		HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F* L_1 = __this->___m_LeftHandGameObjects;
+		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_2 = __this->___m_Subsystem;
+		NullCheck(L_2);
+		XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 L_3;
+		L_3 = XRHandSubsystem_get_leftHand_mD3B931E5129348FEE34C3965A0CF8E62A0CFFB97_inline(L_2, NULL);
+		V_0 = L_3;
+		bool L_4;
+		L_4 = XRHand_get_isTracked_mDFC9D4FDE271E2DC90D5459B1A6EA304F97B7428_inline((&V_0), NULL);
+		HandVisualizer_UpdateRenderingVisibility_mFBC70B71322E6C97E3882E9DCE6E1F616CDC9BD1(__this, L_1, L_4, NULL);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:142>
+		HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F* L_5 = __this->___m_RightHandGameObjects;
+		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_6 = __this->___m_Subsystem;
+		NullCheck(L_6);
+		XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 L_7;
+		L_7 = XRHandSubsystem_get_rightHand_mDE333FDF35460E1A06BE051AF9C2144B7053ED3C_inline(L_6, NULL);
+		V_0 = L_7;
+		bool L_8;
+		L_8 = XRHand_get_isTracked_mDFC9D4FDE271E2DC90D5459B1A6EA304F97B7428_inline((&V_0), NULL);
+		HandVisualizer_UpdateRenderingVisibility_mFBC70B71322E6C97E3882E9DCE6E1F616CDC9BD1(__this, L_5, L_8, NULL);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:143>
+		return;
+	}
+}
+// Method Definition Index: 131239
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandVisualizer_OnDisable_m6AE8205BE1A2E445464458C682452687FDEB63AC (HandVisualizer_tA85C45A230DA7AFCC9377FE418CDA2F75AFE49B6* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_3_t7D778238CD0A45B8368B3EAC4062AD2D477E1997_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HandVisualizer_OnTrackingAcquired_m0171A5A819541BC01F5AF3C6EF2125F81178E0CE_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HandVisualizer_OnTrackingLost_m1AE1681D37C767E16833FE70F184B796E0D1AA4D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HandVisualizer_OnUpdatedHands_m2609041B9380B5501A4CAF6EDE5673C4CEBCBC01_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:150>
+		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_0 = __this->___m_Subsystem;
+		if (!L_0)
+		{
+			goto IL_0084;
+		}
+	}
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:152>
+		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_1 = __this->___m_Subsystem;
+		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_2 = L_1;
+		NullCheck(L_2);
+		Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752* L_3 = L_2->___trackingAcquired;
+		Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752* L_4 = (Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752*)il2cpp_codegen_object_new(Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752_il2cpp_TypeInfo_var);
+		Action_1__ctor_m853F8C94BDD185D55096797BC53A6FF2038389BC(L_4, __this, (intptr_t)((void*)HandVisualizer_OnTrackingAcquired_m0171A5A819541BC01F5AF3C6EF2125F81178E0CE_RuntimeMethod_var), NULL);
+		Delegate_t* L_5;
+		L_5 = Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3(L_3, L_4, NULL);
+		NullCheck(L_2);
+		L_2->___trackingAcquired = ((Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752*)Castclass((RuntimeObject*)L_5, Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&L_2->___trackingAcquired), (void*)((Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752*)Castclass((RuntimeObject*)L_5, Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752_il2cpp_TypeInfo_var)));
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:153>
+		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_6 = __this->___m_Subsystem;
+		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_7 = L_6;
+		NullCheck(L_7);
+		Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752* L_8 = L_7->___trackingLost;
+		Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752* L_9 = (Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752*)il2cpp_codegen_object_new(Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752_il2cpp_TypeInfo_var);
+		Action_1__ctor_m853F8C94BDD185D55096797BC53A6FF2038389BC(L_9, __this, (intptr_t)((void*)HandVisualizer_OnTrackingLost_m1AE1681D37C767E16833FE70F184B796E0D1AA4D_RuntimeMethod_var), NULL);
+		Delegate_t* L_10;
+		L_10 = Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3(L_8, L_9, NULL);
+		NullCheck(L_7);
+		L_7->___trackingLost = ((Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752*)Castclass((RuntimeObject*)L_10, Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&L_7->___trackingLost), (void*)((Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752*)Castclass((RuntimeObject*)L_10, Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752_il2cpp_TypeInfo_var)));
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:154>
+		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_11 = __this->___m_Subsystem;
+		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_12 = L_11;
+		NullCheck(L_12);
+		Action_3_t7D778238CD0A45B8368B3EAC4062AD2D477E1997* L_13 = L_12->___updatedHands;
+		Action_3_t7D778238CD0A45B8368B3EAC4062AD2D477E1997* L_14 = (Action_3_t7D778238CD0A45B8368B3EAC4062AD2D477E1997*)il2cpp_codegen_object_new(Action_3_t7D778238CD0A45B8368B3EAC4062AD2D477E1997_il2cpp_TypeInfo_var);
+		Action_3__ctor_m3AB504B4A53E26F38ACFEC08DD59973F0169F14B(L_14, __this, (intptr_t)((void*)HandVisualizer_OnUpdatedHands_m2609041B9380B5501A4CAF6EDE5673C4CEBCBC01_RuntimeMethod_var), NULL);
+		Delegate_t* L_15;
+		L_15 = Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3(L_13, L_14, NULL);
+		NullCheck(L_12);
+		L_12->___updatedHands = ((Action_3_t7D778238CD0A45B8368B3EAC4062AD2D477E1997*)Castclass((RuntimeObject*)L_15, Action_3_t7D778238CD0A45B8368B3EAC4062AD2D477E1997_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&L_12->___updatedHands), (void*)((Action_3_t7D778238CD0A45B8368B3EAC4062AD2D477E1997*)Castclass((RuntimeObject*)L_15, Action_3_t7D778238CD0A45B8368B3EAC4062AD2D477E1997_il2cpp_TypeInfo_var)));
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:155>
+		__this->___m_Subsystem = (XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Subsystem), (void*)(XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C*)NULL);
+	}
+
+IL_0084:
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:158>
+		HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F* L_16 = __this->___m_LeftHandGameObjects;
+		HandVisualizer_UpdateRenderingVisibility_mFBC70B71322E6C97E3882E9DCE6E1F616CDC9BD1(__this, L_16, (bool)0, NULL);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:159>
+		HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F* L_17 = __this->___m_RightHandGameObjects;
+		HandVisualizer_UpdateRenderingVisibility_mFBC70B71322E6C97E3882E9DCE6E1F616CDC9BD1(__this, L_17, (bool)0, NULL);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:160>
+		return;
+	}
+}
+// Method Definition Index: 131240
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandVisualizer_OnDestroy_m09A391B0CC23056ACBF04B9FD1D467372BC5521E (HandVisualizer_tA85C45A230DA7AFCC9377FE418CDA2F75AFE49B6* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:167>
+		HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F* L_0 = __this->___m_LeftHandGameObjects;
+		if (!L_0)
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:169>
+		HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F* L_1 = __this->___m_LeftHandGameObjects;
+		NullCheck(L_1);
+		HandGameObjects_OnDestroy_mDC01BE3680763342F2F89A8788D9B6A42ED7BBD6(L_1, NULL);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:170>
+		__this->___m_LeftHandGameObjects = (HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_LeftHandGameObjects), (void*)(HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F*)NULL);
+	}
+
+IL_001a:
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:173>
+		HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F* L_2 = __this->___m_RightHandGameObjects;
+		if (!L_2)
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:175>
+		HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F* L_3 = __this->___m_RightHandGameObjects;
+		NullCheck(L_3);
+		HandGameObjects_OnDestroy_mDC01BE3680763342F2F89A8788D9B6A42ED7BBD6(L_3, NULL);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:176>
+		__this->___m_RightHandGameObjects = (HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_RightHandGameObjects), (void*)(HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F*)NULL);
+	}
+
+IL_0034:
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:178>
+		return;
+	}
+}
+// Method Definition Index: 131241
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandVisualizer_Update_mCCBC611653726A607817B3938FF6481F40CA7452 (HandVisualizer_tA85C45A230DA7AFCC9377FE418CDA2F75AFE49B6* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HandVisualizer_tA85C45A230DA7AFCC9377FE418CDA2F75AFE49B6_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_m571D52D1CFC36A69BDAFBAC74B0F075F8BB773BC_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_m75273E2FDEA382223C6F78765C1A71E6A758CF9F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SubsystemManager_GetSubsystems_TisXRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C_m80B420587E83801A6C5F75FED3B6CEF1693D2C73_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SubsystemManager_t9A7261E4D0B53B996F04B8707D8E1C33AB65E824_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_1 = NULL;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_2 = NULL;
+	int32_t V_3 = 0;
+	XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* V_4 = NULL;
+	XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:185>
+		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_0 = __this->___m_Subsystem;
+		if (!L_0)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_1 = __this->___m_Subsystem;
+		NullCheck(L_1);
+		bool L_2;
+		L_2 = SubsystemWithProvider_get_running_m6BF31FC3BDA38C56C0F60FEA37767A4151B22C44_inline(L_1, NULL);
+		if (!L_2)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:186>
+		return;
+	}
+
+IL_0016:
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:188>
+		il2cpp_codegen_runtime_class_init_inline(HandVisualizer_tA85C45A230DA7AFCC9377FE418CDA2F75AFE49B6_il2cpp_TypeInfo_var);
+		List_1_tE4111BEC044D13259EFD4EC5907636C855887179* L_3 = ((HandVisualizer_tA85C45A230DA7AFCC9377FE418CDA2F75AFE49B6_StaticFields*)il2cpp_codegen_static_fields_for(HandVisualizer_tA85C45A230DA7AFCC9377FE418CDA2F75AFE49B6_il2cpp_TypeInfo_var))->___s_SubsystemsReuse;
+		il2cpp_codegen_runtime_class_init_inline(SubsystemManager_t9A7261E4D0B53B996F04B8707D8E1C33AB65E824_il2cpp_TypeInfo_var);
+		SubsystemManager_GetSubsystems_TisXRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C_m80B420587E83801A6C5F75FED3B6CEF1693D2C73(L_3, SubsystemManager_GetSubsystems_TisXRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C_m80B420587E83801A6C5F75FED3B6CEF1693D2C73_RuntimeMethod_var);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:189>
+		V_0 = (bool)0;
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:190>
+		V_3 = 0;
+		goto IL_0052;
+	}
+
+IL_0026:
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:192>
+		il2cpp_codegen_runtime_class_init_inline(HandVisualizer_tA85C45A230DA7AFCC9377FE418CDA2F75AFE49B6_il2cpp_TypeInfo_var);
+		List_1_tE4111BEC044D13259EFD4EC5907636C855887179* L_4 = ((HandVisualizer_tA85C45A230DA7AFCC9377FE418CDA2F75AFE49B6_StaticFields*)il2cpp_codegen_static_fields_for(HandVisualizer_tA85C45A230DA7AFCC9377FE418CDA2F75AFE49B6_il2cpp_TypeInfo_var))->___s_SubsystemsReuse;
+		int32_t L_5 = V_3;
+		NullCheck(L_4);
+		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_6;
+		L_6 = List_1_get_Item_m75273E2FDEA382223C6F78765C1A71E6A758CF9F(L_4, L_5, List_1_get_Item_m75273E2FDEA382223C6F78765C1A71E6A758CF9F_RuntimeMethod_var);
+		V_4 = L_6;
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:193>
+		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_7 = V_4;
+		NullCheck(L_7);
+		bool L_8;
+		L_8 = SubsystemWithProvider_get_running_m6BF31FC3BDA38C56C0F60FEA37767A4151B22C44_inline(L_7, NULL);
+		if (!L_8)
+		{
+			goto IL_004e;
+		}
+	}
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:195>
+		HandVisualizer_UnsubscribeHandSubsystem_m4FB54A65D825A9218998D66F0099C171D4A2DBB9(__this, NULL);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:196>
+		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_9 = V_4;
+		__this->___m_Subsystem = L_9;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Subsystem), (void*)L_9);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:197>
+		V_0 = (bool)1;
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:198>
+		goto IL_005f;
+	}
+
+IL_004e:
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:190>
+		int32_t L_10 = V_3;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_10, 1));
+	}
+
+IL_0052:
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:190>
+		int32_t L_11 = V_3;
+		il2cpp_codegen_runtime_class_init_inline(HandVisualizer_tA85C45A230DA7AFCC9377FE418CDA2F75AFE49B6_il2cpp_TypeInfo_var);
+		List_1_tE4111BEC044D13259EFD4EC5907636C855887179* L_12 = ((HandVisualizer_tA85C45A230DA7AFCC9377FE418CDA2F75AFE49B6_StaticFields*)il2cpp_codegen_static_fields_for(HandVisualizer_tA85C45A230DA7AFCC9377FE418CDA2F75AFE49B6_il2cpp_TypeInfo_var))->___s_SubsystemsReuse;
+		NullCheck(L_12);
+		int32_t L_13;
+		L_13 = List_1_get_Count_m571D52D1CFC36A69BDAFBAC74B0F075F8BB773BC_inline(L_12, List_1_get_Count_m571D52D1CFC36A69BDAFBAC74B0F075F8BB773BC_RuntimeMethod_var);
+		if ((((int32_t)L_11) < ((int32_t)L_13)))
+		{
+			goto IL_0026;
+		}
+	}
+
+IL_005f:
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:202>
+		bool L_14 = V_0;
+		if (L_14)
+		{
+			goto IL_0063;
+		}
+	}
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:203>
+		return;
+	}
+
+IL_0063:
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:205>
+		V_1 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)NULL;
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:205>
+		V_2 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)NULL;
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:206>
+		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_15 = __this->___m_Subsystem;
+		NullCheck(L_15);
+		int32_t L_16;
+		L_16 = XRHandSubsystem_get_detectedHandMeshLayout_mF9302D3A002D17493BD0DA787BF462F3D1406B3B(L_15, NULL);
+		if ((!(((uint32_t)L_16) == ((uint32_t)2))))
+		{
+			goto IL_0085;
+		}
+	}
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:208>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_17 = __this->___m_AndroidXRLeftHandMesh;
+		V_1 = L_17;
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:209>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_18 = __this->___m_AndroidXRRightHandMesh;
+		V_2 = L_18;
+		goto IL_0093;
+	}
+
+IL_0085:
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:213>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_19 = __this->___m_MetaQuestLeftHandMesh;
+		V_1 = L_19;
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:214>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_20 = __this->___m_MetaQuestRightHandMesh;
+		V_2 = L_20;
+	}
+
+IL_0093:
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:217>
+		HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F* L_21 = __this->___m_LeftHandGameObjects;
+		if (L_21)
+		{
+			goto IL_00c0;
+		}
+	}
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:219>
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:220>
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:221>
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:222>
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:223>
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:224>
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:225>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_22;
+		L_22 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_23 = V_1;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_24 = __this->___m_HandMeshMaterial;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_25 = __this->___m_DebugDrawPrefab;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_26 = __this->___m_VelocityPrefab;
+		HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F* L_27 = (HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F*)il2cpp_codegen_object_new(HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F_il2cpp_TypeInfo_var);
+		HandGameObjects__ctor_mE5FE6A2F0C183C672EB9F6584039CE9F6F0ED458(L_27, 1, L_22, L_23, L_24, L_25, L_26, NULL);
+		__this->___m_LeftHandGameObjects = L_27;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_LeftHandGameObjects), (void*)L_27);
+	}
+
+IL_00c0:
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:228>
+		HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F* L_28 = __this->___m_RightHandGameObjects;
+		if (L_28)
+		{
+			goto IL_00ed;
+		}
+	}
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:230>
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:231>
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:232>
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:233>
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:234>
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:235>
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:236>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_29;
+		L_29 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_30 = V_2;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_31 = __this->___m_HandMeshMaterial;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_32 = __this->___m_DebugDrawPrefab;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_33 = __this->___m_VelocityPrefab;
+		HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F* L_34 = (HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F*)il2cpp_codegen_object_new(HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F_il2cpp_TypeInfo_var);
+		HandGameObjects__ctor_mE5FE6A2F0C183C672EB9F6584039CE9F6F0ED458(L_34, 2, L_29, L_30, L_31, L_32, L_33, NULL);
+		__this->___m_RightHandGameObjects = L_34;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_RightHandGameObjects), (void*)L_34);
+	}
+
+IL_00ed:
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:239>
+		HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F* L_35 = __this->___m_LeftHandGameObjects;
+		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_36 = __this->___m_Subsystem;
+		NullCheck(L_36);
+		XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 L_37;
+		L_37 = XRHandSubsystem_get_leftHand_mD3B931E5129348FEE34C3965A0CF8E62A0CFFB97_inline(L_36, NULL);
+		V_5 = L_37;
+		bool L_38;
+		L_38 = XRHand_get_isTracked_mDFC9D4FDE271E2DC90D5459B1A6EA304F97B7428_inline((&V_5), NULL);
+		HandVisualizer_UpdateRenderingVisibility_mFBC70B71322E6C97E3882E9DCE6E1F616CDC9BD1(__this, L_35, L_38, NULL);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:240>
+		HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F* L_39 = __this->___m_RightHandGameObjects;
+		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_40 = __this->___m_Subsystem;
+		NullCheck(L_40);
+		XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 L_41;
+		L_41 = XRHandSubsystem_get_rightHand_mDE333FDF35460E1A06BE051AF9C2144B7053ED3C_inline(L_40, NULL);
+		V_5 = L_41;
+		bool L_42;
+		L_42 = XRHand_get_isTracked_mDFC9D4FDE271E2DC90D5459B1A6EA304F97B7428_inline((&V_5), NULL);
+		HandVisualizer_UpdateRenderingVisibility_mFBC70B71322E6C97E3882E9DCE6E1F616CDC9BD1(__this, L_39, L_42, NULL);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:242>
+		bool L_43 = __this->___m_DrawMeshes;
+		__this->___m_PreviousDrawMeshes = L_43;
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:243>
+		bool L_44 = __this->___m_DebugDrawJoints;
+		__this->___m_PreviousDebugDrawJoints = L_44;
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:244>
+		int32_t L_45 = __this->___m_VelocityType;
+		__this->___m_PreviousVelocityType = L_45;
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:246>
+		HandVisualizer_SubscribeHandSubsystem_mC8DF8C9AD2E5B23D5593833681DADD53C31B28FF(__this, NULL);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:247>
+		return;
+	}
+}
+// Method Definition Index: 131242
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandVisualizer_SubscribeHandSubsystem_mC8DF8C9AD2E5B23D5593833681DADD53C31B28FF (HandVisualizer_tA85C45A230DA7AFCC9377FE418CDA2F75AFE49B6* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_3_t7D778238CD0A45B8368B3EAC4062AD2D477E1997_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HandVisualizer_OnTrackingAcquired_m0171A5A819541BC01F5AF3C6EF2125F81178E0CE_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HandVisualizer_OnTrackingLost_m1AE1681D37C767E16833FE70F184B796E0D1AA4D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HandVisualizer_OnUpdatedHands_m2609041B9380B5501A4CAF6EDE5673C4CEBCBC01_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:251>
+		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_0 = __this->___m_Subsystem;
+		if (L_0)
+		{
+			goto IL_0009;
+		}
+	}
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:252>
+		return;
+	}
+
+IL_0009:
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:254>
+		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_1 = __this->___m_Subsystem;
+		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_2 = L_1;
+		NullCheck(L_2);
+		Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752* L_3 = L_2->___trackingAcquired;
+		Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752* L_4 = (Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752*)il2cpp_codegen_object_new(Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752_il2cpp_TypeInfo_var);
+		Action_1__ctor_m853F8C94BDD185D55096797BC53A6FF2038389BC(L_4, __this, (intptr_t)((void*)HandVisualizer_OnTrackingAcquired_m0171A5A819541BC01F5AF3C6EF2125F81178E0CE_RuntimeMethod_var), NULL);
+		Delegate_t* L_5;
+		L_5 = Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00(L_3, L_4, NULL);
+		NullCheck(L_2);
+		L_2->___trackingAcquired = ((Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752*)Castclass((RuntimeObject*)L_5, Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&L_2->___trackingAcquired), (void*)((Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752*)Castclass((RuntimeObject*)L_5, Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752_il2cpp_TypeInfo_var)));
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:255>
+		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_6 = __this->___m_Subsystem;
+		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_7 = L_6;
+		NullCheck(L_7);
+		Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752* L_8 = L_7->___trackingLost;
+		Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752* L_9 = (Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752*)il2cpp_codegen_object_new(Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752_il2cpp_TypeInfo_var);
+		Action_1__ctor_m853F8C94BDD185D55096797BC53A6FF2038389BC(L_9, __this, (intptr_t)((void*)HandVisualizer_OnTrackingLost_m1AE1681D37C767E16833FE70F184B796E0D1AA4D_RuntimeMethod_var), NULL);
+		Delegate_t* L_10;
+		L_10 = Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00(L_8, L_9, NULL);
+		NullCheck(L_7);
+		L_7->___trackingLost = ((Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752*)Castclass((RuntimeObject*)L_10, Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&L_7->___trackingLost), (void*)((Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752*)Castclass((RuntimeObject*)L_10, Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752_il2cpp_TypeInfo_var)));
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:256>
+		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_11 = __this->___m_Subsystem;
+		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_12 = L_11;
+		NullCheck(L_12);
+		Action_3_t7D778238CD0A45B8368B3EAC4062AD2D477E1997* L_13 = L_12->___updatedHands;
+		Action_3_t7D778238CD0A45B8368B3EAC4062AD2D477E1997* L_14 = (Action_3_t7D778238CD0A45B8368B3EAC4062AD2D477E1997*)il2cpp_codegen_object_new(Action_3_t7D778238CD0A45B8368B3EAC4062AD2D477E1997_il2cpp_TypeInfo_var);
+		Action_3__ctor_m3AB504B4A53E26F38ACFEC08DD59973F0169F14B(L_14, __this, (intptr_t)((void*)HandVisualizer_OnUpdatedHands_m2609041B9380B5501A4CAF6EDE5673C4CEBCBC01_RuntimeMethod_var), NULL);
+		Delegate_t* L_15;
+		L_15 = Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00(L_13, L_14, NULL);
+		NullCheck(L_12);
+		L_12->___updatedHands = ((Action_3_t7D778238CD0A45B8368B3EAC4062AD2D477E1997*)Castclass((RuntimeObject*)L_15, Action_3_t7D778238CD0A45B8368B3EAC4062AD2D477E1997_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&L_12->___updatedHands), (void*)((Action_3_t7D778238CD0A45B8368B3EAC4062AD2D477E1997*)Castclass((RuntimeObject*)L_15, Action_3_t7D778238CD0A45B8368B3EAC4062AD2D477E1997_il2cpp_TypeInfo_var)));
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:257>
+		return;
+	}
+}
+// Method Definition Index: 131243
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandVisualizer_UnsubscribeHandSubsystem_m4FB54A65D825A9218998D66F0099C171D4A2DBB9 (HandVisualizer_tA85C45A230DA7AFCC9377FE418CDA2F75AFE49B6* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_3_t7D778238CD0A45B8368B3EAC4062AD2D477E1997_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HandVisualizer_OnTrackingAcquired_m0171A5A819541BC01F5AF3C6EF2125F81178E0CE_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HandVisualizer_OnTrackingLost_m1AE1681D37C767E16833FE70F184B796E0D1AA4D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HandVisualizer_OnUpdatedHands_m2609041B9380B5501A4CAF6EDE5673C4CEBCBC01_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:261>
+		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_0 = __this->___m_Subsystem;
+		if (L_0)
+		{
+			goto IL_0009;
+		}
+	}
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:262>
+		return;
+	}
+
+IL_0009:
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:264>
+		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_1 = __this->___m_Subsystem;
+		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_2 = L_1;
+		NullCheck(L_2);
+		Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752* L_3 = L_2->___trackingAcquired;
+		Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752* L_4 = (Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752*)il2cpp_codegen_object_new(Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752_il2cpp_TypeInfo_var);
+		Action_1__ctor_m853F8C94BDD185D55096797BC53A6FF2038389BC(L_4, __this, (intptr_t)((void*)HandVisualizer_OnTrackingAcquired_m0171A5A819541BC01F5AF3C6EF2125F81178E0CE_RuntimeMethod_var), NULL);
+		Delegate_t* L_5;
+		L_5 = Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3(L_3, L_4, NULL);
+		NullCheck(L_2);
+		L_2->___trackingAcquired = ((Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752*)Castclass((RuntimeObject*)L_5, Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&L_2->___trackingAcquired), (void*)((Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752*)Castclass((RuntimeObject*)L_5, Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752_il2cpp_TypeInfo_var)));
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:265>
+		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_6 = __this->___m_Subsystem;
+		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_7 = L_6;
+		NullCheck(L_7);
+		Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752* L_8 = L_7->___trackingLost;
+		Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752* L_9 = (Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752*)il2cpp_codegen_object_new(Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752_il2cpp_TypeInfo_var);
+		Action_1__ctor_m853F8C94BDD185D55096797BC53A6FF2038389BC(L_9, __this, (intptr_t)((void*)HandVisualizer_OnTrackingLost_m1AE1681D37C767E16833FE70F184B796E0D1AA4D_RuntimeMethod_var), NULL);
+		Delegate_t* L_10;
+		L_10 = Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3(L_8, L_9, NULL);
+		NullCheck(L_7);
+		L_7->___trackingLost = ((Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752*)Castclass((RuntimeObject*)L_10, Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&L_7->___trackingLost), (void*)((Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752*)Castclass((RuntimeObject*)L_10, Action_1_tEACFE9A51FCD1C277802D684B9FCD40906039752_il2cpp_TypeInfo_var)));
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:266>
+		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_11 = __this->___m_Subsystem;
+		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_12 = L_11;
+		NullCheck(L_12);
+		Action_3_t7D778238CD0A45B8368B3EAC4062AD2D477E1997* L_13 = L_12->___updatedHands;
+		Action_3_t7D778238CD0A45B8368B3EAC4062AD2D477E1997* L_14 = (Action_3_t7D778238CD0A45B8368B3EAC4062AD2D477E1997*)il2cpp_codegen_object_new(Action_3_t7D778238CD0A45B8368B3EAC4062AD2D477E1997_il2cpp_TypeInfo_var);
+		Action_3__ctor_m3AB504B4A53E26F38ACFEC08DD59973F0169F14B(L_14, __this, (intptr_t)((void*)HandVisualizer_OnUpdatedHands_m2609041B9380B5501A4CAF6EDE5673C4CEBCBC01_RuntimeMethod_var), NULL);
+		Delegate_t* L_15;
+		L_15 = Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3(L_13, L_14, NULL);
+		NullCheck(L_12);
+		L_12->___updatedHands = ((Action_3_t7D778238CD0A45B8368B3EAC4062AD2D477E1997*)Castclass((RuntimeObject*)L_15, Action_3_t7D778238CD0A45B8368B3EAC4062AD2D477E1997_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&L_12->___updatedHands), (void*)((Action_3_t7D778238CD0A45B8368B3EAC4062AD2D477E1997*)Castclass((RuntimeObject*)L_15, Action_3_t7D778238CD0A45B8368B3EAC4062AD2D477E1997_il2cpp_TypeInfo_var)));
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:267>
+		return;
+	}
+}
+// Method Definition Index: 131244
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandVisualizer_UpdateRenderingVisibility_mFBC70B71322E6C97E3882E9DCE6E1F616CDC9BD1 (HandVisualizer_tA85C45A230DA7AFCC9377FE418CDA2F75AFE49B6* __this, HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F* ___0_handGameObjects, bool ___1_isTracked, const RuntimeMethod* method) 
+{
+	HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F* G_B4_0 = NULL;
+	HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F* G_B3_0 = NULL;
+	int32_t G_B5_0 = 0;
+	HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F* G_B5_1 = NULL;
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:271>
+		HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F* L_0 = ___0_handGameObjects;
+		if (L_0)
+		{
+			goto IL_0004;
+		}
+	}
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:272>
+		return;
+	}
+
+IL_0004:
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:274>
+		HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F* L_1 = ___0_handGameObjects;
+		bool L_2 = __this->___m_DrawMeshes;
+		NullCheck(L_1);
+		HandGameObjects_ToggleDrawMesh_m3EC9E4B67721C48B59B52B1A6E146E7AF07BF259(L_1, L_2, NULL);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:275>
+		HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F* L_3 = ___0_handGameObjects;
+		bool L_4 = __this->___m_DebugDrawJoints;
+		bool L_5 = ___1_isTracked;
+		NullCheck(L_3);
+		HandGameObjects_ToggleDebugDrawJoints_m5897D801494BFAAA40B96964AE976A7F71214752(L_3, (bool)((int32_t)((int32_t)L_4&(int32_t)L_5)), NULL);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:276>
+		HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F* L_6 = ___0_handGameObjects;
+		bool L_7 = ___1_isTracked;
+		if (L_7)
+		{
+			G_B4_0 = L_6;
+			goto IL_0025;
+		}
+		G_B3_0 = L_6;
+	}
+	{
+		G_B5_0 = 2;
+		G_B5_1 = G_B3_0;
+		goto IL_002b;
+	}
+
+IL_0025:
+	{
+		int32_t L_8 = __this->___m_VelocityType;
+		G_B5_0 = ((int32_t)(L_8));
+		G_B5_1 = G_B4_0;
+	}
+
+IL_002b:
+	{
+		NullCheck(G_B5_1);
+		HandGameObjects_SetVelocityType_m13CFD04600696F6E2F6F158999D472867AE31C3C(G_B5_1, G_B5_0, NULL);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:277>
+		return;
+	}
+}
+// Method Definition Index: 131245
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandVisualizer_OnTrackingAcquired_m0171A5A819541BC01F5AF3C6EF2125F81178E0CE (HandVisualizer_tA85C45A230DA7AFCC9377FE418CDA2F75AFE49B6* __this, XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 ___0_hand, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:281>
+		int32_t L_0;
+		L_0 = XRHand_get_handedness_m87563F81CAF693404C49463EAC73DA29D517F752_inline((&___0_hand), NULL);
+		V_0 = L_0;
+		int32_t L_1 = V_0;
+		if ((((int32_t)L_1) == ((int32_t)1)))
+		{
+			goto IL_0011;
+		}
+	}
+	{
+		int32_t L_2 = V_0;
+		if ((((int32_t)L_2) == ((int32_t)2)))
+		{
+			goto IL_001f;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0011:
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:284>
+		HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F* L_3 = __this->___m_LeftHandGameObjects;
+		HandVisualizer_UpdateRenderingVisibility_mFBC70B71322E6C97E3882E9DCE6E1F616CDC9BD1(__this, L_3, (bool)1, NULL);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:285>
+		return;
+	}
+
+IL_001f:
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:288>
+		HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F* L_4 = __this->___m_RightHandGameObjects;
+		HandVisualizer_UpdateRenderingVisibility_mFBC70B71322E6C97E3882E9DCE6E1F616CDC9BD1(__this, L_4, (bool)1, NULL);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:291>
+		return;
+	}
+}
+// Method Definition Index: 131246
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandVisualizer_OnTrackingLost_m1AE1681D37C767E16833FE70F184B796E0D1AA4D (HandVisualizer_tA85C45A230DA7AFCC9377FE418CDA2F75AFE49B6* __this, XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 ___0_hand, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:295>
+		int32_t L_0;
+		L_0 = XRHand_get_handedness_m87563F81CAF693404C49463EAC73DA29D517F752_inline((&___0_hand), NULL);
+		V_0 = L_0;
+		int32_t L_1 = V_0;
+		if ((((int32_t)L_1) == ((int32_t)1)))
+		{
+			goto IL_0011;
+		}
+	}
+	{
+		int32_t L_2 = V_0;
+		if ((((int32_t)L_2) == ((int32_t)2)))
+		{
+			goto IL_001f;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0011:
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:298>
+		HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F* L_3 = __this->___m_LeftHandGameObjects;
+		HandVisualizer_UpdateRenderingVisibility_mFBC70B71322E6C97E3882E9DCE6E1F616CDC9BD1(__this, L_3, (bool)0, NULL);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:299>
+		return;
+	}
+
+IL_001f:
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:302>
+		HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F* L_4 = __this->___m_RightHandGameObjects;
+		HandVisualizer_UpdateRenderingVisibility_mFBC70B71322E6C97E3882E9DCE6E1F616CDC9BD1(__this, L_4, (bool)0, NULL);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:305>
+		return;
+	}
+}
+// Method Definition Index: 131247
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandVisualizer_OnUpdatedHands_m2609041B9380B5501A4CAF6EDE5673C4CEBCBC01 (HandVisualizer_tA85C45A230DA7AFCC9377FE418CDA2F75AFE49B6* __this, XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* ___0_subsystem, int32_t ___1_updateSuccessFlags, int32_t ___2_updateType, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	bool V_1 = false;
+	XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F* G_B9_0 = NULL;
+	HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F* G_B8_0 = NULL;
+	int32_t G_B10_0 = 0;
+	HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F* G_B10_1 = NULL;
+	HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F* G_B12_0 = NULL;
+	HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F* G_B11_0 = NULL;
+	int32_t G_B13_0 = 0;
+	HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F* G_B13_1 = NULL;
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:312>
+		int32_t L_0 = ___2_updateType;
+		if (L_0)
+		{
+			goto IL_0004;
+		}
+	}
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:313>
+		return;
+	}
+
+IL_0004:
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:315>
+		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_1 = ___0_subsystem;
+		NullCheck(L_1);
+		XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 L_2;
+		L_2 = XRHandSubsystem_get_leftHand_mD3B931E5129348FEE34C3965A0CF8E62A0CFFB97_inline(L_1, NULL);
+		V_2 = L_2;
+		bool L_3;
+		L_3 = XRHand_get_isTracked_mDFC9D4FDE271E2DC90D5459B1A6EA304F97B7428_inline((&V_2), NULL);
+		V_0 = L_3;
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:316>
+		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_4 = ___0_subsystem;
+		NullCheck(L_4);
+		XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 L_5;
+		L_5 = XRHandSubsystem_get_rightHand_mDE333FDF35460E1A06BE051AF9C2144B7053ED3C_inline(L_4, NULL);
+		V_2 = L_5;
+		bool L_6;
+		L_6 = XRHand_get_isTracked_mDFC9D4FDE271E2DC90D5459B1A6EA304F97B7428_inline((&V_2), NULL);
+		V_1 = L_6;
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:318>
+		bool L_7 = __this->___m_PreviousDrawMeshes;
+		bool L_8 = __this->___m_DrawMeshes;
+		if ((((int32_t)L_7) == ((int32_t)L_8)))
+		{
+			goto IL_005e;
+		}
+	}
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:320>
+		HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F* L_9 = __this->___m_LeftHandGameObjects;
+		bool L_10 = __this->___m_DrawMeshes;
+		NullCheck(L_9);
+		HandGameObjects_ToggleDrawMesh_m3EC9E4B67721C48B59B52B1A6E146E7AF07BF259(L_9, L_10, NULL);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:321>
+		HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F* L_11 = __this->___m_RightHandGameObjects;
+		bool L_12 = __this->___m_DrawMeshes;
+		NullCheck(L_11);
+		HandGameObjects_ToggleDrawMesh_m3EC9E4B67721C48B59B52B1A6E146E7AF07BF259(L_11, L_12, NULL);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:322>
+		bool L_13 = __this->___m_DrawMeshes;
+		__this->___m_PreviousDrawMeshes = L_13;
+	}
+
+IL_005e:
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:325>
+		bool L_14 = __this->___m_PreviousDebugDrawJoints;
+		bool L_15 = __this->___m_DebugDrawJoints;
+		if ((((int32_t)L_14) == ((int32_t)L_15)))
+		{
+			goto IL_009e;
+		}
+	}
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:327>
+		HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F* L_16 = __this->___m_LeftHandGameObjects;
+		bool L_17 = __this->___m_DebugDrawJoints;
+		bool L_18 = V_0;
+		NullCheck(L_16);
+		HandGameObjects_ToggleDebugDrawJoints_m5897D801494BFAAA40B96964AE976A7F71214752(L_16, (bool)((int32_t)((int32_t)L_17&(int32_t)L_18)), NULL);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:328>
+		HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F* L_19 = __this->___m_RightHandGameObjects;
+		bool L_20 = __this->___m_DebugDrawJoints;
+		bool L_21 = V_1;
+		NullCheck(L_19);
+		HandGameObjects_ToggleDebugDrawJoints_m5897D801494BFAAA40B96964AE976A7F71214752(L_19, (bool)((int32_t)((int32_t)L_20&(int32_t)L_21)), NULL);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:329>
+		bool L_22 = __this->___m_DebugDrawJoints;
+		__this->___m_PreviousDebugDrawJoints = L_22;
+	}
+
+IL_009e:
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:332>
+		int32_t L_23 = __this->___m_PreviousVelocityType;
+		int32_t L_24 = __this->___m_VelocityType;
+		if ((((int32_t)L_23) == ((int32_t)L_24)))
+		{
+			goto IL_00e6;
+		}
+	}
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:334>
+		HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F* L_25 = __this->___m_LeftHandGameObjects;
+		bool L_26 = V_0;
+		if (L_26)
+		{
+			G_B9_0 = L_25;
+			goto IL_00b8;
+		}
+		G_B8_0 = L_25;
+	}
+	{
+		G_B10_0 = 2;
+		G_B10_1 = G_B8_0;
+		goto IL_00be;
+	}
+
+IL_00b8:
+	{
+		int32_t L_27 = __this->___m_VelocityType;
+		G_B10_0 = ((int32_t)(L_27));
+		G_B10_1 = G_B9_0;
+	}
+
+IL_00be:
+	{
+		NullCheck(G_B10_1);
+		HandGameObjects_SetVelocityType_m13CFD04600696F6E2F6F158999D472867AE31C3C(G_B10_1, G_B10_0, NULL);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:335>
+		HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F* L_28 = __this->___m_RightHandGameObjects;
+		bool L_29 = V_1;
+		if (L_29)
+		{
+			G_B12_0 = L_28;
+			goto IL_00cf;
+		}
+		G_B11_0 = L_28;
+	}
+	{
+		G_B13_0 = 2;
+		G_B13_1 = G_B11_0;
+		goto IL_00d5;
+	}
+
+IL_00cf:
+	{
+		int32_t L_30 = __this->___m_VelocityType;
+		G_B13_0 = ((int32_t)(L_30));
+		G_B13_1 = G_B12_0;
+	}
+
+IL_00d5:
+	{
+		NullCheck(G_B13_1);
+		HandGameObjects_SetVelocityType_m13CFD04600696F6E2F6F158999D472867AE31C3C(G_B13_1, G_B13_0, NULL);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:336>
+		int32_t L_31 = __this->___m_VelocityType;
+		__this->___m_PreviousVelocityType = L_31;
+	}
+
+IL_00e6:
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:339>
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:340>
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:341>
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:342>
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:343>
+		HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F* L_32 = __this->___m_LeftHandGameObjects;
+		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_33 = ___0_subsystem;
+		NullCheck(L_33);
+		XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 L_34;
+		L_34 = XRHandSubsystem_get_leftHand_mD3B931E5129348FEE34C3965A0CF8E62A0CFFB97_inline(L_33, NULL);
+		int32_t L_35 = ___1_updateSuccessFlags;
+		bool L_36 = __this->___m_DebugDrawJoints;
+		int32_t L_37 = __this->___m_VelocityType;
+		NullCheck(L_32);
+		HandGameObjects_UpdateJoints_m3CB0C822FD81C182BD37B90C2753724285A0BF2D(L_32, L_34, (bool)((!(((uint32_t)((int32_t)((int32_t)L_35&2))) <= ((uint32_t)0)))? 1 : 0), L_36, L_37, NULL);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:345>
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:346>
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:347>
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:348>
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:349>
+		HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F* L_38 = __this->___m_RightHandGameObjects;
+		XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* L_39 = ___0_subsystem;
+		NullCheck(L_39);
+		XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 L_40;
+		L_40 = XRHandSubsystem_get_rightHand_mDE333FDF35460E1A06BE051AF9C2144B7053ED3C_inline(L_39, NULL);
+		int32_t L_41 = ___1_updateSuccessFlags;
+		bool L_42 = __this->___m_DebugDrawJoints;
+		int32_t L_43 = __this->___m_VelocityType;
+		NullCheck(L_38);
+		HandGameObjects_UpdateJoints_m3CB0C822FD81C182BD37B90C2753724285A0BF2D(L_38, L_40, (bool)((!(((uint32_t)((int32_t)((int32_t)L_41&8))) <= ((uint32_t)0)))? 1 : 0), L_42, L_43, NULL);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:350>
+		return;
+	}
+}
+// Method Definition Index: 131248
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandVisualizer__ctor_m3B66D0E80FD73F5C3E16DCF20A82A63B18297A02 (HandVisualizer_tA85C45A230DA7AFCC9377FE418CDA2F75AFE49B6* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+// Method Definition Index: 131249
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandVisualizer__cctor_m79DBF171BAC87235027EC32AE08DA3EC9993F1A9 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HandVisualizer_tA85C45A230DA7AFCC9377FE418CDA2F75AFE49B6_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_m9991CB9E0E4608CAE947384283EE27BCF3DAC2D4_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_tE4111BEC044D13259EFD4EC5907636C855887179_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:120>
+		List_1_tE4111BEC044D13259EFD4EC5907636C855887179* L_0 = (List_1_tE4111BEC044D13259EFD4EC5907636C855887179*)il2cpp_codegen_object_new(List_1_tE4111BEC044D13259EFD4EC5907636C855887179_il2cpp_TypeInfo_var);
+		List_1__ctor_m9991CB9E0E4608CAE947384283EE27BCF3DAC2D4(L_0, List_1__ctor_m9991CB9E0E4608CAE947384283EE27BCF3DAC2D4_RuntimeMethod_var);
+		((HandVisualizer_tA85C45A230DA7AFCC9377FE418CDA2F75AFE49B6_StaticFields*)il2cpp_codegen_static_fields_for(HandVisualizer_tA85C45A230DA7AFCC9377FE418CDA2F75AFE49B6_il2cpp_TypeInfo_var))->___s_SubsystemsReuse = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&((HandVisualizer_tA85C45A230DA7AFCC9377FE418CDA2F75AFE49B6_StaticFields*)il2cpp_codegen_static_fields_for(HandVisualizer_tA85C45A230DA7AFCC9377FE418CDA2F75AFE49B6_il2cpp_TypeInfo_var))->___s_SubsystemsReuse), (void*)L_0);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 131250
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandGameObjects__ctor_mE5FE6A2F0C183C672EB9F6584039CE9F6F0ED458 (HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F* __this, int32_t ___0_handedness, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___1_parent, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___2_meshPrefab, Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___3_meshMaterial, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___4_debugDrawPrefab, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___5_velocityPrefab, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_TryGetComponent_TisSkinnedMeshRenderer_t020C4E8648EA1C4C6BA5C41502919B387E7E1C2E_m95CEC209AB48BA4465F3CB2C9453CCA6322D2A63_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_AddComponent_TisXRHandMeshController_t670ADAE830016D758ED74153F39334564CD3D687_m0EF34ABB02714F807910BD0C78AB85F2D25D023D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_AddComponent_TisXRHandSkeletonDriver_t549956F17FD2C98A8FC1C9DF04ED4218610321A9_m8D2D63A6AD343A90A9DDF71D360B7AD36BC3B4F2_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_AddComponent_TisXRHandTrackingEvents_tF1DA1153E15422968E62D8B84B99D5C00018574C_mADC3C017664513070D3093477B302FC7198E8F2A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisXRHandMeshController_t670ADAE830016D758ED74153F39334564CD3D687_mFAD7BA6D178A79C7E03843EA1B08D4CE16E248B2_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisXRHandSkeletonDriver_t549956F17FD2C98A8FC1C9DF04ED4218610321A9_m3BF356CDEFCB41719801691285453F0D76FB5251_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisXRHandTrackingEvents_tF1DA1153E15422968E62D8B84B99D5C00018574C_m6497F69000D8E4A8EB16945591E0EA5C21D1CA2A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Handedness_tC87DA4E9D99745447BF40B631E8B479E32D8E37F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&JointVisualizerU5BU5D_tBE9067F8E5E225E6A76C5027CD08047938471342_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LineRendererU5BU5D_t5AA0E11EC99A18A11BCCCABDF088C854E50D394A_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_mF9E011AC0B45B83F28F733B52084915C67A264CD_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_m209A9B25E99DCB0C5847654EFA37FC1EFF4E782C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_m86F4130198090303E1C3BF94F8DCDDB031FF0DDA_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_t6374200280C9D4D9E197123BCF3B71CB8726B89F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRHandJointID_tC0BE8E1AC7717425649709BB62AAD56304FCC081_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4A4955D176516025430352DFFE6DF5974DEB47AB);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CU3Ec__DisplayClass9_0_t18EF379C550C89A38B4C15EF582D09D97B3710DD V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	bool V_1 = false;
+	XRHandTrackingEvents_tF1DA1153E15422968E62D8B84B99D5C00018574C* V_2 = NULL;
+	XRHandSkeletonDriver_t549956F17FD2C98A8FC1C9DF04ED4218610321A9* V_3 = NULL;
+	Scene_tA1DC762B79745EB5140F054C884855B922318356 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	int32_t V_5 = 0;
+	SkinnedMeshRenderer_t020C4E8648EA1C4C6BA5C41502919B387E7E1C2E* V_6 = NULL;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* V_7 = NULL;
+	int32_t V_8 = 0;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* V_9 = NULL;
+	int32_t V_10 = 0;
+	int32_t V_11 = 0;
+	JointToTransformReference_t5DC7424A5741B60B0DFA15056D7F7EBF38721202 V_12;
+	memset((&V_12), 0, sizeof(V_12));
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* V_13 = NULL;
+	int32_t V_14 = 0;
+	HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F* G_B2_0 = NULL;
+	HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F* G_B1_0 = NULL;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* G_B3_0 = NULL;
+	HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F* G_B3_1 = NULL;
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:357>
+		int32_t L_0;
+		L_0 = XRHandJointIDUtility_ToIndex_mBF5EC77C077B14029F71E64F112F37544BFD9E02(((int32_t)27), NULL);
+		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_1 = (GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF*)(GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF*)SZArrayNew(GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF_il2cpp_TypeInfo_var, (uint32_t)L_0);
+		__this->___m_DrawJoints = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_DrawJoints), (void*)L_1);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:358>
+		int32_t L_2;
+		L_2 = XRHandJointIDUtility_ToIndex_mBF5EC77C077B14029F71E64F112F37544BFD9E02(((int32_t)27), NULL);
+		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_3 = (GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF*)(GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF*)SZArrayNew(GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF_il2cpp_TypeInfo_var, (uint32_t)L_2);
+		__this->___m_VelocityParents = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_VelocityParents), (void*)L_3);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:359>
+		int32_t L_4;
+		L_4 = XRHandJointIDUtility_ToIndex_mBF5EC77C077B14029F71E64F112F37544BFD9E02(((int32_t)27), NULL);
+		LineRendererU5BU5D_t5AA0E11EC99A18A11BCCCABDF088C854E50D394A* L_5 = (LineRendererU5BU5D_t5AA0E11EC99A18A11BCCCABDF088C854E50D394A*)(LineRendererU5BU5D_t5AA0E11EC99A18A11BCCCABDF088C854E50D394A*)SZArrayNew(LineRendererU5BU5D_t5AA0E11EC99A18A11BCCCABDF088C854E50D394A_il2cpp_TypeInfo_var, (uint32_t)L_4);
+		__this->___m_Lines = L_5;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Lines), (void*)L_5);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:360>
+		int32_t L_6;
+		L_6 = XRHandJointIDUtility_ToIndex_mBF5EC77C077B14029F71E64F112F37544BFD9E02(((int32_t)27), NULL);
+		JointVisualizerU5BU5D_tBE9067F8E5E225E6A76C5027CD08047938471342* L_7 = (JointVisualizerU5BU5D_tBE9067F8E5E225E6A76C5027CD08047938471342*)(JointVisualizerU5BU5D_tBE9067F8E5E225E6A76C5027CD08047938471342*)SZArrayNew(JointVisualizerU5BU5D_tBE9067F8E5E225E6A76C5027CD08047938471342_il2cpp_TypeInfo_var, (uint32_t)L_6);
+		__this->___m_JointVisualizers = L_7;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_JointVisualizers), (void*)L_7);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = ___4_debugDrawPrefab;
+		(&V_0)->___debugDrawPrefab = L_8;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___debugDrawPrefab), (void*)L_8);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9 = ___5_velocityPrefab;
+		(&V_0)->___velocityPrefab = L_9;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___velocityPrefab), (void*)L_9);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:366>
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:367>
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:368>
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:369>
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:370>
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:371>
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:372>
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		(&V_0)->___U3CU3E4__this = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___U3CU3E4__this), (void*)__this);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:396>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = ___2_meshPrefab;
+		NullCheck(L_10);
+		Scene_tA1DC762B79745EB5140F054C884855B922318356 L_11;
+		L_11 = GameObject_get_scene_m747D45E8CECC56DD47D1E103F9E51D5FBEDA4B01(L_10, NULL);
+		V_4 = L_11;
+		bool L_12;
+		L_12 = Scene_IsValid_m0D5200731D3E26ECBBB55803F9242965A14A4599((&V_4), NULL);
+		V_1 = L_12;
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:397>
+		bool L_13 = V_1;
+		if (L_13)
+		{
+			G_B2_0 = __this;
+			goto IL_0085;
+		}
+		G_B1_0 = __this;
+	}
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14 = ___2_meshPrefab;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_15 = ___1_parent;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_16;
+		L_16 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811(L_14, L_15, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811_RuntimeMethod_var);
+		G_B3_0 = L_16;
+		G_B3_1 = G_B1_0;
+		goto IL_0086;
+	}
+
+IL_0085:
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_17 = ___2_meshPrefab;
+		G_B3_0 = L_17;
+		G_B3_1 = G_B2_0;
+	}
+
+IL_0086:
+	{
+		NullCheck(G_B3_1);
+		G_B3_1->___m_HandRoot = G_B3_0;
+		Il2CppCodeGenWriteBarrier((void**)(&G_B3_1->___m_HandRoot), (void*)G_B3_0);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:398>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_18 = __this->___m_HandRoot;
+		NullCheck(L_18);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_18, (bool)0, NULL);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:400>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_19 = __this->___m_HandRoot;
+		NullCheck(L_19);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_20;
+		L_20 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_19, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_21;
+		L_21 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
+		NullCheck(L_20);
+		Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134(L_20, L_21, NULL);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:401>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_22 = __this->___m_HandRoot;
+		NullCheck(L_22);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_23;
+		L_23 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_22, NULL);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_24;
+		L_24 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
+		NullCheck(L_23);
+		Transform_set_localRotation_mAB4A011D134BA58AB780BECC0025CA65F16185FA(L_23, L_24, NULL);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:403>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_25 = __this->___m_HandRoot;
+		NullCheck(L_25);
+		XRHandTrackingEvents_tF1DA1153E15422968E62D8B84B99D5C00018574C* L_26;
+		L_26 = GameObject_GetComponent_TisXRHandTrackingEvents_tF1DA1153E15422968E62D8B84B99D5C00018574C_m6497F69000D8E4A8EB16945591E0EA5C21D1CA2A(L_25, GameObject_GetComponent_TisXRHandTrackingEvents_tF1DA1153E15422968E62D8B84B99D5C00018574C_m6497F69000D8E4A8EB16945591E0EA5C21D1CA2A_RuntimeMethod_var);
+		V_2 = L_26;
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:404>
+		XRHandTrackingEvents_tF1DA1153E15422968E62D8B84B99D5C00018574C* L_27 = V_2;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_28;
+		L_28 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_27, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_28)
+		{
+			goto IL_00f0;
+		}
+	}
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:406>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_29 = __this->___m_HandRoot;
+		NullCheck(L_29);
+		XRHandTrackingEvents_tF1DA1153E15422968E62D8B84B99D5C00018574C* L_30;
+		L_30 = GameObject_AddComponent_TisXRHandTrackingEvents_tF1DA1153E15422968E62D8B84B99D5C00018574C_mADC3C017664513070D3093477B302FC7198E8F2A(L_29, GameObject_AddComponent_TisXRHandTrackingEvents_tF1DA1153E15422968E62D8B84B99D5C00018574C_mADC3C017664513070D3093477B302FC7198E8F2A_RuntimeMethod_var);
+		V_2 = L_30;
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:407>
+		XRHandTrackingEvents_tF1DA1153E15422968E62D8B84B99D5C00018574C* L_31 = V_2;
+		NullCheck(L_31);
+		XRHandTrackingEvents_set_updateType_m7AD23779101D561EAEC21BA41FD45AF39679DFA7_inline(L_31, 1, NULL);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:408>
+		XRHandTrackingEvents_tF1DA1153E15422968E62D8B84B99D5C00018574C* L_32 = V_2;
+		int32_t L_33 = ___0_handedness;
+		NullCheck(L_32);
+		XRHandTrackingEvents_set_handedness_m2CBB79E143E81785877F131703B624082DDA8622_inline(L_32, L_33, NULL);
+	}
+
+IL_00f0:
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:411>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_34 = __this->___m_HandRoot;
+		NullCheck(L_34);
+		XRHandMeshController_t670ADAE830016D758ED74153F39334564CD3D687* L_35;
+		L_35 = GameObject_GetComponent_TisXRHandMeshController_t670ADAE830016D758ED74153F39334564CD3D687_mFAD7BA6D178A79C7E03843EA1B08D4CE16E248B2(L_34, GameObject_GetComponent_TisXRHandMeshController_t670ADAE830016D758ED74153F39334564CD3D687_mFAD7BA6D178A79C7E03843EA1B08D4CE16E248B2_RuntimeMethod_var);
+		__this->___m_MeshController = L_35;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_MeshController), (void*)L_35);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:412>
+		XRHandMeshController_t670ADAE830016D758ED74153F39334564CD3D687* L_36 = __this->___m_MeshController;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_37;
+		L_37 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_36, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_37)
+		{
+			goto IL_0173;
+		}
+	}
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:414>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_38 = __this->___m_HandRoot;
+		NullCheck(L_38);
+		XRHandMeshController_t670ADAE830016D758ED74153F39334564CD3D687* L_39;
+		L_39 = GameObject_AddComponent_TisXRHandMeshController_t670ADAE830016D758ED74153F39334564CD3D687_m0EF34ABB02714F807910BD0C78AB85F2D25D023D(L_38, GameObject_AddComponent_TisXRHandMeshController_t670ADAE830016D758ED74153F39334564CD3D687_m0EF34ABB02714F807910BD0C78AB85F2D25D023D_RuntimeMethod_var);
+		__this->___m_MeshController = L_39;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_MeshController), (void*)L_39);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:415>
+		V_5 = 0;
+		goto IL_0153;
+	}
+
+IL_0125:
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:417>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_40 = __this->___m_HandRoot;
+		NullCheck(L_40);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_41;
+		L_41 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_40, NULL);
+		int32_t L_42 = V_5;
+		NullCheck(L_41);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_43;
+		L_43 = Transform_GetChild_mE686DF0C7AAC1F7AEF356967B1C04D8B8E240EAF(L_41, L_42, NULL);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:418>
+		NullCheck(L_43);
+		bool L_44;
+		L_44 = Component_TryGetComponent_TisSkinnedMeshRenderer_t020C4E8648EA1C4C6BA5C41502919B387E7E1C2E_m95CEC209AB48BA4465F3CB2C9453CCA6322D2A63(L_43, (&V_6), Component_TryGetComponent_TisSkinnedMeshRenderer_t020C4E8648EA1C4C6BA5C41502919B387E7E1C2E_m95CEC209AB48BA4465F3CB2C9453CCA6322D2A63_RuntimeMethod_var);
+		if (!L_44)
+		{
+			goto IL_014d;
+		}
+	}
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:419>
+		XRHandMeshController_t670ADAE830016D758ED74153F39334564CD3D687* L_45 = __this->___m_MeshController;
+		SkinnedMeshRenderer_t020C4E8648EA1C4C6BA5C41502919B387E7E1C2E* L_46 = V_6;
+		NullCheck(L_45);
+		XRHandMeshController_set_handMeshRenderer_m56394DC5C6AA24438CAB55232CFC655B7359111A(L_45, L_46, NULL);
+	}
+
+IL_014d:
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:415>
+		int32_t L_47 = V_5;
+		V_5 = ((int32_t)il2cpp_codegen_add(L_47, 1));
+	}
+
+IL_0153:
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:415>
+		int32_t L_48 = V_5;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_49 = __this->___m_HandRoot;
+		NullCheck(L_49);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_50;
+		L_50 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_49, NULL);
+		NullCheck(L_50);
+		int32_t L_51;
+		L_51 = Transform_get_childCount_mE9C29C702AB662CC540CA053EDE48BDAFA35B4B0(L_50, NULL);
+		if ((((int32_t)L_48) < ((int32_t)L_51)))
+		{
+			goto IL_0125;
+		}
+	}
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:422>
+		XRHandMeshController_t670ADAE830016D758ED74153F39334564CD3D687* L_52 = __this->___m_MeshController;
+		XRHandTrackingEvents_tF1DA1153E15422968E62D8B84B99D5C00018574C* L_53 = V_2;
+		NullCheck(L_52);
+		XRHandMeshController_set_handTrackingEvents_m43A14C42AE793D0BEB8086ACC4DD9F0B46E4C9DD(L_52, L_53, NULL);
+	}
+
+IL_0173:
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:425>
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_54 = ___3_meshMaterial;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_55;
+		L_55 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_54, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_55)
+		{
+			goto IL_018f;
+		}
+	}
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:427>
+		XRHandMeshController_t670ADAE830016D758ED74153F39334564CD3D687* L_56 = __this->___m_MeshController;
+		NullCheck(L_56);
+		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_57;
+		L_57 = XRHandMeshController_get_handMeshRenderer_m0C5AC2BC5788FB733B7F0B912DE86CB093136B18_inline(L_56, NULL);
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_58 = ___3_meshMaterial;
+		NullCheck(L_57);
+		Renderer_set_sharedMaterial_m5E842F9A06CFB7B77656EB319881CB4B3E8E4288(L_57, L_58, NULL);
+	}
+
+IL_018f:
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:430>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_59 = __this->___m_HandRoot;
+		NullCheck(L_59);
+		XRHandSkeletonDriver_t549956F17FD2C98A8FC1C9DF04ED4218610321A9* L_60;
+		L_60 = GameObject_GetComponent_TisXRHandSkeletonDriver_t549956F17FD2C98A8FC1C9DF04ED4218610321A9_m3BF356CDEFCB41719801691285453F0D76FB5251(L_59, GameObject_GetComponent_TisXRHandSkeletonDriver_t549956F17FD2C98A8FC1C9DF04ED4218610321A9_m3BF356CDEFCB41719801691285453F0D76FB5251_RuntimeMethod_var);
+		V_3 = L_60;
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:431>
+		XRHandSkeletonDriver_t549956F17FD2C98A8FC1C9DF04ED4218610321A9* L_61 = V_3;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_62;
+		L_62 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_61, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_62)
+		{
+			goto IL_0237;
+		}
+	}
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:433>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_63 = __this->___m_HandRoot;
+		NullCheck(L_63);
+		XRHandSkeletonDriver_t549956F17FD2C98A8FC1C9DF04ED4218610321A9* L_64;
+		L_64 = GameObject_AddComponent_TisXRHandSkeletonDriver_t549956F17FD2C98A8FC1C9DF04ED4218610321A9_m8D2D63A6AD343A90A9DDF71D360B7AD36BC3B4F2(L_63, GameObject_AddComponent_TisXRHandSkeletonDriver_t549956F17FD2C98A8FC1C9DF04ED4218610321A9_m8D2D63A6AD343A90A9DDF71D360B7AD36BC3B4F2_RuntimeMethod_var);
+		V_3 = L_64;
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:434>
+		XRHandSkeletonDriver_t549956F17FD2C98A8FC1C9DF04ED4218610321A9* L_65 = V_3;
+		List_1_t6374200280C9D4D9E197123BCF3B71CB8726B89F* L_66 = (List_1_t6374200280C9D4D9E197123BCF3B71CB8726B89F*)il2cpp_codegen_object_new(List_1_t6374200280C9D4D9E197123BCF3B71CB8726B89F_il2cpp_TypeInfo_var);
+		List_1__ctor_mF9E011AC0B45B83F28F733B52084915C67A264CD(L_66, List_1__ctor_mF9E011AC0B45B83F28F733B52084915C67A264CD_RuntimeMethod_var);
+		NullCheck(L_65);
+		XRHandSkeletonDriver_set_jointTransformReferences_m1498B75A0BDB9AF2603CF62C118DE8FFA84E9E36(L_65, L_66, NULL);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:435>
+		V_7 = (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)NULL;
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:436>
+		V_8 = 0;
+		goto IL_0207;
+	}
+
+IL_01c6:
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:438>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_67 = __this->___m_HandRoot;
+		NullCheck(L_67);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_68;
+		L_68 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_67, NULL);
+		int32_t L_69 = V_8;
+		NullCheck(L_68);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_70;
+		L_70 = Transform_GetChild_mE686DF0C7AAC1F7AEF356967B1C04D8B8E240EAF(L_68, L_69, NULL);
+		V_9 = L_70;
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:439>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_71 = V_9;
+		NullCheck(L_71);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_72;
+		L_72 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_71, NULL);
+		NullCheck(L_72);
+		String_t* L_73;
+		L_73 = Object_get_name_mAC2F6B897CF1303BA4249B4CB55271AFACBB6392(L_72, NULL);
+		V_10 = 1;
+		Il2CppFakeBox<int32_t> L_74(XRHandJointID_tC0BE8E1AC7717425649709BB62AAD56304FCC081_il2cpp_TypeInfo_var, (&V_10));
+		String_t* L_75;
+		L_75 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_74), NULL);
+		NullCheck(L_73);
+		bool L_76;
+		L_76 = String_EndsWith_mCD3754F5401E19CE7821CD398986E4EAA6AD87DC(L_73, L_75, NULL);
+		if (!L_76)
+		{
+			goto IL_0201;
+		}
+	}
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:440>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_77 = V_9;
+		V_7 = L_77;
+	}
+
+IL_0201:
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:436>
+		int32_t L_78 = V_8;
+		V_8 = ((int32_t)il2cpp_codegen_add(L_78, 1));
+	}
+
+IL_0207:
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:436>
+		int32_t L_79 = V_8;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_80 = __this->___m_HandRoot;
+		NullCheck(L_80);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_81;
+		L_81 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_80, NULL);
+		NullCheck(L_81);
+		int32_t L_82;
+		L_82 = Transform_get_childCount_mE9C29C702AB662CC540CA053EDE48BDAFA35B4B0(L_81, NULL);
+		if ((((int32_t)L_79) < ((int32_t)L_82)))
+		{
+			goto IL_01c6;
+		}
+	}
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:443>
+		XRHandSkeletonDriver_t549956F17FD2C98A8FC1C9DF04ED4218610321A9* L_83 = V_3;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_84 = V_7;
+		NullCheck(L_83);
+		XRHandSkeletonDriver_set_rootTransform_mE5EA2C57F67949501CEC763615F2CFC3309BA34D(L_83, L_84, NULL);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:444>
+		XRHandSkeletonDriver_t549956F17FD2C98A8FC1C9DF04ED4218610321A9* L_85 = V_3;
+		XRHandSkeletonDriverUtility_FindJointsFromRoot_mF7F7E290233CB82676A5CEE92A8BBE25E320359D(L_85, (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*)NULL, NULL);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:445>
+		XRHandSkeletonDriver_t549956F17FD2C98A8FC1C9DF04ED4218610321A9* L_86 = V_3;
+		NullCheck(L_86);
+		XRHandSkeletonDriver_InitializeFromSerializedReferences_m1CADD44CEE67DBFF31D4C3D11CFC5C103573A314(L_86, NULL);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:446>
+		XRHandSkeletonDriver_t549956F17FD2C98A8FC1C9DF04ED4218610321A9* L_87 = V_3;
+		XRHandTrackingEvents_tF1DA1153E15422968E62D8B84B99D5C00018574C* L_88 = V_2;
+		NullCheck(L_87);
+		XRHandSkeletonDriver_set_handTrackingEvents_m615CEE297FCB6AF371B2CA123292C03C32008FF8(L_87, L_88, NULL);
+	}
+
+IL_0237:
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:449>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_89 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)il2cpp_codegen_object_new(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
+		GameObject__ctor_m7D0340DE160786E6EFA8DABD39EC3B694DA30AAD(L_89, NULL);
+		__this->___m_DrawJointsParent = L_89;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_DrawJointsParent), (void*)L_89);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:450>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_90 = __this->___m_DrawJointsParent;
+		NullCheck(L_90);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_91;
+		L_91 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_90, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_92 = ___1_parent;
+		NullCheck(L_91);
+		Transform_set_parent_m9BD5E563B539DD5BEC342736B03F97B38A243234(L_91, L_92, NULL);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:451>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_93 = __this->___m_DrawJointsParent;
+		NullCheck(L_93);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_94;
+		L_94 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_93, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_95;
+		L_95 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
+		NullCheck(L_94);
+		Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134(L_94, L_95, NULL);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:452>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_96 = __this->___m_DrawJointsParent;
+		NullCheck(L_96);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_97;
+		L_97 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_96, NULL);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_98;
+		L_98 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
+		NullCheck(L_97);
+		Transform_set_localRotation_mAB4A011D134BA58AB780BECC0025CA65F16185FA(L_97, L_98, NULL);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:453>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_99 = __this->___m_DrawJointsParent;
+		Il2CppFakeBox<int32_t> L_100(Handedness_tC87DA4E9D99745447BF40B631E8B479E32D8E37F_il2cpp_TypeInfo_var, (&___0_handedness));
+		String_t* L_101;
+		L_101 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_100), NULL);
+		String_t* L_102;
+		L_102 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_101, _stringLiteral4A4955D176516025430352DFFE6DF5974DEB47AB, NULL);
+		NullCheck(L_99);
+		Object_set_name_mC79E6DC8FFD72479C90F0C4CC7F42A0FEAF5AE47(L_99, L_102, NULL);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:455>
+		V_11 = 0;
+		goto IL_02e2;
+	}
+
+IL_02a4:
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:457>
+		XRHandSkeletonDriver_t549956F17FD2C98A8FC1C9DF04ED4218610321A9* L_103 = V_3;
+		NullCheck(L_103);
+		List_1_t6374200280C9D4D9E197123BCF3B71CB8726B89F* L_104;
+		L_104 = XRHandSkeletonDriver_get_jointTransformReferences_m11FAA540585CB0A29A3A1EFE54CAD133545736F0_inline(L_103, NULL);
+		int32_t L_105 = V_11;
+		NullCheck(L_104);
+		JointToTransformReference_t5DC7424A5741B60B0DFA15056D7F7EBF38721202 L_106;
+		L_106 = List_1_get_Item_m86F4130198090303E1C3BF94F8DCDDB031FF0DDA(L_104, L_105, List_1_get_Item_m86F4130198090303E1C3BF94F8DCDDB031FF0DDA_RuntimeMethod_var);
+		V_12 = L_106;
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:458>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_107;
+		L_107 = JointToTransformReference_get_jointTransform_m81EAC20A1665D7F6AA85653F77AFFD9E4980AC40_inline((&V_12), NULL);
+		V_13 = L_107;
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:459>
+		int32_t L_108;
+		L_108 = JointToTransformReference_get_xrHandJointID_m07248164E6B8E31BA297F25AFEBA64AF30F79BF4_inline((&V_12), NULL);
+		V_14 = L_108;
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:460>
+		int32_t L_109 = V_14;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_110 = V_13;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_111 = __this->___m_DrawJointsParent;
+		NullCheck(L_111);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_112;
+		L_112 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_111, NULL);
+		HandGameObjects_U3C_ctorU3Eg__AssignJointU7C9_0_m7245539D5FC3F7CEBC5B6E4EBB30628DAA7DFE08(__this, L_109, L_110, L_112, (&V_0), NULL);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:455>
+		int32_t L_113 = V_11;
+		V_11 = ((int32_t)il2cpp_codegen_add(L_113, 1));
+	}
+
+IL_02e2:
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:455>
+		int32_t L_114 = V_11;
+		XRHandSkeletonDriver_t549956F17FD2C98A8FC1C9DF04ED4218610321A9* L_115 = V_3;
+		NullCheck(L_115);
+		List_1_t6374200280C9D4D9E197123BCF3B71CB8726B89F* L_116;
+		L_116 = XRHandSkeletonDriver_get_jointTransformReferences_m11FAA540585CB0A29A3A1EFE54CAD133545736F0_inline(L_115, NULL);
+		NullCheck(L_116);
+		int32_t L_117;
+		L_117 = List_1_get_Count_m209A9B25E99DCB0C5847654EFA37FC1EFF4E782C_inline(L_116, List_1_get_Count_m209A9B25E99DCB0C5847654EFA37FC1EFF4E782C_RuntimeMethod_var);
+		if ((((int32_t)L_114) < ((int32_t)L_117)))
+		{
+			goto IL_02a4;
+		}
+	}
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:463>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_118 = __this->___m_HandRoot;
+		NullCheck(L_118);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_118, (bool)1, NULL);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:464>
+		return;
+	}
+}
+// Method Definition Index: 131251
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandGameObjects_OnDestroy_mDC01BE3680763342F2F89A8788D9B6A42ED7BBD6 (HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:468>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___m_HandRoot;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_0, NULL);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:469>
+		__this->___m_HandRoot = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_HandRoot), (void*)(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)NULL);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:471>
+		V_0 = 0;
+		goto IL_0030;
+	}
+
+IL_0016:
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:473>
+		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_1 = __this->___m_DrawJoints;
+		int32_t L_2 = V_0;
+		NullCheck(L_1);
+		int32_t L_3 = L_2;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_4, NULL);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:474>
+		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_5 = __this->___m_DrawJoints;
+		int32_t L_6 = V_0;
+		NullCheck(L_5);
+		ArrayElementTypeCheck (L_5, NULL);
+		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(L_6), (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)NULL);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:471>
+		int32_t L_7 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_7, 1));
+	}
+
+IL_0030:
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:471>
+		int32_t L_8 = V_0;
+		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_9 = __this->___m_DrawJoints;
+		NullCheck(L_9);
+		if ((((int32_t)L_8) < ((int32_t)((int32_t)(((RuntimeArray*)L_9)->max_length)))))
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:477>
+		V_1 = 0;
+		goto IL_0059;
+	}
+
+IL_003f:
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:479>
+		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_10 = __this->___m_VelocityParents;
+		int32_t L_11 = V_1;
+		NullCheck(L_10);
+		int32_t L_12 = L_11;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13 = (L_10)->GetAt(static_cast<il2cpp_array_size_t>(L_12));
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_13, NULL);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:480>
+		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_14 = __this->___m_VelocityParents;
+		int32_t L_15 = V_1;
+		NullCheck(L_14);
+		ArrayElementTypeCheck (L_14, NULL);
+		(L_14)->SetAt(static_cast<il2cpp_array_size_t>(L_15), (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)NULL);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:477>
+		int32_t L_16 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_16, 1));
+	}
+
+IL_0059:
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:477>
+		int32_t L_17 = V_1;
+		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_18 = __this->___m_VelocityParents;
+		NullCheck(L_18);
+		if ((((int32_t)L_17) < ((int32_t)((int32_t)(((RuntimeArray*)L_18)->max_length)))))
+		{
+			goto IL_003f;
+		}
+	}
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:483>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_19 = __this->___m_DrawJointsParent;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_19, NULL);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:484>
+		__this->___m_DrawJointsParent = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_DrawJointsParent), (void*)(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)NULL);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:485>
+		return;
+	}
+}
+// Method Definition Index: 131252
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandGameObjects_ToggleDrawMesh_m3EC9E4B67721C48B59B52B1A6E146E7AF07BF259 (HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F* __this, bool ___0_drawMesh, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:489>
+		XRHandMeshController_t670ADAE830016D758ED74153F39334564CD3D687* L_0 = __this->___m_MeshController;
+		bool L_1 = ___0_drawMesh;
+		NullCheck(L_0);
+		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_0, L_1, NULL);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:490>
+		bool L_2 = ___0_drawMesh;
+		if (L_2)
+		{
+			goto IL_0020;
+		}
+	}
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:491>
+		XRHandMeshController_t670ADAE830016D758ED74153F39334564CD3D687* L_3 = __this->___m_MeshController;
+		NullCheck(L_3);
+		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_4;
+		L_4 = XRHandMeshController_get_handMeshRenderer_m0C5AC2BC5788FB733B7F0B912DE86CB093136B18_inline(L_3, NULL);
+		NullCheck(L_4);
+		Renderer_set_enabled_m015E6D7B825528A31182F267234CC6A925F71DA8(L_4, (bool)0, NULL);
+	}
+
+IL_0020:
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:492>
+		return;
+	}
+}
+// Method Definition Index: 131253
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandGameObjects_ToggleDebugDrawJoints_m5897D801494BFAAA40B96964AE976A7F71214752 (HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F* __this, bool ___0_debugDrawJoints, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HandGameObjects_ToggleRenderers_TisMeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE_m8BC9ACC0C9BBB0A272F874B4A594AB98EF2FEFAD_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:496>
+		V_0 = 0;
+		goto IL_0029;
+	}
+
+IL_0004:
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:498>
+		bool L_0 = ___0_debugDrawJoints;
+		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_1 = __this->___m_DrawJoints;
+		int32_t L_2 = V_0;
+		NullCheck(L_1);
+		int32_t L_3 = L_2;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
+		NullCheck(L_4);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5;
+		L_5 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_4, NULL);
+		il2cpp_codegen_runtime_class_init_inline(HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F_il2cpp_TypeInfo_var);
+		HandGameObjects_ToggleRenderers_TisMeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE_m8BC9ACC0C9BBB0A272F874B4A594AB98EF2FEFAD(L_0, L_5, HandGameObjects_ToggleRenderers_TisMeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE_m8BC9ACC0C9BBB0A272F874B4A594AB98EF2FEFAD_RuntimeMethod_var);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:499>
+		LineRendererU5BU5D_t5AA0E11EC99A18A11BCCCABDF088C854E50D394A* L_6 = __this->___m_Lines;
+		int32_t L_7 = V_0;
+		NullCheck(L_6);
+		int32_t L_8 = L_7;
+		LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		bool L_10 = ___0_debugDrawJoints;
+		NullCheck(L_9);
+		Renderer_set_enabled_m015E6D7B825528A31182F267234CC6A925F71DA8(L_9, L_10, NULL);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:496>
+		int32_t L_11 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_11, 1));
+	}
+
+IL_0029:
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:496>
+		int32_t L_12 = V_0;
+		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_13 = __this->___m_DrawJoints;
+		NullCheck(L_13);
+		if ((((int32_t)L_12) < ((int32_t)((int32_t)(((RuntimeArray*)L_13)->max_length)))))
+		{
+			goto IL_0004;
+		}
+	}
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:502>
+		LineRendererU5BU5D_t5AA0E11EC99A18A11BCCCABDF088C854E50D394A* L_14 = __this->___m_Lines;
+		NullCheck(L_14);
+		int32_t L_15 = 0;
+		LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* L_16 = (L_14)->GetAt(static_cast<il2cpp_array_size_t>(L_15));
+		NullCheck(L_16);
+		Renderer_set_enabled_m015E6D7B825528A31182F267234CC6A925F71DA8(L_16, (bool)0, NULL);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:503>
+		return;
+	}
+}
+// Method Definition Index: 131254
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandGameObjects_SetVelocityType_m13CFD04600696F6E2F6F158999D472867AE31C3C (HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F* __this, int32_t ___0_velocityType, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HandGameObjects_ToggleRenderers_TisLineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D_mD52F431B7896E3957C42E662CECB52F1226E2834_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:507>
+		V_0 = 0;
+		goto IL_0021;
+	}
+
+IL_0004:
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:508>
+		int32_t L_0 = ___0_velocityType;
+		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_1 = __this->___m_VelocityParents;
+		int32_t L_2 = V_0;
+		NullCheck(L_1);
+		int32_t L_3 = L_2;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
+		NullCheck(L_4);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5;
+		L_5 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_4, NULL);
+		il2cpp_codegen_runtime_class_init_inline(HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F_il2cpp_TypeInfo_var);
+		HandGameObjects_ToggleRenderers_TisLineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D_mD52F431B7896E3957C42E662CECB52F1226E2834((bool)((((int32_t)((((int32_t)L_0) == ((int32_t)2))? 1 : 0)) == ((int32_t)0))? 1 : 0), L_5, HandGameObjects_ToggleRenderers_TisLineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D_mD52F431B7896E3957C42E662CECB52F1226E2834_RuntimeMethod_var);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:507>
+		int32_t L_6 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_6, 1));
+	}
+
+IL_0021:
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:507>
+		int32_t L_7 = V_0;
+		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_8 = __this->___m_VelocityParents;
+		NullCheck(L_8);
+		if ((((int32_t)L_7) < ((int32_t)((int32_t)(((RuntimeArray*)L_8)->max_length)))))
+		{
+			goto IL_0004;
+		}
+	}
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:509>
+		return;
+	}
+}
+// Method Definition Index: 131255
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandGameObjects_UpdateJoints_m3CB0C822FD81C182BD37B90C2753724285A0BF2D (HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F* __this, XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 ___0_hand, bool ___1_areJointsTracked, bool ___2_debugDrawJoints, int32_t ___3_velocityType, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	int32_t V_4 = 0;
+	int32_t V_5 = 0;
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:517>
+		bool L_0 = ___1_areJointsTracked;
+		if (L_0)
+		{
+			goto IL_0004;
+		}
+	}
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:518>
+		return;
+	}
+
+IL_0004:
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:520>
+		il2cpp_codegen_runtime_class_init_inline(Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971_il2cpp_TypeInfo_var);
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_1;
+		L_1 = Pose_get_identity_m145C7BA9D895CD7F8CCE2483B69764F7A9FEC66E(NULL);
+		V_0 = L_1;
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:521>
+		int32_t L_2;
+		L_2 = XRHandJointIDUtility_ToIndex_mBF5EC77C077B14029F71E64F112F37544BFD9E02(1, NULL);
+		V_1 = L_2;
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:522>
+		bool L_3 = ___2_debugDrawJoints;
+		int32_t L_4 = ___3_velocityType;
+		XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783 L_5;
+		L_5 = XRHand_GetJoint_mDD5E7D4F45C9701AF8911EA4394F258CB5E68035((&___0_hand), 1, NULL);
+		HandGameObjects_UpdateJoint_mC83C6757020AA8C0F9BCE9DB2D5AF8DFAEBD44B2(__this, L_3, L_4, L_5, (&V_0), (&V_1), (bool)1, NULL);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:523>
+		bool L_6 = ___2_debugDrawJoints;
+		int32_t L_7 = ___3_velocityType;
+		XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783 L_8;
+		L_8 = XRHand_GetJoint_mDD5E7D4F45C9701AF8911EA4394F258CB5E68035((&___0_hand), 2, NULL);
+		HandGameObjects_UpdateJoint_mC83C6757020AA8C0F9BCE9DB2D5AF8DFAEBD44B2(__this, L_6, L_7, L_8, (&V_0), (&V_1), (bool)0, NULL);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:525>
+		V_2 = 0;
+		goto IL_0092;
+	}
+
+IL_0041:
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:529>
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_9 = V_0;
+		V_3 = L_9;
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:530>
+		int32_t L_10 = V_2;
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:531>
+		int32_t L_11;
+		L_11 = XRHandJointIDUtility_ToIndex_mBF5EC77C077B14029F71E64F112F37544BFD9E02(1, NULL);
+		V_1 = L_11;
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:533>
+		int32_t L_12 = L_10;
+		int32_t L_13;
+		L_13 = XRHandJointIDUtility_GetBackJointID_m944463FBA57D581AFBF5A68F7CA59FC1673F386F(L_12, NULL);
+		int32_t L_14;
+		L_14 = XRHandJointIDUtility_ToIndex_mBF5EC77C077B14029F71E64F112F37544BFD9E02(L_13, NULL);
+		V_4 = L_14;
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:534>
+		int32_t L_15;
+		L_15 = XRHandJointIDUtility_GetFrontJointID_mDAAB2FBD81037762DB147BA18C1381192A2A7313(L_12, NULL);
+		int32_t L_16;
+		L_16 = XRHandJointIDUtility_ToIndex_mBF5EC77C077B14029F71E64F112F37544BFD9E02(L_15, NULL);
+		V_5 = L_16;
+		goto IL_0088;
+	}
+
+IL_0066:
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:538>
+		bool L_17 = ___2_debugDrawJoints;
+		int32_t L_18 = ___3_velocityType;
+		int32_t L_19 = V_5;
+		int32_t L_20;
+		L_20 = XRHandJointIDUtility_FromIndex_m3A7C3DE3C3C5F89090C7B3B01B2E93ADC526BA2E(L_19, NULL);
+		XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783 L_21;
+		L_21 = XRHand_GetJoint_mDD5E7D4F45C9701AF8911EA4394F258CB5E68035((&___0_hand), L_20, NULL);
+		HandGameObjects_UpdateJoint_mC83C6757020AA8C0F9BCE9DB2D5AF8DFAEBD44B2(__this, L_17, L_18, L_21, (&V_3), (&V_1), (bool)1, NULL);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:536>
+		int32_t L_22 = V_5;
+		V_5 = ((int32_t)il2cpp_codegen_add(L_22, 1));
+	}
+
+IL_0088:
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:535>
+		int32_t L_23 = V_5;
+		int32_t L_24 = V_4;
+		if ((((int32_t)L_23) <= ((int32_t)L_24)))
+		{
+			goto IL_0066;
+		}
+	}
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:527>
+		int32_t L_25 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_25, 1));
+	}
+
+IL_0092:
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:526>
+		int32_t L_26 = V_2;
+		if ((((int32_t)L_26) <= ((int32_t)4)))
+		{
+			goto IL_0041;
+		}
+	}
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:541>
+		return;
+	}
+}
+// Method Definition Index: 131256
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandGameObjects_UpdateJoint_mC83C6757020AA8C0F9BCE9DB2D5AF8DFAEBD44B2 (HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F* __this, bool ___0_debugDrawJoints, int32_t ___1_velocityType, XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783 ___2_joint, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* ___3_parentPose, int32_t* ___4_parentIndex, bool ___5_cacheParentPose, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_TryGetComponent_TisLineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D_m919DC9D848A0522F28DB3039F8C2F06147A76AFC_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* V_2 = NULL;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:551>
+		int32_t L_0;
+		L_0 = XRHandJoint_get_id_m22F4DAECB98383D196AA9549A8682B73270AB394((&___2_joint), NULL);
+		if (L_0)
+		{
+			goto IL_000a;
+		}
+	}
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:552>
+		return;
+	}
+
+IL_000a:
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:554>
+		int32_t L_1;
+		L_1 = XRHandJoint_get_id_m22F4DAECB98383D196AA9549A8682B73270AB394((&___2_joint), NULL);
+		int32_t L_2;
+		L_2 = XRHandJointIDUtility_ToIndex_mBF5EC77C077B14029F71E64F112F37544BFD9E02(L_1, NULL);
+		V_0 = L_2;
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:555>
+		JointVisualizerU5BU5D_tBE9067F8E5E225E6A76C5027CD08047938471342* L_3 = __this->___m_JointVisualizers;
+		int32_t L_4 = V_0;
+		NullCheck(L_3);
+		int32_t L_5 = L_4;
+		JointVisualizer_t00D07115B1B09275653E1814C92C73DF8EEABFD6* L_6 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
+		int32_t L_7;
+		L_7 = XRHandJoint_get_trackingState_mD1202D64E796D92C38FA87BD02DFBD58AF5E4696_inline((&___2_joint), NULL);
+		NullCheck(L_6);
+		JointVisualizer_NotifyTrackingState_m34E6715AEB12229493AAFC3EF5B82584610B30BC(L_6, L_7, NULL);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:557>
+		bool L_8;
+		L_8 = XRHandJoint_TryGetPose_m1AA1E69E7753E1CC4E64F8649751BF7D30CE113E((&___2_joint), (&V_1), NULL);
+		if (L_8)
+		{
+			goto IL_0037;
+		}
+	}
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:558>
+		return;
+	}
+
+IL_0037:
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:560>
+		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_9 = __this->___m_DrawJoints;
+		int32_t L_10 = V_0;
+		NullCheck(L_9);
+		int32_t L_11 = L_10;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12 = (L_9)->GetAt(static_cast<il2cpp_array_size_t>(L_11));
+		NullCheck(L_12);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_13;
+		L_13 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_12, NULL);
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_14 = V_1;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_15 = L_14.___position;
+		NullCheck(L_13);
+		Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134(L_13, L_15, NULL);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:561>
+		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_16 = __this->___m_DrawJoints;
+		int32_t L_17 = V_0;
+		NullCheck(L_16);
+		int32_t L_18 = L_17;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_19 = (L_16)->GetAt(static_cast<il2cpp_array_size_t>(L_18));
+		NullCheck(L_19);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_20;
+		L_20 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_19, NULL);
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_21 = V_1;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_22 = L_21.___rotation;
+		NullCheck(L_20);
+		Transform_set_localRotation_mAB4A011D134BA58AB780BECC0025CA65F16185FA(L_20, L_22, NULL);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:563>
+		bool L_23 = ___0_debugDrawJoints;
+		if (!L_23)
+		{
+			goto IL_00c2;
+		}
+	}
+	{
+		int32_t L_24;
+		L_24 = XRHandJoint_get_id_m22F4DAECB98383D196AA9549A8682B73270AB394((&___2_joint), NULL);
+		if ((((int32_t)L_24) == ((int32_t)1)))
+		{
+			goto IL_00c2;
+		}
+	}
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:565>
+		il2cpp_codegen_runtime_class_init_inline(HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F_il2cpp_TypeInfo_var);
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_25 = ((HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F_StaticFields*)il2cpp_codegen_static_fields_for(HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F_il2cpp_TypeInfo_var))->___s_LinePointsReuse;
+		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_26 = __this->___m_DrawJoints;
+		int32_t* L_27 = ___4_parentIndex;
+		int32_t L_28 = *((int32_t*)L_27);
+		NullCheck(L_26);
+		int32_t L_29 = L_28;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_30 = (L_26)->GetAt(static_cast<il2cpp_array_size_t>(L_29));
+		NullCheck(L_30);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_31;
+		L_31 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_30, NULL);
+		NullCheck(L_31);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_32;
+		L_32 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_31, NULL);
+		NullCheck(L_25);
+		(L_25)->SetAt(static_cast<il2cpp_array_size_t>(0), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_32);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:566>
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_33 = ((HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F_StaticFields*)il2cpp_codegen_static_fields_for(HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F_il2cpp_TypeInfo_var))->___s_LinePointsReuse;
+		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_34 = __this->___m_DrawJoints;
+		int32_t L_35 = V_0;
+		NullCheck(L_34);
+		int32_t L_36 = L_35;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_37 = (L_34)->GetAt(static_cast<il2cpp_array_size_t>(L_36));
+		NullCheck(L_37);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_38;
+		L_38 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_37, NULL);
+		NullCheck(L_38);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_39;
+		L_39 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_38, NULL);
+		NullCheck(L_33);
+		(L_33)->SetAt(static_cast<il2cpp_array_size_t>(1), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_39);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:567>
+		LineRendererU5BU5D_t5AA0E11EC99A18A11BCCCABDF088C854E50D394A* L_40 = __this->___m_Lines;
+		int32_t L_41 = V_0;
+		NullCheck(L_40);
+		int32_t L_42 = L_41;
+		LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* L_43 = (L_40)->GetAt(static_cast<il2cpp_array_size_t>(L_42));
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_44 = ((HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F_StaticFields*)il2cpp_codegen_static_fields_for(HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F_il2cpp_TypeInfo_var))->___s_LinePointsReuse;
+		NullCheck(L_43);
+		LineRenderer_SetPositions_m7F7B7B54428437D0BF5256D4C82F92180B577B02(L_43, L_44, NULL);
+	}
+
+IL_00c2:
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:570>
+		bool L_45 = ___5_cacheParentPose;
+		if (!L_45)
+		{
+			goto IL_00d2;
+		}
+	}
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:572>
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_46 = ___3_parentPose;
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_47 = V_1;
+		*(Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971*)L_46 = L_47;
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:573>
+		int32_t* L_48 = ___4_parentIndex;
+		int32_t L_49 = V_0;
+		*((int32_t*)L_48) = (int32_t)L_49;
+	}
+
+IL_00d2:
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:576>
+		int32_t L_50 = ___1_velocityType;
+		if ((((int32_t)L_50) == ((int32_t)2)))
+		{
+			goto IL_01b9;
+		}
+	}
+	{
+		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_51 = __this->___m_VelocityParents;
+		int32_t L_52 = V_0;
+		NullCheck(L_51);
+		int32_t L_53 = L_52;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_54 = (L_51)->GetAt(static_cast<il2cpp_array_size_t>(L_53));
+		NullCheck(L_54);
+		bool L_55;
+		L_55 = GameObject_TryGetComponent_TisLineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D_m919DC9D848A0522F28DB3039F8C2F06147A76AFC(L_54, (&V_2), GameObject_TryGetComponent_TisLineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D_m919DC9D848A0522F28DB3039F8C2F06147A76AFC_RuntimeMethod_var);
+		if (!L_55)
+		{
+			goto IL_01b9;
+		}
+	}
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:578>
+		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_56 = __this->___m_VelocityParents;
+		int32_t L_57 = V_0;
+		NullCheck(L_56);
+		int32_t L_58 = L_57;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_59 = (L_56)->GetAt(static_cast<il2cpp_array_size_t>(L_58));
+		NullCheck(L_59);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_60;
+		L_60 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_59, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_61;
+		L_61 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
+		NullCheck(L_60);
+		Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134(L_60, L_61, NULL);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:579>
+		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_62 = __this->___m_VelocityParents;
+		int32_t L_63 = V_0;
+		NullCheck(L_62);
+		int32_t L_64 = L_63;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_65 = (L_62)->GetAt(static_cast<il2cpp_array_size_t>(L_64));
+		NullCheck(L_65);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_66;
+		L_66 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_65, NULL);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_67;
+		L_67 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
+		NullCheck(L_66);
+		Transform_set_localRotation_mAB4A011D134BA58AB780BECC0025CA65F16185FA(L_66, L_67, NULL);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:581>
+		il2cpp_codegen_runtime_class_init_inline(HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F_il2cpp_TypeInfo_var);
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_68 = ((HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F_StaticFields*)il2cpp_codegen_static_fields_for(HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F_il2cpp_TypeInfo_var))->___s_LinePointsReuse;
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_69 = ((HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F_StaticFields*)il2cpp_codegen_static_fields_for(HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F_il2cpp_TypeInfo_var))->___s_LinePointsReuse;
+		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_70 = __this->___m_VelocityParents;
+		int32_t L_71 = V_0;
+		NullCheck(L_70);
+		int32_t L_72 = L_71;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_73 = (L_70)->GetAt(static_cast<il2cpp_array_size_t>(L_72));
+		NullCheck(L_73);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_74;
+		L_74 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_73, NULL);
+		NullCheck(L_74);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_75;
+		L_75 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_74, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_76 = L_75;
+		V_3 = L_76;
+		NullCheck(L_69);
+		(L_69)->SetAt(static_cast<il2cpp_array_size_t>(1), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_76);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_77 = V_3;
+		NullCheck(L_68);
+		(L_68)->SetAt(static_cast<il2cpp_array_size_t>(0), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_77);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:582>
+		int32_t L_78 = ___1_velocityType;
+		if (L_78)
+		{
+			goto IL_0173;
+		}
+	}
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:584>
+		bool L_79;
+		L_79 = XRHandJoint_TryGetLinearVelocity_m3BC24DBDEB210B51568D21317B1B3574A6B57F6B((&___2_joint), (&V_4), NULL);
+		if (!L_79)
+		{
+			goto IL_01ae;
+		}
+	}
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:585>
+		il2cpp_codegen_runtime_class_init_inline(HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F_il2cpp_TypeInfo_var);
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_80 = ((HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F_StaticFields*)il2cpp_codegen_static_fields_for(HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F_il2cpp_TypeInfo_var))->___s_LinePointsReuse;
+		NullCheck(L_80);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_81 = ((L_80)->GetAddressAt(static_cast<il2cpp_array_size_t>(1)));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_82 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_81);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_83 = V_4;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_84;
+		L_84 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_82, L_83, NULL);
+		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_81 = L_84;
+		goto IL_01ae;
+	}
+
+IL_0173:
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:587>
+		int32_t L_85 = ___1_velocityType;
+		if ((!(((uint32_t)L_85) == ((uint32_t)1))))
+		{
+			goto IL_01ae;
+		}
+	}
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:589>
+		bool L_86;
+		L_86 = XRHandJoint_TryGetAngularVelocity_mA486ED68AE5883EC4EE22A4403457E5F3F64CF63((&___2_joint), (&V_5), NULL);
+		if (!L_86)
+		{
+			goto IL_01ae;
+		}
+	}
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:590>
+		il2cpp_codegen_runtime_class_init_inline(HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F_il2cpp_TypeInfo_var);
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_87 = ((HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F_StaticFields*)il2cpp_codegen_static_fields_for(HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F_il2cpp_TypeInfo_var))->___s_LinePointsReuse;
+		NullCheck(L_87);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_88 = ((L_87)->GetAddressAt(static_cast<il2cpp_array_size_t>(1)));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_89 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_88);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_90;
+		L_90 = Vector3_get_normalized_m736BBF65D5CDA7A18414370D15B4DFCC1E466F07_inline((&V_5), NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_91;
+		L_91 = Vector3_op_Multiply_m7F3B0FA9256CE368D7636558EFEFC4AB0E1A0F41_inline((0.0500000007f), L_90, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_92;
+		L_92 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_89, L_91, NULL);
+		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_88 = L_92;
+	}
+
+IL_01ae:
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:593>
+		LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* L_93 = V_2;
+		il2cpp_codegen_runtime_class_init_inline(HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F_il2cpp_TypeInfo_var);
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_94 = ((HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F_StaticFields*)il2cpp_codegen_static_fields_for(HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F_il2cpp_TypeInfo_var))->___s_LinePointsReuse;
+		NullCheck(L_93);
+		LineRenderer_SetPositions_m7F7B7B54428437D0BF5256D4C82F92180B577B02(L_93, L_94, NULL);
+	}
+
+IL_01b9:
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:595>
+		return;
+	}
+}
+// Method Definition Index: 131258
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandGameObjects__cctor_m1C6CD34AF6E59EB2BC6CED89004BCFA9FE742CDD (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:362>
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_0 = (Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)SZArrayNew(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C_il2cpp_TypeInfo_var, (uint32_t)2);
+		((HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F_StaticFields*)il2cpp_codegen_static_fields_for(HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F_il2cpp_TypeInfo_var))->___s_LinePointsReuse = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&((HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F_StaticFields*)il2cpp_codegen_static_fields_for(HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F_il2cpp_TypeInfo_var))->___s_LinePointsReuse), (void*)L_0);
+		return;
+	}
+}
+// Method Definition Index: 131259
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandGameObjects_U3C_ctorU3Eg__AssignJointU7C9_0_m7245539D5FC3F7CEBC5B6E4EBB30628DAA7DFE08 (HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F* __this, int32_t ___0_jointId, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___1_jointDrivenTransform, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___2_drawJointsParent, U3CU3Ec__DisplayClass9_0_t18EF379C550C89A38B4C15EF582D09D97B3710DD* ___3_p, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisLineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D_mE703918F1B04E115CCE78A5FF891A12648B04D75_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_TryGetComponent_TisJointVisualizer_t00D07115B1B09275653E1814C92C73DF8EEABFD6_m4E537C6050282B04C41F7DC10D42537D88D4D0D1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m10D87C6E0708CA912BBB02555BF7D0FBC5D7A2B3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRHandJointID_tC0BE8E1AC7717425649709BB62AAD56304FCC081_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	JointVisualizer_t00D07115B1B09275653E1814C92C73DF8EEABFD6* V_1 = NULL;
+	float V_2 = 0.0f;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:379>
+		int32_t L_0 = ___0_jointId;
+		int32_t L_1;
+		L_1 = XRHandJointIDUtility_ToIndex_mBF5EC77C077B14029F71E64F112F37544BFD9E02(L_0, NULL);
+		V_0 = L_1;
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:380>
+		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_2 = __this->___m_DrawJoints;
+		int32_t L_3 = V_0;
+		U3CU3Ec__DisplayClass9_0_t18EF379C550C89A38B4C15EF582D09D97B3710DD* L_4 = ___3_p;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = L_4->___debugDrawPrefab;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6;
+		L_6 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m10D87C6E0708CA912BBB02555BF7D0FBC5D7A2B3(L_5, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m10D87C6E0708CA912BBB02555BF7D0FBC5D7A2B3_RuntimeMethod_var);
+		NullCheck(L_2);
+		(L_2)->SetAt(static_cast<il2cpp_array_size_t>(L_3), (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)L_6);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:381>
+		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_7 = __this->___m_DrawJoints;
+		int32_t L_8 = V_0;
+		NullCheck(L_7);
+		int32_t L_9 = L_8;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = (L_7)->GetAt(static_cast<il2cpp_array_size_t>(L_9));
+		NullCheck(L_10);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_11;
+		L_11 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_10, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_12 = ___2_drawJointsParent;
+		NullCheck(L_11);
+		Transform_set_parent_m9BD5E563B539DD5BEC342736B03F97B38A243234(L_11, L_12, NULL);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:382>
+		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_13 = __this->___m_DrawJoints;
+		int32_t L_14 = V_0;
+		NullCheck(L_13);
+		int32_t L_15 = L_14;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_16 = (L_13)->GetAt(static_cast<il2cpp_array_size_t>(L_15));
+		Il2CppFakeBox<int32_t> L_17(XRHandJointID_tC0BE8E1AC7717425649709BB62AAD56304FCC081_il2cpp_TypeInfo_var, (&___0_jointId));
+		String_t* L_18;
+		L_18 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_17), NULL);
+		NullCheck(L_16);
+		Object_set_name_mC79E6DC8FFD72479C90F0C4CC7F42A0FEAF5AE47(L_16, L_18, NULL);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:384>
+		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_19 = __this->___m_VelocityParents;
+		int32_t L_20 = V_0;
+		U3CU3Ec__DisplayClass9_0_t18EF379C550C89A38B4C15EF582D09D97B3710DD* L_21 = ___3_p;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_22 = L_21->___velocityPrefab;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_23;
+		L_23 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m10D87C6E0708CA912BBB02555BF7D0FBC5D7A2B3(L_22, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m10D87C6E0708CA912BBB02555BF7D0FBC5D7A2B3_RuntimeMethod_var);
+		NullCheck(L_19);
+		(L_19)->SetAt(static_cast<il2cpp_array_size_t>(L_20), (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)L_23);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:385>
+		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_24 = __this->___m_VelocityParents;
+		int32_t L_25 = V_0;
+		NullCheck(L_24);
+		int32_t L_26 = L_25;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_27 = (L_24)->GetAt(static_cast<il2cpp_array_size_t>(L_26));
+		NullCheck(L_27);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_28;
+		L_28 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_27, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_29 = ___1_jointDrivenTransform;
+		NullCheck(L_28);
+		Transform_set_parent_m9BD5E563B539DD5BEC342736B03F97B38A243234(L_28, L_29, NULL);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:387>
+		LineRendererU5BU5D_t5AA0E11EC99A18A11BCCCABDF088C854E50D394A* L_30 = __this->___m_Lines;
+		int32_t L_31 = V_0;
+		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_32 = __this->___m_DrawJoints;
+		int32_t L_33 = V_0;
+		NullCheck(L_32);
+		int32_t L_34 = L_33;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_35 = (L_32)->GetAt(static_cast<il2cpp_array_size_t>(L_34));
+		NullCheck(L_35);
+		LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* L_36;
+		L_36 = GameObject_GetComponent_TisLineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D_mE703918F1B04E115CCE78A5FF891A12648B04D75(L_35, GameObject_GetComponent_TisLineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D_mE703918F1B04E115CCE78A5FF891A12648B04D75_RuntimeMethod_var);
+		NullCheck(L_30);
+		(L_30)->SetAt(static_cast<il2cpp_array_size_t>(L_31), (LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D*)L_36);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:388>
+		LineRendererU5BU5D_t5AA0E11EC99A18A11BCCCABDF088C854E50D394A* L_37 = __this->___m_Lines;
+		int32_t L_38 = V_0;
+		NullCheck(L_37);
+		int32_t L_39 = L_38;
+		LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* L_40 = (L_37)->GetAt(static_cast<il2cpp_array_size_t>(L_39));
+		LineRendererU5BU5D_t5AA0E11EC99A18A11BCCCABDF088C854E50D394A* L_41 = __this->___m_Lines;
+		int32_t L_42 = V_0;
+		NullCheck(L_41);
+		int32_t L_43 = L_42;
+		LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* L_44 = (L_41)->GetAt(static_cast<il2cpp_array_size_t>(L_43));
+		float L_45 = (0.00499999989f);
+		V_2 = L_45;
+		NullCheck(L_44);
+		LineRenderer_set_endWidth_mC7260401655C8BE1CBDFB832009295C89613F81D(L_44, L_45, NULL);
+		float L_46 = V_2;
+		NullCheck(L_40);
+		LineRenderer_set_startWidth_m3899722E198D636DB216CB61C980214707069F4A(L_40, L_46, NULL);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:389>
+		il2cpp_codegen_runtime_class_init_inline(HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F_il2cpp_TypeInfo_var);
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_47 = ((HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F_StaticFields*)il2cpp_codegen_static_fields_for(HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F_il2cpp_TypeInfo_var))->___s_LinePointsReuse;
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_48 = ((HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F_StaticFields*)il2cpp_codegen_static_fields_for(HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F_il2cpp_TypeInfo_var))->___s_LinePointsReuse;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_49 = ___1_jointDrivenTransform;
+		NullCheck(L_49);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_50;
+		L_50 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_49, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_51 = L_50;
+		V_3 = L_51;
+		NullCheck(L_48);
+		(L_48)->SetAt(static_cast<il2cpp_array_size_t>(1), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_51);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_52 = V_3;
+		NullCheck(L_47);
+		(L_47)->SetAt(static_cast<il2cpp_array_size_t>(0), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_52);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:390>
+		LineRendererU5BU5D_t5AA0E11EC99A18A11BCCCABDF088C854E50D394A* L_53 = __this->___m_Lines;
+		int32_t L_54 = V_0;
+		NullCheck(L_53);
+		int32_t L_55 = L_54;
+		LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* L_56 = (L_53)->GetAt(static_cast<il2cpp_array_size_t>(L_55));
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_57 = ((HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F_StaticFields*)il2cpp_codegen_static_fields_for(HandGameObjects_t0E397BC6AC8B28ACD270CF428DF64801DF1AD26F_il2cpp_TypeInfo_var))->___s_LinePointsReuse;
+		NullCheck(L_56);
+		LineRenderer_SetPositions_m7F7B7B54428437D0BF5256D4C82F92180B577B02(L_56, L_57, NULL);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:392>
+		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_58 = __this->___m_DrawJoints;
+		int32_t L_59 = V_0;
+		NullCheck(L_58);
+		int32_t L_60 = L_59;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_61 = (L_58)->GetAt(static_cast<il2cpp_array_size_t>(L_60));
+		NullCheck(L_61);
+		bool L_62;
+		L_62 = GameObject_TryGetComponent_TisJointVisualizer_t00D07115B1B09275653E1814C92C73DF8EEABFD6_m4E537C6050282B04C41F7DC10D42537D88D4D0D1(L_61, (&V_1), GameObject_TryGetComponent_TisJointVisualizer_t00D07115B1B09275653E1814C92C73DF8EEABFD6_m4E537C6050282B04C41F7DC10D42537D88D4D0D1_RuntimeMethod_var);
+		if (!L_62)
+		{
+			goto IL_00f1;
+		}
+	}
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:393>
+		JointVisualizerU5BU5D_tBE9067F8E5E225E6A76C5027CD08047938471342* L_63 = __this->___m_JointVisualizers;
+		int32_t L_64 = V_0;
+		JointVisualizer_t00D07115B1B09275653E1814C92C73DF8EEABFD6* L_65 = V_1;
+		NullCheck(L_63);
+		ArrayElementTypeCheck (L_63, L_65);
+		(L_63)->SetAt(static_cast<il2cpp_array_size_t>(L_64), (JointVisualizer_t00D07115B1B09275653E1814C92C73DF8EEABFD6*)L_65);
+	}
+
+IL_00f1:
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/HandVisualizer.cs:394>
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 131260
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JointVisualizer_NotifyTrackingState_m34E6715AEB12229493AAFC3EF5B82584610B30BC (JointVisualizer_t00D07115B1B09275653E1814C92C73DF8EEABFD6* __this, int32_t ___0_jointTrackingState, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* G_B4_0 = NULL;
+	Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* G_B3_0 = NULL;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* G_B5_0 = NULL;
+	Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* G_B5_1 = NULL;
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/JointVisualizer.cs:23>
+		int32_t L_0 = ___0_jointTrackingState;
+		V_0 = (bool)((((int32_t)((int32_t)((int32_t)L_0&((int32_t)32)))) == ((int32_t)((int32_t)32)))? 1 : 0);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/JointVisualizer.cs:24>
+		bool L_1 = __this->___m_HighFidelityJoint;
+		bool L_2 = V_0;
+		if ((!(((uint32_t)L_1) == ((uint32_t)L_2))))
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/JointVisualizer.cs:25>
+		return;
+	}
+
+IL_0013:
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/JointVisualizer.cs:27>
+		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_3 = __this->___m_JointRenderer;
+		bool L_4 = V_0;
+		if (L_4)
+		{
+			G_B4_0 = L_3;
+			goto IL_0024;
+		}
+		G_B3_0 = L_3;
+	}
+	{
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_5 = __this->___m_LowFidelityJointMaterial;
+		G_B5_0 = L_5;
+		G_B5_1 = G_B3_0;
+		goto IL_002a;
+	}
+
+IL_0024:
+	{
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_6 = __this->___m_HighFidelityJointMaterial;
+		G_B5_0 = L_6;
+		G_B5_1 = G_B4_0;
+	}
+
+IL_002a:
+	{
+		NullCheck(G_B5_1);
+		Renderer_set_material_m21E88977071E0A914D62F3D9CFF0193B3117C45A(G_B5_1, G_B5_0, NULL);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/JointVisualizer.cs:29>
+		bool L_7 = V_0;
+		__this->___m_HighFidelityJoint = L_7;
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/JointVisualizer.cs:30>
+		return;
+	}
+}
+// Method Definition Index: 131261
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JointVisualizer_Start_mE04F86E1E635C532E26CD3A587B2147A5D86189D (JointVisualizer_t00D07115B1B09275653E1814C92C73DF8EEABFD6* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_TryGetComponent_TisRenderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF_m94C50070B14D12C76D11D93CEFD1902642A8BB79_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* V_0 = NULL;
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/JointVisualizer.cs:34>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___m_JointVisual;
+		NullCheck(L_0);
+		bool L_1;
+		L_1 = GameObject_TryGetComponent_TisRenderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF_m94C50070B14D12C76D11D93CEFD1902642A8BB79(L_0, (&V_0), GameObject_TryGetComponent_TisRenderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF_m94C50070B14D12C76D11D93CEFD1902642A8BB79_RuntimeMethod_var);
+		if (!L_1)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/JointVisualizer.cs:35>
+		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_2 = V_0;
+		__this->___m_JointRenderer = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_JointRenderer), (void*)L_2);
+	}
+
+IL_0016:
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/JointVisualizer.cs:36>
+		return;
+	}
+}
+// Method Definition Index: 131262
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JointVisualizer__ctor_m3ED88816E3666EA78BBB50A958BAFDC6237625D4 (JointVisualizer_t00D07115B1B09275653E1814C92C73DF8EEABFD6* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 131263
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShaderContainer__ctor_m8CBFEB3864274258699B54B3629B1506E5CC91DE (ShaderContainer_t2C32A4E847EC4338A8CF5EE168E48D0E24049F52* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2620038B8A71EF21A205CC921576171A3CA9B0F4);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9B4FEEFA76B93D58B6E47CD9FF76F6E287D0D321);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/MaterialPipelineHandler.cs:45>
+		__this->___useSRPShaderName = (bool)1;
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/MaterialPipelineHandler.cs:46>
+		__this->___scriptableRenderPipelineShaderName = _stringLiteral9B4FEEFA76B93D58B6E47CD9FF76F6E287D0D321;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___scriptableRenderPipelineShaderName), (void*)_stringLiteral9B4FEEFA76B93D58B6E47CD9FF76F6E287D0D321);
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/MaterialPipelineHandler.cs:48>
+		__this->___useBuiltinShaderName = (bool)1;
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/MaterialPipelineHandler.cs:49>
+		__this->___builtInPipelineShaderName = _stringLiteral2620038B8A71EF21A205CC921576171A3CA9B0F4;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___builtInPipelineShaderName), (void*)_stringLiteral2620038B8A71EF21A205CC921576171A3CA9B0F4);
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 131264
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaterialPipelineHandler_AutoRefreshPipelineShaders_m9216145C21862E3E991665E678402FB8D4F44594 (MaterialPipelineHandler_tF073532612A2F16372CCBD89100FC0CCB47EDDDC* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/MaterialPipelineHandler.cs:80>
+		bool L_0 = __this->___m_AutoRefreshShaders;
+		if (!L_0)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/MaterialPipelineHandler.cs:81>
+		MaterialPipelineHandler_SetPipelineShaders_mC44CCA2781AD703384B2C1BB07C5E924666852F5(__this, NULL);
+	}
+
+IL_000e:
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/MaterialPipelineHandler.cs:82>
+		return;
+	}
+}
+// Method Definition Index: 131265
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaterialPipelineHandler_SetPipelineShaders_mC44CCA2781AD703384B2C1BB07C5E924666852F5 (MaterialPipelineHandler_tF073532612A2F16372CCBD89100FC0CCB47EDDDC* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_Dispose_m2A316758173D3AF217BD415516279FBE46931C17_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_MoveNext_m9FB5C17BEA2305D525582DF38C21BE94ABE5D326_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_get_Current_m04EA4373946F8720DED1255002B9C83EA0ABB7EB_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GraphicsSettings_t01785CE5CB5C5105CB527619AF4D74BEF417EF1A_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_GetEnumerator_m653BD90E86DAC4C19518CC4C56AB6F3D6AB463E7_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	Enumerator_t38A231BB01943CC3CC02D92799631EF4681643E9 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	ShaderContainer_t2C32A4E847EC4338A8CF5EE168E48D0E24049F52* V_2 = NULL;
+	Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* V_3 = NULL;
+	Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* V_4 = NULL;
+	Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* V_5 = NULL;
+	Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* G_B8_0 = NULL;
+	Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* G_B11_0 = NULL;
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/MaterialPipelineHandler.cs:89>
+		List_1_t80AF51D5D3B90164EF2016D606DCD0ECAA4DC406* L_0 = __this->___m_ShaderContainers;
+		if (L_0)
+		{
+			goto IL_0009;
+		}
+	}
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/MaterialPipelineHandler.cs:90>
+		return;
+	}
+
+IL_0009:
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/MaterialPipelineHandler.cs:92>
+		il2cpp_codegen_runtime_class_init_inline(GraphicsSettings_t01785CE5CB5C5105CB527619AF4D74BEF417EF1A_il2cpp_TypeInfo_var);
+		RenderPipelineAsset_t5F9BF815BF931E1314B184E7F9070FB649C7054E* L_1;
+		L_1 = GraphicsSettings_get_currentRenderPipeline_mEC94DC23DE4F901D6A629E2DE882982686AF75F1(NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_2;
+		L_2 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_1, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		V_0 = L_2;
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/MaterialPipelineHandler.cs:94>
+		List_1_t80AF51D5D3B90164EF2016D606DCD0ECAA4DC406* L_3 = __this->___m_ShaderContainers;
+		NullCheck(L_3);
+		Enumerator_t38A231BB01943CC3CC02D92799631EF4681643E9 L_4;
+		L_4 = List_1_GetEnumerator_m653BD90E86DAC4C19518CC4C56AB6F3D6AB463E7(L_3, List_1_GetEnumerator_m653BD90E86DAC4C19518CC4C56AB6F3D6AB463E7_RuntimeMethod_var);
+		V_1 = L_4;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_00f2:
+			{
+				Enumerator_Dispose_m2A316758173D3AF217BD415516279FBE46931C17((&V_1), Enumerator_Dispose_m2A316758173D3AF217BD415516279FBE46931C17_RuntimeMethod_var);
+				return;
+			}
+		});
+		try
+		{
+			{
+				goto IL_00e4_1;
+			}
+
+IL_0026_1:
+			{
+				//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/MaterialPipelineHandler.cs:94>
+				ShaderContainer_t2C32A4E847EC4338A8CF5EE168E48D0E24049F52* L_5;
+				L_5 = Enumerator_get_Current_m04EA4373946F8720DED1255002B9C83EA0ABB7EB_inline((&V_1), Enumerator_get_Current_m04EA4373946F8720DED1255002B9C83EA0ABB7EB_RuntimeMethod_var);
+				V_2 = L_5;
+				//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/MaterialPipelineHandler.cs:96>
+				ShaderContainer_t2C32A4E847EC4338A8CF5EE168E48D0E24049F52* L_6 = V_2;
+				NullCheck(L_6);
+				Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_7 = L_6->___material;
+				il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+				bool L_8;
+				L_8 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_7, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+				if (L_8)
+				{
+					goto IL_00e4_1;
+				}
+			}
+			{
+				//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/MaterialPipelineHandler.cs:100>
+				ShaderContainer_t2C32A4E847EC4338A8CF5EE168E48D0E24049F52* L_9 = V_2;
+				NullCheck(L_9);
+				bool L_10 = L_9->___useBuiltinShaderName;
+				if (L_10)
+				{
+					goto IL_004f_1;
+				}
+			}
+			{
+				ShaderContainer_t2C32A4E847EC4338A8CF5EE168E48D0E24049F52* L_11 = V_2;
+				NullCheck(L_11);
+				Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_12 = L_11->___builtInPipelineShader;
+				G_B8_0 = L_12;
+				goto IL_005a_1;
+			}
+
+IL_004f_1:
+			{
+				ShaderContainer_t2C32A4E847EC4338A8CF5EE168E48D0E24049F52* L_13 = V_2;
+				NullCheck(L_13);
+				String_t* L_14 = L_13->___builtInPipelineShaderName;
+				Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_15;
+				L_15 = Shader_Find_m183AA54F78320212DDEC811592F98456898A41C5(L_14, NULL);
+				G_B8_0 = L_15;
+			}
+
+IL_005a_1:
+			{
+				V_3 = G_B8_0;
+				//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/MaterialPipelineHandler.cs:101>
+				ShaderContainer_t2C32A4E847EC4338A8CF5EE168E48D0E24049F52* L_16 = V_2;
+				NullCheck(L_16);
+				bool L_17 = L_16->___useSRPShaderName;
+				if (L_17)
+				{
+					goto IL_006b_1;
+				}
+			}
+			{
+				ShaderContainer_t2C32A4E847EC4338A8CF5EE168E48D0E24049F52* L_18 = V_2;
+				NullCheck(L_18);
+				Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_19 = L_18->___scriptableRenderPipelineShader;
+				G_B11_0 = L_19;
+				goto IL_0076_1;
+			}
+
+IL_006b_1:
+			{
+				ShaderContainer_t2C32A4E847EC4338A8CF5EE168E48D0E24049F52* L_20 = V_2;
+				NullCheck(L_20);
+				String_t* L_21 = L_20->___scriptableRenderPipelineShaderName;
+				Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_22;
+				L_22 = Shader_Find_m183AA54F78320212DDEC811592F98456898A41C5(L_21, NULL);
+				G_B11_0 = L_22;
+			}
+
+IL_0076_1:
+			{
+				V_4 = G_B11_0;
+				//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/MaterialPipelineHandler.cs:104>
+				ShaderContainer_t2C32A4E847EC4338A8CF5EE168E48D0E24049F52* L_23 = V_2;
+				NullCheck(L_23);
+				Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_24 = L_23->___material;
+				NullCheck(L_24);
+				Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_25;
+				L_25 = Material_get_shader_m8B0C11AE6F2AD7DE30AF52D3195EB716F7A71983(L_24, NULL);
+				V_5 = L_25;
+				//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/MaterialPipelineHandler.cs:107>
+				bool L_26 = V_0;
+				if (!L_26)
+				{
+					goto IL_00b4_1;
+				}
+			}
+			{
+				Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_27 = V_3;
+				il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+				bool L_28;
+				L_28 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_27, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+				if (!L_28)
+				{
+					goto IL_00b4_1;
+				}
+			}
+			{
+				Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_29 = V_5;
+				Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_30 = V_3;
+				il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+				bool L_31;
+				L_31 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_29, L_30, NULL);
+				if (!L_31)
+				{
+					goto IL_00b4_1;
+				}
+			}
+			{
+				//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/MaterialPipelineHandler.cs:109>
+				ShaderContainer_t2C32A4E847EC4338A8CF5EE168E48D0E24049F52* L_32 = V_2;
+				NullCheck(L_32);
+				Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_33 = L_32->___material;
+				Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_34 = V_3;
+				NullCheck(L_33);
+				Material_set_shader_mBD3A0D9AB14DE2F7CD5F2775E9AD58E15424C171(L_33, L_34, NULL);
+				//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/MaterialPipelineHandler.cs:110>
+				ShaderContainer_t2C32A4E847EC4338A8CF5EE168E48D0E24049F52* L_35 = V_2;
+				NullCheck(L_35);
+				Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_36 = L_35->___material;
+				MaterialPipelineHandler_MarkMaterialModified_m2C07959C6249B610A28CF28C5F1DD029390AE050(L_36, NULL);
+				goto IL_00e4_1;
+			}
+
+IL_00b4_1:
+			{
+				//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/MaterialPipelineHandler.cs:112>
+				bool L_37 = V_0;
+				if (L_37)
+				{
+					goto IL_00e4_1;
+				}
+			}
+			{
+				Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_38 = V_4;
+				il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+				bool L_39;
+				L_39 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_38, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+				if (!L_39)
+				{
+					goto IL_00e4_1;
+				}
+			}
+			{
+				Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_40 = V_5;
+				Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_41 = V_4;
+				il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+				bool L_42;
+				L_42 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_40, L_41, NULL);
+				if (!L_42)
+				{
+					goto IL_00e4_1;
+				}
+			}
+			{
+				//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/MaterialPipelineHandler.cs:114>
+				ShaderContainer_t2C32A4E847EC4338A8CF5EE168E48D0E24049F52* L_43 = V_2;
+				NullCheck(L_43);
+				Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_44 = L_43->___material;
+				Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_45 = V_4;
+				NullCheck(L_44);
+				Material_set_shader_mBD3A0D9AB14DE2F7CD5F2775E9AD58E15424C171(L_44, L_45, NULL);
+				//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/MaterialPipelineHandler.cs:115>
+				ShaderContainer_t2C32A4E847EC4338A8CF5EE168E48D0E24049F52* L_46 = V_2;
+				NullCheck(L_46);
+				Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_47 = L_46->___material;
+				MaterialPipelineHandler_MarkMaterialModified_m2C07959C6249B610A28CF28C5F1DD029390AE050(L_47, NULL);
+			}
+
+IL_00e4_1:
+			{
+				//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/MaterialPipelineHandler.cs:94>
+				bool L_48;
+				L_48 = Enumerator_MoveNext_m9FB5C17BEA2305D525582DF38C21BE94ABE5D326((&V_1), Enumerator_MoveNext_m9FB5C17BEA2305D525582DF38C21BE94ABE5D326_RuntimeMethod_var);
+				if (L_48)
+				{
+					goto IL_0026_1;
+				}
+			}
+			{
+				goto IL_0100;
+			}
+		}
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_0100:
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/MaterialPipelineHandler.cs:118>
+		return;
+	}
+}
+// Method Definition Index: 131266
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaterialPipelineHandler_MarkMaterialModified_m2C07959C6249B610A28CF28C5F1DD029390AE050 (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_material, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/MaterialPipelineHandler.cs:125>
+		return;
+	}
+}
+// Method Definition Index: 131267
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaterialPipelineHandler__ctor_m436A886D41E9A66AEA28509937762223269016EF (MaterialPipelineHandler_tF073532612A2F16372CCBD89100FC0CCB47EDDDC* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/meilu/Documents/XR/tron_xr/Assets/Samples/XR Hands/1.6.1/HandVisualizer/Scripts/MaterialPipelineHandler.cs:67>
+		__this->___m_AutoRefreshShaders = (bool)1;
+		ScriptableObject__ctor_mD037FDB0B487295EA47F79A4DB1BF1846C9087FF(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+// Method Definition Index: 122502
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 XRHandSubsystem_get_leftHand_mD3B931E5129348FEE34C3965A0CF8E62A0CFFB97_inline (XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@ff73e7abcedb/Runtime/XRHandSubsystem.cs:73>
+		XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 L_0 = __this->___m_LeftHand;
+		return L_0;
+	}
+}
+// Method Definition Index: 122504
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 XRHandSubsystem_get_rightHand_mDE333FDF35460E1A06BE051AF9C2144B7053ED3C_inline (XRHandSubsystem_t0EB20D332ADF52A334449A240A3FDD6844EEA92C* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@ff73e7abcedb/Runtime/XRHandSubsystem.cs:96>
+		XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471 L_0 = __this->___m_RightHand;
+		return L_0;
+	}
+}
+// Method Definition Index: 122385
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool XRHand_get_isTracked_mDFC9D4FDE271E2DC90D5459B1A6EA304F97B7428_inline (XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@ff73e7abcedb/Runtime/XRHand.cs:52>
+		bool L_0 = __this->___U3CisTrackedU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 122383
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 XRHand_get_rootPose_m4F34E7F55AEBFD2FF7491364ADB00B27BF86F1A5_inline (XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@ff73e7abcedb/Runtime/XRHand.cs:38>
+		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971 L_0 = __this->___m_RootPose;
+		return L_0;
+	}
+}
+// Method Definition Index: 66177
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_Lerp_m3A906D0530A94FAABB94F0F905E84D99BE85C3F8_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, float ___2_t, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		float L_0 = ___2_t;
+		float L_1;
+		L_1 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(L_0, NULL);
+		___2_t = L_1;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___0_a;
+		float L_3 = L_2.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___1_b;
+		float L_5 = L_4.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___0_a;
+		float L_7 = L_6.___x;
+		float L_8 = ___2_t;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9 = ___0_a;
+		float L_10 = L_9.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11 = ___1_b;
+		float L_12 = L_11.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = ___0_a;
+		float L_14 = L_13.___y;
+		float L_15 = ___2_t;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16 = ___0_a;
+		float L_17 = L_16.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_18 = ___1_b;
+		float L_19 = L_18.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20 = ___0_a;
+		float L_21 = L_20.___z;
+		float L_22 = ___2_t;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_23;
+		memset((&L_23), 0, sizeof(L_23));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_23), ((float)il2cpp_codegen_add(L_3, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_5, L_7)), L_8)))), ((float)il2cpp_codegen_add(L_10, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_12, L_14)), L_15)))), ((float)il2cpp_codegen_add(L_17, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_19, L_21)), L_22)))), NULL);
+		V_0 = L_23;
+		goto IL_0053;
+	}
+
+IL_0053:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_24 = V_0;
+		return L_24;
+	}
+}
+// Method Definition Index: 130939
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool SubsystemWithProvider_get_running_m6BF31FC3BDA38C56C0F60FEA37767A4151B22C44_inline (SubsystemWithProvider_tC72E35EE2D413A4B0635B058154BABF265F31242* __this, const RuntimeMethod* method) 
+{
+	{
+		bool L_0 = __this->___U3CrunningU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 122384
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t XRHand_get_handedness_m87563F81CAF693404C49463EAC73DA29D517F752_inline (XRHand_t42370E2B19E7613E9C8FFA4A4B749C91FF021471* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@ff73e7abcedb/Runtime/XRHand.cs:45>
+		int32_t L_0 = __this->___m_Handedness;
+		return L_0;
+	}
+}
+// Method Definition Index: 66209
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ((Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields*)il2cpp_codegen_static_fields_for(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var))->___zeroVector;
+		V_0 = L_0;
+		goto IL_0009;
+	}
+
+IL_0009:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = V_0;
+		return L_1;
+	}
+}
+// Method Definition Index: 66244
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_0 = ((Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_StaticFields*)il2cpp_codegen_static_fields_for(Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var))->___identityQuaternion;
+		V_0 = L_0;
+		goto IL_0009;
+	}
+
+IL_0009:
+	{
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_1 = V_0;
+		return L_1;
+	}
+}
+// Method Definition Index: 122559
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XRHandTrackingEvents_set_updateType_m7AD23779101D561EAEC21BA41FD45AF39679DFA7_inline (XRHandTrackingEvents_tF1DA1153E15422968E62D8B84B99D5C00018574C* __this, int32_t ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@ff73e7abcedb/Runtime/XRHandTrackingEvents.cs:104>
+		int32_t L_0 = ___0_value;
+		__this->___m_UpdateType = L_0;
+		return;
+	}
+}
+// Method Definition Index: 122557
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XRHandTrackingEvents_set_handedness_m2CBB79E143E81785877F131703B624082DDA8622_inline (XRHandTrackingEvents_tF1DA1153E15422968E62D8B84B99D5C00018574C* __this, int32_t ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@ff73e7abcedb/Runtime/XRHandTrackingEvents.cs:93>
+		int32_t L_0 = ___0_value;
+		__this->___m_Handedness = L_0;
+		return;
+	}
+}
+// Method Definition Index: 122438
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* XRHandMeshController_get_handMeshRenderer_m0C5AC2BC5788FB733B7F0B912DE86CB093136B18_inline (XRHandMeshController_t670ADAE830016D758ED74153F39334564CD3D687* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@ff73e7abcedb/Runtime/XRHandMeshController.cs:70>
+		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_0 = __this->___m_HandMeshRenderer;
+		return L_0;
+	}
+}
+// Method Definition Index: 122456
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR List_1_t6374200280C9D4D9E197123BCF3B71CB8726B89F* XRHandSkeletonDriver_get_jointTransformReferences_m11FAA540585CB0A29A3A1EFE54CAD133545736F0_inline (XRHandSkeletonDriver_t549956F17FD2C98A8FC1C9DF04ED4218610321A9* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@ff73e7abcedb/Runtime/XRHandSkeletonDriver.cs:117>
+		List_1_t6374200280C9D4D9E197123BCF3B71CB8726B89F* L_0 = __this->___m_JointTransformReferences;
+		return L_0;
+	}
+}
+// Method Definition Index: 122452
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* JointToTransformReference_get_jointTransform_m81EAC20A1665D7F6AA85653F77AFFD9E4980AC40_inline (JointToTransformReference_t5DC7424A5741B60B0DFA15056D7F7EBF38721202* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@ff73e7abcedb/Runtime/XRHandSkeletonDriver.cs:40>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___m_JointTransform;
+		return L_0;
+	}
+}
+// Method Definition Index: 122450
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t JointToTransformReference_get_xrHandJointID_m07248164E6B8E31BA297F25AFEBA64AF30F79BF4_inline (JointToTransformReference_t5DC7424A5741B60B0DFA15056D7F7EBF38721202* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@ff73e7abcedb/Runtime/XRHandSkeletonDriver.cs:31>
+		int32_t L_0 = __this->___m_XRHandJointID;
+		return L_0;
+	}
+}
+// Method Definition Index: 122419
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t XRHandJoint_get_trackingState_mD1202D64E796D92C38FA87BD02DFBD58AF5E4696_inline (XRHandJoint_tDB955774276659AFD2294D516FC8A76A51E94783* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:./Library/PackageCache/com.unity.xr.hands@ff73e7abcedb/Runtime/XRHandJoint.cs:40>
+		int32_t L_0 = __this->___m_TrackingState;
+		return L_0;
+	}
+}
+// Method Definition Index: 66218
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
+		float L_1 = L_0.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___1_b;
+		float L_3 = L_2.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___0_a;
+		float L_5 = L_4.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___1_b;
+		float L_7 = L_6.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = ___0_a;
+		float L_9 = L_8.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = ___1_b;
+		float L_11 = L_10.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
+		memset((&L_12), 0, sizeof(L_12));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_12), ((float)il2cpp_codegen_add(L_1, L_3)), ((float)il2cpp_codegen_add(L_5, L_7)), ((float)il2cpp_codegen_add(L_9, L_11)), NULL);
+		V_0 = L_12;
+		goto IL_0030;
+	}
+
+IL_0030:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = V_0;
+		return L_13;
+	}
+}
+// Method Definition Index: 66195
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_normalized_m736BBF65D5CDA7A18414370D15B4DFCC1E466F07_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)__this);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
+		L_1 = Vector3_Normalize_mEF8349CC39674236CFC694189AFD36E31F89AC8F_inline(L_0, NULL);
+		V_0 = L_1;
+		goto IL_000f;
+	}
+
+IL_000f:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = V_0;
+		return L_2;
+	}
+}
+// Method Definition Index: 66222
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Multiply_m7F3B0FA9256CE368D7636558EFEFC4AB0E1A0F41_inline (float ___0_d, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_a, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___1_a;
+		float L_1 = L_0.___x;
+		float L_2 = ___0_d;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = ___1_a;
+		float L_4 = L_3.___y;
+		float L_5 = ___0_d;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___1_a;
+		float L_7 = L_6.___z;
+		float L_8 = ___0_d;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
+		memset((&L_9), 0, sizeof(L_9));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_9), ((float)il2cpp_codegen_multiply(L_1, L_2)), ((float)il2cpp_codegen_multiply(L_4, L_5)), ((float)il2cpp_codegen_multiply(L_7, L_8)), NULL);
+		V_0 = L_9;
+		goto IL_0021;
+	}
+
+IL_0021:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = V_0;
+		return L_10;
+	}
+}
+// Method Definition Index: 11515
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->____size;
+		return L_0;
+	}
+}
+// Method Definition Index: 11515
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m209A9B25E99DCB0C5847654EFA37FC1EFF4E782C_gshared_inline (List_1_t6374200280C9D4D9E197123BCF3B71CB8726B89F* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->____size;
+		return L_0;
+	}
+}
+// Method Definition Index: 11578
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_gshared_inline (Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->____current;
+		return L_0;
+	}
+}
+// Method Definition Index: 66316
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline (float ___0_value, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	float V_1 = 0.0f;
+	bool V_2 = false;
+	{
+		float L_0 = ___0_value;
+		V_0 = (bool)((((float)L_0) < ((float)(0.0f)))? 1 : 0);
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		V_1 = (0.0f);
+		goto IL_002d;
+	}
+
+IL_0015:
+	{
+		float L_2 = ___0_value;
+		V_2 = (bool)((((float)L_2) > ((float)(1.0f)))? 1 : 0);
+		bool L_3 = V_2;
+		if (!L_3)
+		{
+			goto IL_0029;
+		}
+	}
+	{
+		V_1 = (1.0f);
+		goto IL_002d;
+	}
+
+IL_0029:
+	{
+		float L_4 = ___0_value;
+		V_1 = L_4;
+		goto IL_002d;
+	}
+
+IL_002d:
+	{
+		float L_5 = V_1;
+		return L_5;
+	}
+}
+// Method Definition Index: 66184
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = ___0_x;
+		__this->___x = L_0;
+		float L_1 = ___1_y;
+		__this->___y = L_1;
+		float L_2 = ___2_z;
+		__this->___z = L_2;
+		return;
+	}
+}
+// Method Definition Index: 66193
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_Normalize_mEF8349CC39674236CFC694189AFD36E31F89AC8F_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	bool V_1 = false;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_value;
+		float L_1;
+		L_1 = Vector3_Magnitude_m21652D951393A3D7CE92CE40049A0E7F76544D1B_inline(L_0, NULL);
+		V_0 = L_1;
+		float L_2 = V_0;
+		V_1 = (bool)((((float)L_2) > ((float)(9.99999975E-06f)))? 1 : 0);
+		bool L_3 = V_1;
+		if (!L_3)
+		{
+			goto IL_001e;
+		}
+	}
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___0_value;
+		float L_5 = V_0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6;
+		L_6 = Vector3_op_Division_mCC6BB24E372AB96B8380D1678446EF6A8BAE13BB_inline(L_4, L_5, NULL);
+		V_2 = L_6;
+		goto IL_0026;
+	}
+
+IL_001e:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
+		L_7 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
+		V_2 = L_7;
+		goto IL_0026;
+	}
+
+IL_0026:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = V_2;
+		return L_8;
+	}
+}
+// Method Definition Index: 66203
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_Magnitude_m21652D951393A3D7CE92CE40049A0E7F76544D1B_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_vector, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_vector;
+		float L_1 = L_0.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___0_vector;
+		float L_3 = L_2.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___0_vector;
+		float L_5 = L_4.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___0_vector;
+		float L_7 = L_6.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = ___0_vector;
+		float L_9 = L_8.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = ___0_vector;
+		float L_11 = L_10.___z;
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		double L_12;
+		L_12 = sqrt(((double)((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_1, L_3)), ((float)il2cpp_codegen_multiply(L_5, L_7)))), ((float)il2cpp_codegen_multiply(L_9, L_11))))));
+		V_0 = ((float)L_12);
+		goto IL_0034;
+	}
+
+IL_0034:
+	{
+		float L_13 = V_0;
+		return L_13;
+	}
+}
+// Method Definition Index: 66223
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Division_mCC6BB24E372AB96B8380D1678446EF6A8BAE13BB_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, float ___1_d, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
+		float L_1 = L_0.___x;
+		float L_2 = ___1_d;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = ___0_a;
+		float L_4 = L_3.___y;
+		float L_5 = ___1_d;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___0_a;
+		float L_7 = L_6.___z;
+		float L_8 = ___1_d;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
+		memset((&L_9), 0, sizeof(L_9));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_9), ((float)(L_1/L_2)), ((float)(L_4/L_5)), ((float)(L_7/L_8)), NULL);
+		V_0 = L_9;
+		goto IL_0021;
+	}
+
+IL_0021:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = V_0;
+		return L_10;
+	}
+}
