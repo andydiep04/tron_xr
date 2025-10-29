@@ -206,3 +206,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DiskThrower
   diskPrefab: {fileID: 0}
   spawnPoint: {fileID: 0}
+  throwAction:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Throw
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 94d4a32a-3af7-4512-aad9-4e531874c443
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 0}
