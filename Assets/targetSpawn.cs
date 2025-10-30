@@ -5,7 +5,7 @@ public class targetSpawn : MonoBehaviour
   public GameObject targetGameObject;
   public int count = 20;
   public float radius = 2f;
-  public float minDistance = 1.0f;
+  public float minDistance = 2.0f;
   public float maxDistance = 3.0f;
   public float verticalJitter = 0.2f;
 
