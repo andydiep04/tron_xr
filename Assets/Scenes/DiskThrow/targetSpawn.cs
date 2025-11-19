@@ -38,6 +38,14 @@ public class targetSpawn : MonoBehaviour
 
 			GameObject targetObject = Instantiate(targetGameObject, spawnPos, Quaternion.identity);
 
+			// Ensure the target has a hit-color handler so it changes color when hit by the disk.
+			if (targetObject.GetComponent<TargetHitColor>() == null)
+			{
+				var thc = targetObject.AddComponent<TargetHitColor>();
+				// Use a solid red hit color for every target as requested
+				thc.hitColor = Color.red;
+			}
+
 			spawnedObjects.Add(new TargetObject { initialPosition = targetObject.transform.position, target = targetObject });
 		}
 	}
