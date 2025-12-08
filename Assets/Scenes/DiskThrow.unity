@@ -1844,6 +1844,37 @@ MonoBehaviour:
   blendDistance: 0
   weight: 1
   sharedProfile: {fileID: 11400000, guid: ca9093dcda73d44a1bd23f86c9faaecf, type: 2}
+--- !u!1 &2137609832 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4561747592446726139, guid: 44f0389ff54c747f4bd6d22d0aa8c189, type: 3}
+  m_PrefabInstance: {fileID: 9117708383622235188}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2137609836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2137609832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bcb8f493868d47f1bec95bdf687236f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DiskThrower
+  diskPrefab: {fileID: 1845726610}
+  spawnPoint: {fileID: 1830335839}
+  throwAction:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Throw
+      m_Type: 0
+      m_ExpectedControlType: Button
+      m_Id: 94d4a32a-3af7-4512-aad9-4e531874c443
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: -5982496924579745919, guid: c348712bda248c246b8c49b3db54643f, type: 3}
 --- !u!1001 &142208184621067020
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2079,7 +2110,10 @@ PrefabInstance:
     - {fileID: 5662554584172807860, guid: 44f0389ff54c747f4bd6d22d0aa8c189, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4561747592446726139, guid: 44f0389ff54c747f4bd6d22d0aa8c189, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2137609836}
   m_SourcePrefab: {fileID: 100100000, guid: 44f0389ff54c747f4bd6d22d0aa8c189, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
