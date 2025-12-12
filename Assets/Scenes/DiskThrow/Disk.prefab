@@ -85,7 +85,12 @@ PrefabInstance:
       value: tron disc
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 65702495048144492, guid: cde9ff21d259e4455960301025daec17, type: 3}
+    - {fileID: -7029948723529949830, guid: cde9ff21d259e4455960301025daec17, type: 3}
+    - {fileID: -8700617353114198275, guid: cde9ff21d259e4455960301025daec17, type: 3}
+    - {fileID: -5824510187379060028, guid: cde9ff21d259e4455960301025daec17, type: 3}
+    - {fileID: -391268320553695201, guid: cde9ff21d259e4455960301025daec17, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cde9ff21d259e4455960301025daec17, type: 3}
