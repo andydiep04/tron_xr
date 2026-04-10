@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Anchor
   - Disc
+  - Wall
   layers:
   - Default
   - TransparentFX
