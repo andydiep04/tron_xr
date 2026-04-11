@@ -9,13 +9,12 @@ public class TargetModelSwap : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (hasSwapped) return;  // Prevent double-swaps
+        if (hasSwapped) return;
 
-        if (collision.gameObject.CompareTag("Disc"))
+        if (collision.gameObject.CompareTag("Disc") || collision.gameObject.CompareTag("Staff"))
         {
             model1.SetActive(false);
             model2.SetActive(true);
-
             hasSwapped = true;
         }
     }
