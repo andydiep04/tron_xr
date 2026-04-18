@@ -11,7 +11,7 @@ public class TargetModelSwap : MonoBehaviour
     {
         if (hasSwapped) return;
 
-        if (collision.gameObject.CompareTag("Disc") || collision.gameObject.CompareTag("Staff"))
+        if (collision.gameObject.CompareTag("Disc") || collision.gameObject.CompareTag("Sword"))
         {
             model1.SetActive(false);
             model2.SetActive(true);

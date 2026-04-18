@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - Staff
+  - Disc
+  - Anchor
+  - Sword
   layers:
   - Default
   - TransparentFX
