@@ -8,6 +8,7 @@ TagManager:
   - Disc
   - Anchor
   - Sword
+  - Grenade
   layers:
   - Default
   - TransparentFX

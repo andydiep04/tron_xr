@@ -2,20 +2,38 @@ using UnityEngine;
 
 public class TargetModelSwap : MonoBehaviour
 {
-    public GameObject model1;  // tron_bits (default)
-    public GameObject model2;  // tron_bits_2 (second model)
+    public GameObject model1;  
+    public GameObject model2;  
 
     private bool hasSwapped = false;
 
-    private void OnCollisionEnter(Collision collision)
+    void Start()
+    {
+        // This forces the script to find the specific tron_bits 
+        // that are attached to THIS clone, not the master prefab.
+        if (model1 == null) model1 = transform.Find("tron_bits").gameObject;
+        if (model2 == null) model2 = transform.Find("tron_bits_2").gameObject;
+    }
+
+    public void ForceModelSwap()
     {
         if (hasSwapped) return;
 
+        // Log the name to see if all 20 are being called or just one
+        Debug.Log($"Swapping instance: {gameObject.name} at {transform.position}");
+
+        if (model1 != null) model1.SetActive(false);
+        if (model2 != null) model2.SetActive(true);
+        
+        hasSwapped = true;
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        // Cleaned up as requested
         if (collision.gameObject.CompareTag("Disc") || collision.gameObject.CompareTag("Sword"))
         {
-            model1.SetActive(false);
-            model2.SetActive(true);
-            hasSwapped = true;
+            ForceModelSwap();
         }
     }
 }
