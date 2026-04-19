@@ -55,6 +55,7 @@ public class DiskThrower : MonoBehaviour {
           Mathf.Clamp(diskRb.linearVelocity.magnitude * 2f, 2f, 50f);
       diskRb.angularVelocity = currentDisk.transform.up * spinSpeed;
 
+      Destroy(currentDisk, 3f);
       currentDisk = null;
     }
   }

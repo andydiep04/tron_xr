@@ -9,6 +9,7 @@ TagManager:
   - Anchor
   - Sword
   - Grenade
+  - Bit
   layers:
   - Default
   - TransparentFX

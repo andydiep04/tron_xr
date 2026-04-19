@@ -21,23 +21,6 @@ public class AresGrenade : MonoBehaviour
 
     public void Explode()
     {
-        // // 1. NORMALIZE THE SCALE FOR DEBUGGING
-        // GameObject debugSphere = GameObject.CreatePrimitive(PrimitiveType.Sphere);
-        // debugSphere.transform.position = transform.position;
-        
-        // // We set the scale to a fixed world size, ignoring parent scaling
-        // float visualSize = explosionRadius * 2f;
-        // debugSphere.transform.localScale = new Vector3(visualSize, visualSize, visualSize);
-        
-        // // If the grenade is a child of a Scale 7 hand, we need to un-parent it 
-        // // immediately so it doesn't inherit that scale
-        // debugSphere.transform.SetParent(null);
-
-        // Renderer debugRent = debugSphere.GetComponent<Renderer>();
-        // debugRent.material.color = new Color(1, 0, 0, 0.4f);
-        // Destroy(debugSphere.GetComponent<Collider>()); 
-        // Destroy(debugSphere, 1.5f);
-
         if (explosionVFX != null)
         {
             // Un-parent VFX too so it doesn't look stretched by the Scale 7 hand
@@ -63,6 +46,7 @@ public class AresGrenade : MonoBehaviour
             }
         }
         
+        DrawVFXSphere(transform.position);
         Destroy(gameObject);
     }
 
@@ -76,5 +60,25 @@ public class AresGrenade : MonoBehaviour
             // We call the function on THIS specific instance only
             swapper.ForceModelSwap();
         }
+    }
+
+    public void DrawVFXSphere(Vector3 center) {
+        GameObject visuals = GameObject.CreatePrimitive(PrimitiveType.Sphere);
+        
+        // CRITICAL: Destroy the collider IMMEDIATELY to stop the infinite loop
+        if (visuals.TryGetComponent<Collider>(out var col)) {
+            Destroy(col); 
+        }
+
+        visuals.transform.position = center;
+        visuals.transform.localScale = Vector3.one * (explosionRadius * 2);
+        
+        Renderer rend = visuals.GetComponent<Renderer>();
+        // Note: "Lines/Colored Blended" is an internal Unity shader. 
+        // If it's still invisible, use Shader.Find("Sprites/Default")
+        rend.material = new Material(Shader.Find("Sprites/Default"));
+        rend.material.color = new Color(1, 0, 0, 0.2f);
+        
+        Destroy(visuals, 1.0f); 
     }
 }
