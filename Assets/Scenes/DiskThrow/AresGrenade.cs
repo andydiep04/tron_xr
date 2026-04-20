@@ -47,6 +47,21 @@ public class AresGrenade : MonoBehaviour
         }
         
         DrawVFXSphere(transform.position);
+
+        // 2. WALL DESTRUCTION LOGIC
+        // Find the manager in the scene
+        DestructibleGlobalMeshManager wallManager = FindFirstObjectByType<DestructibleGlobalMeshManager>();
+
+        if (wallManager != null) {
+            // Find all colliders in the explosion radius
+            Collider[] wallHits = Physics.OverlapSphere(transform.position, explosionRadius);
+            foreach (var hit in wallHits) {
+                // Check if the thing we hit is a segment of the destructible mesh
+                // (The manager setup adds MeshColliders to these segments)
+                wallManager.DestroyMeshSegment(hit.gameObject);
+            }
+        }
+
         Destroy(gameObject);
     }
 
