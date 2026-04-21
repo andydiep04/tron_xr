@@ -1010,6 +1010,7 @@ GameObject:
   - component: {fileID: 422367367}
   - component: {fileID: 422367370}
   - component: {fileID: 422367371}
+  - component: {fileID: 422367372}
   m_Layer: 0
   m_Name: Target Game Object
   m_TagString: Untagged
@@ -1118,6 +1119,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::TargetModelSwap
   model1: {fileID: 2033360611}
   model2: {fileID: 919132148809981387}
+--- !u!114 &422367372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 422367365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2505dc954cadeb6429e27e9b43c801de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TargetHitColor
+  hitColor: {r: 1, g: 0, b: 0, a: 1}
+  duration: 1
 --- !u!1 &483353398 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7702054366322175108, guid: 28327f85397344c4fa67505baa05647d, type: 3}
@@ -1205,7 +1220,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
   score: 0
-  isPaused: 1
+  isPaused: 0
   menuAction:
     m_UseReference: 0
     m_Action:
