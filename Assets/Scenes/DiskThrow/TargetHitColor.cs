@@ -7,7 +7,7 @@ public class TargetHitColor : MonoBehaviour
 
     private Renderer rend;
     private Color originalColor;
-    private bool isFlashing = false;
+    private bool hasBeenScored = false;
 
     void Awake()
     {
@@ -16,43 +16,51 @@ public class TargetHitColor : MonoBehaviour
         {
             originalColor = rend.material.color;
         }
-        Debug.Log("[TargetHitColor] Initialized on: " + gameObject.name);
     }
 
     void OnCollisionEnter(Collision other)
     {
         if (other == null) return;
-        Debug.Log("[TargetHitColor] COLLISION with: " + other.gameObject.name + " | Tag: " + other.gameObject.tag);
+        if (Time.timeSinceLevelLoad < 1f) return;
         if (OtherIsDisk(other.gameObject))
         {
-            Debug.Log("[TargetHitColor] DISK HIT detected via collision!");
-            StopAllCoroutines();
-            StartCoroutine(FlashColor());
-            ReportHit();
+            Debug.Log("[TargetHitColor] DISK HIT via collision on: " + gameObject.name);
+            HandleHit();
         }
     }
 
     void OnTriggerEnter(Collider other)
     {
         if (other == null) return;
-        Debug.Log("[TargetHitColor] TRIGGER with: " + other.gameObject.name + " | Tag: " + other.gameObject.tag);
+        if (Time.timeSinceLevelLoad < 1f) return;
         if (OtherIsDisk(other.gameObject))
         {
-            Debug.Log("[TargetHitColor] DISK HIT detected via trigger!");
-            StopAllCoroutines();
-            StartCoroutine(FlashColor());
+            Debug.Log("[TargetHitColor] DISK HIT via trigger on: " + gameObject.name);
+            HandleHit();
+        }
+    }
+
+    private void HandleHit()
+    {
+        StopAllCoroutines();
+        StartCoroutine(FlashColor());
+
+        if (!hasBeenScored)
+        {
+            hasBeenScored = true;
             ReportHit();
+        }
+        else
+        {
+            Debug.Log("[TargetHitColor] Already scored this target, no extra point.");
         }
     }
 
     private bool OtherIsDisk(GameObject go)
     {
         if (go == null) return false;
-        // Check by component first (most reliable)
         if (go.GetComponent<DiskPhysics>() != null) return true;
-        // Check parent too in case collider is on child
         if (go.GetComponentInParent<DiskPhysics>() != null) return true;
-        // Fallback: check both tag spellings
         if (go.CompareTag("Disk") || go.CompareTag("Disc")) return true;
         return false;
     }
@@ -65,13 +73,12 @@ public class TargetHitColor : MonoBehaviour
         }
         else
         {
-            Debug.LogError("[TargetHitColor] GameManager.Instance is NULL! Score not counted.");
+            Debug.LogError("[TargetHitColor] GameManager.Instance is NULL!");
         }
     }
 
     private System.Collections.IEnumerator FlashColor()
     {
-        isFlashing = true;
         if (rend != null)
         {
             rend.material.color = hitColor;
@@ -81,6 +88,5 @@ public class TargetHitColor : MonoBehaviour
         {
             rend.material.color = originalColor;
         }
-        isFlashing = false;
     }
 }

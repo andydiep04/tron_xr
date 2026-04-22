@@ -43,11 +43,17 @@ public class targetSpawn : MonoBehaviour
 				targetObject.AddComponent<TargetModelSwap>();
 			}
 
-			// Ensure TargetHitColor is on every spawned target
 			if (targetObject.GetComponent<TargetHitColor>() == null)
 			{
 				targetObject.AddComponent<TargetHitColor>();
-				Debug.Log("[targetSpawn] Added TargetHitColor to spawned target.");
+			}
+
+			// Force each new target to start as red/spiky (model1 on, model2 off)
+			TargetModelSwap swap = targetObject.GetComponent<TargetModelSwap>();
+			if (swap != null)
+			{
+				if (swap.model1 != null) swap.model1.SetActive(true);
+				if (swap.model2 != null) swap.model2.SetActive(false);
 			}
 
 			spawnedObjects.Add(new TargetObject
@@ -56,17 +62,30 @@ public class targetSpawn : MonoBehaviour
 				target = targetObject
 			});
 		}
-		Debug.Log("[targetSpawn] Spawned " + count + " targets.");
 	}
 
 	public void ResetTargets()
 	{
+		// Destroy existing targets
 		foreach (var obj in spawnedObjects)
 		{
 			if (obj.target != null)
 				Destroy(obj.target);
 		}
 		spawnedObjects.Clear();
+
+		// Reset the template back to red/spiky in case it was hit during gameplay
+		if (targetGameObject != null)
+		{
+			TargetModelSwap templateSwap = targetGameObject.GetComponent<TargetModelSwap>();
+			if (templateSwap != null)
+			{
+				if (templateSwap.model1 != null) templateSwap.model1.SetActive(true);
+				if (templateSwap.model2 != null) templateSwap.model2.SetActive(false);
+			}
+		}
+
+		// Spawn fresh targets
 		SpawnTargets();
 	}
 

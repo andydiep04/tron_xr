@@ -1241,6 +1241,26 @@ MonoBehaviour:
         m_Flags: 0
       m_Flags: 0
     m_Reference: {fileID: 0}
+  resetAction:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Reset
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: f50fa400-edbe-42fe-8de5-547e8a4441ec
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings:
+      - m_Name: 
+        m_Id: 7c019ce9-b540-4c32-b7ea-04e45a0a54cc
+        m_Path: <XRController>{LeftHand}/{PrimaryButton}
+        m_Interactions: 
+        m_Processors: 
+        m_Groups: 
+        m_Action: Reset
+        m_Flags: 0
+      m_Flags: 0
+    m_Reference: {fileID: 0}
   targetSpawner: {fileID: 1664390265}
 --- !u!4 &491373274
 Transform:
@@ -1667,8 +1687,6 @@ MonoBehaviour:
   scoreText: {fileID: 1077869927}
   scoreOffset: {x: 0, y: -0.15, z: 0.5}
   pauseCanvas: {fileID: 2083375851}
-  resumeButton: {fileID: 331523716}
-  resetButton: {fileID: 1319171439}
   pauseMenuOffset: {x: 0, y: 0, z: 0.8}
 --- !u!4 &1187952013
 Transform:
