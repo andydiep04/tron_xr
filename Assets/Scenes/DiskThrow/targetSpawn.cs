@@ -1,7 +1,6 @@
 using UnityEngine;
 using System.Collections.Generic;
 
-// Represents a cube
 public class TargetObject
 {
 	public Vector3 initialPosition;
@@ -9,7 +8,6 @@ public class TargetObject
 	public float timingOffset = Random.Range(0, 2f * Mathf.PI);
 }
 
-// Me gluing stuff with unity
 public class targetSpawn : MonoBehaviour
 {
 	public GameObject targetGameObject;
@@ -26,10 +24,6 @@ public class targetSpawn : MonoBehaviour
 		SpawnTargets();
 	}
 
-	/// <summary>
-	/// Spawns all targets around the player. Extracted from Start()
-	/// so it can be called again on reset.
-	/// </summary>
 	public void SpawnTargets()
 	{
 		Transform playerHead = Camera.main.transform;
@@ -49,29 +43,30 @@ public class targetSpawn : MonoBehaviour
 				targetObject.AddComponent<TargetModelSwap>();
 			}
 
+			// Ensure TargetHitColor is on every spawned target
+			if (targetObject.GetComponent<TargetHitColor>() == null)
+			{
+				targetObject.AddComponent<TargetHitColor>();
+				Debug.Log("[targetSpawn] Added TargetHitColor to spawned target.");
+			}
+
 			spawnedObjects.Add(new TargetObject
 			{
 				initialPosition = targetObject.transform.position,
 				target = targetObject
 			});
 		}
+		Debug.Log("[targetSpawn] Spawned " + count + " targets.");
 	}
 
-	/// <summary>
-	/// Destroys all current targets and respawns fresh ones.
-	/// Called by GameManager.ResetGame().
-	/// </summary>
 	public void ResetTargets()
 	{
-		// Destroy all existing targets
 		foreach (var obj in spawnedObjects)
 		{
 			if (obj.target != null)
 				Destroy(obj.target);
 		}
 		spawnedObjects.Clear();
-
-		// Spawn new targets
 		SpawnTargets();
 	}
 

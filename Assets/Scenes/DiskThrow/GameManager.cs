@@ -1,10 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-/// <summary>
-/// Central game manager handling score, pause, and reset.
-/// Attach to an empty GameObject in the scene called "GameManager".
-/// </summary>
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
@@ -21,53 +17,72 @@ public class GameManager : MonoBehaviour
     [Header("References - Drag targetSpawn object here")]
     public targetSpawn targetSpawner;
 
-    // Events that the UI listens to
     public System.Action<int> OnScoreChanged;
     public System.Action<bool> OnPauseToggled;
 
     void Awake()
     {
         if (Instance == null)
+        {
             Instance = this;
+            Debug.Log("[GameManager] Instance created.");
+        }
         else
+        {
             Destroy(gameObject);
+        }
+    }
+
+    void Start()
+    {
+        // Force start unpaused regardless of Inspector checkbox
+        isPaused = false;
+        Time.timeScale = 1f;
+
+        // Enable the input action so it actually receives input
+        if (menuAction.action != null)
+        {
+            menuAction.action.Enable();
+            Debug.Log("[GameManager] Menu action enabled.");
+        }
+        else
+        {
+            Debug.LogError("[GameManager] ERROR: Menu action is NULL! Pause won't work.");
+        }
+
+        if (targetSpawner == null)
+        {
+            Debug.LogError("[GameManager] ERROR: Target Spawner not assigned!");
+        }
     }
 
     void Update()
     {
-        // Toggle pause when menu button is pressed
         if (menuAction.action != null && menuAction.action.WasPressedThisFrame())
         {
+            Debug.Log("[GameManager] MENU BUTTON PRESSED - toggling pause");
             TogglePause();
         }
     }
 
-    /// <summary>
-    /// Called by TargetHitColor when a disk hits a target.
-    /// </summary>
     public void AddScore(int points = 1)
     {
         score += points;
+        Debug.Log("[GameManager] HIT! Score is now: " + score);
         OnScoreChanged?.Invoke(score);
     }
 
-    /// <summary>
-    /// Toggles pause on/off. Freezes all physics and movement via timeScale.
-    /// </summary>
     public void TogglePause()
     {
         isPaused = !isPaused;
         Time.timeScale = isPaused ? 0f : 1f;
+        Debug.Log("[GameManager] Paused = " + isPaused);
         OnPauseToggled?.Invoke(isPaused);
     }
 
-    /// <summary>
-    /// Resets the entire game session: score, disks, and targets.
-    /// Called by the Reset button in the pause menu.
-    /// </summary>
     public void ResetGame()
     {
-        // Unpause first if paused
+        Debug.Log("[GameManager] RESET");
         if (isPaused)
         {
             isPaused = false;
@@ -75,18 +90,15 @@ public class GameManager : MonoBehaviour
             OnPauseToggled?.Invoke(false);
         }
 
-        // Reset score
         score = 0;
         OnScoreChanged?.Invoke(score);
 
-        // Destroy all flying disks in the scene
         DiskPhysics[] disks = FindObjectsByType<DiskPhysics>(FindObjectsSortMode.None);
         foreach (var disk in disks)
         {
             Destroy(disk.gameObject);
         }
 
-        // Respawn all targets
         if (targetSpawner != null)
         {
             targetSpawner.ResetTargets();

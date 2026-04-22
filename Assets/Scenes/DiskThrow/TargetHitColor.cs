@@ -1,7 +1,5 @@
 using UnityEngine;
 
-// Changes the target's color when hit by the disk, then reverts after a delay.
-// NOW ALSO: Reports hits to GameManager for score tracking.
 public class TargetHitColor : MonoBehaviour
 {
     public Color hitColor = Color.red;
@@ -18,46 +16,56 @@ public class TargetHitColor : MonoBehaviour
         {
             originalColor = rend.material.color;
         }
+        Debug.Log("[TargetHitColor] Initialized on: " + gameObject.name);
     }
 
     void OnCollisionEnter(Collision other)
     {
         if (other == null) return;
+        Debug.Log("[TargetHitColor] COLLISION with: " + other.gameObject.name + " | Tag: " + other.gameObject.tag);
         if (OtherIsDisk(other.gameObject))
         {
+            Debug.Log("[TargetHitColor] DISK HIT detected via collision!");
             StopAllCoroutines();
             StartCoroutine(FlashColor());
-            ReportHit();  // <-- NEW: report score
+            ReportHit();
         }
     }
 
     void OnTriggerEnter(Collider other)
     {
         if (other == null) return;
+        Debug.Log("[TargetHitColor] TRIGGER with: " + other.gameObject.name + " | Tag: " + other.gameObject.tag);
         if (OtherIsDisk(other.gameObject))
         {
+            Debug.Log("[TargetHitColor] DISK HIT detected via trigger!");
             StopAllCoroutines();
             StartCoroutine(FlashColor());
-            ReportHit();  // <-- NEW: report score
+            ReportHit();
         }
     }
 
     private bool OtherIsDisk(GameObject go)
     {
         if (go == null) return false;
+        // Check by component first (most reliable)
         if (go.GetComponent<DiskPhysics>() != null) return true;
-        if (go.CompareTag("Disk")) return true;
+        // Check parent too in case collider is on child
+        if (go.GetComponentInParent<DiskPhysics>() != null) return true;
+        // Fallback: check both tag spellings
+        if (go.CompareTag("Disk") || go.CompareTag("Disc")) return true;
         return false;
     }
 
-    /// <summary>
-    /// Sends score event to GameManager when a target is hit.
-    /// </summary>
     private void ReportHit()
     {
         if (GameManager.Instance != null)
         {
             GameManager.Instance.AddScore(1);
+        }
+        else
+        {
+            Debug.LogError("[TargetHitColor] GameManager.Instance is NULL! Score not counted.");
         }
     }
 
