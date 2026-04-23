@@ -61,7 +61,7 @@ public class TargetHitColor : MonoBehaviour
         if (go == null) return false;
         if (go.GetComponent<DiskPhysics>() != null) return true;
         if (go.GetComponentInParent<DiskPhysics>() != null) return true;
-        if (go.CompareTag("Disk") || go.CompareTag("Disc")) return true;
+        if (go.CompareTag("Disc")) return true;
         return false;
     }
 
