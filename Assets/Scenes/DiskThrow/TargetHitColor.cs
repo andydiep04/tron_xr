@@ -8,7 +8,6 @@ public class TargetHitColor : MonoBehaviour
 
     private Renderer rend;
     private Color originalColor;
-    private bool isFlashing = false;
 
     void Awake()
     {
@@ -51,7 +50,6 @@ public class TargetHitColor : MonoBehaviour
 
     private System.Collections.IEnumerator FlashColor()
     {
-        isFlashing = true;
         if (rend != null)
         {
             rend.material.color = hitColor;
@@ -61,6 +59,5 @@ public class TargetHitColor : MonoBehaviour
         {
             rend.material.color = originalColor;
         }
-        isFlashing = false;
     }
 }
