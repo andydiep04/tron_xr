@@ -3338,10 +3338,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 60
       objectReference: {fileID: 0}
+    - target: {fileID: 1916176888961550266, guid: b59cbf0f3e9098845a4ba24b8aff0c57, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 98f010c3e30164bc08c98529dcafddff, type: 2}
+    - target: {fileID: 1984508305560683171, guid: b59cbf0f3e9098845a4ba24b8aff0c57, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 98f010c3e30164bc08c98529dcafddff, type: 2}
     - target: {fileID: 4592444996847899779, guid: b59cbf0f3e9098845a4ba24b8aff0c57, type: 3}
       propertyPath: manager
       value: 
       objectReference: {fileID: 1388186877}
+    - target: {fileID: 6496505785546430477, guid: b59cbf0f3e9098845a4ba24b8aff0c57, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 98f010c3e30164bc08c98529dcafddff, type: 2}
     - target: {fileID: 6749154638655234742, guid: b59cbf0f3e9098845a4ba24b8aff0c57, type: 3}
       propertyPath: m_Name
       value: RightLightSword
