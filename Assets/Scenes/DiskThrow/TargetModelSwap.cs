@@ -24,6 +24,11 @@ public class TargetModelSwap : MonoBehaviour
 
         if (model1 != null) model1.SetActive(false);
         if (model2 != null) model2.SetActive(true);
+
+        if (GameManager.Instance != null)
+        {
+            GameManager.Instance.AddScore(1);
+        }
         
         hasSwapped = true;
     }
