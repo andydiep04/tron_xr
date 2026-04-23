@@ -3,8 +3,14 @@ using UnityEngine;
 public class DiskPhysics : MonoBehaviour {
 
   private Rigidbody diskRb;
+  public float bounceForceMultiplier = 1.5f;
 
   void Start() { diskRb = GetComponent<Rigidbody>(); }
+
+  private void OnCollisionEnter(Collision collision) {
+    Vector3 reflectDir = Vector3.Reflect(diskRb.linearVelocity, collision.contacts[0].normal);
+    diskRb.linearVelocity = reflectDir * bounceForceMultiplier;
+  }
 
   void FixedUpdate() {
 
