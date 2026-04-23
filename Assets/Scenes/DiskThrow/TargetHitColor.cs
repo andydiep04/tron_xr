@@ -1,6 +1,5 @@
 using UnityEngine;
 
-// Changes the target's color when hit by the disk, then reverts after a delay.
 public class TargetHitColor : MonoBehaviour
 {
     public Color hitColor = Color.red;
@@ -8,13 +7,13 @@ public class TargetHitColor : MonoBehaviour
 
     private Renderer rend;
     private Color originalColor;
+    private bool hasBeenScored = false;
 
     void Awake()
     {
         rend = GetComponentInChildren<Renderer>();
         if (rend != null)
         {
-            // Accessing .material ensures this renderer gets its own material instance
             originalColor = rend.material.color;
         }
     }
@@ -22,30 +21,60 @@ public class TargetHitColor : MonoBehaviour
     void OnCollisionEnter(Collision other)
     {
         if (other == null) return;
+        if (Time.timeSinceLevelLoad < 1f) return;
         if (OtherIsDisk(other.gameObject))
         {
-            StopAllCoroutines();
-            StartCoroutine(FlashColor());
+            Debug.Log("[TargetHitColor] DISK HIT via collision on: " + gameObject.name);
+            HandleHit();
         }
     }
 
     void OnTriggerEnter(Collider other)
     {
         if (other == null) return;
+        if (Time.timeSinceLevelLoad < 1f) return;
         if (OtherIsDisk(other.gameObject))
         {
-            StopAllCoroutines();
-            StartCoroutine(FlashColor());
+            Debug.Log("[TargetHitColor] DISK HIT via trigger on: " + gameObject.name);
+            HandleHit();
+        }
+    }
+
+    private void HandleHit()
+    {
+        StopAllCoroutines();
+        StartCoroutine(FlashColor());
+
+        if (!hasBeenScored)
+        {
+            hasBeenScored = true;
+            ReportHit();
+        }
+        else
+        {
+            Debug.Log("[TargetHitColor] Already scored this target, no extra point.");
         }
     }
 
     private bool OtherIsDisk(GameObject go)
     {
         if (go == null) return false;
-        // Prefer identifying the disk by component; fallback to tag 'Disk' if set
         if (go.GetComponent<DiskPhysics>() != null) return true;
-        if (go.CompareTag("Disk")) return true;
+        if (go.GetComponentInParent<DiskPhysics>() != null) return true;
+        if (go.CompareTag("Disc")) return true;
         return false;
+    }
+
+    private void ReportHit()
+    {
+        if (GameManager.Instance != null)
+        {
+            GameManager.Instance.AddScore(1);
+        }
+        else
+        {
+            Debug.LogError("[TargetHitColor] GameManager.Instance is NULL!");
+        }
     }
 
     private System.Collections.IEnumerator FlashColor()

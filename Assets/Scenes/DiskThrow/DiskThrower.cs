@@ -11,11 +11,24 @@ public class DiskThrower : MonoBehaviour {
   private GameObject currentDisk;
   private Rigidbody diskRb;
 
+  public Animator animator;
+  float progress = 0f;
+  public float speed = 2f;
+
   private Queue<Vector3> recentPositions = new Queue<Vector3>();
 
   void Update() {
 
     Vector3 offset = spawnPoint.forward * 0.1f;
+
+    if (throwAction.action.ReadValue<float>() > 0) {
+      progress += Time.deltaTime * speed;
+    } else {
+      progress -= Time.deltaTime * speed;
+    }
+
+    progress = Mathf.Clamp01(progress);
+    animator.Play("rig(left)|rig(left)Action", 0, progress);
 
     // Check trigger held
     if (throwAction.action.ReadValue<float>() > 0) {
@@ -28,7 +41,6 @@ public class DiskThrower : MonoBehaviour {
         diskRb.isKinematic = true;
 
         recentPositions.Clear();
-
       } else { // Update disk position
 
         currentDisk.transform.position = spawnPoint.position + offset;

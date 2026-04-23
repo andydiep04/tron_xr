@@ -1,9 +1,9 @@
 using UnityEngine;
 using Meta.XR.MRUtilityKit;
+using System.Collections;
 using System.Collections.Generic;
 
 public class DestructibleGlobalMeshManager : MonoBehaviour {
-
   public DestructibleGlobalMeshSpawner meshSpawner;
   private List<GameObject> segments = new List<GameObject>();
   private DestructibleMeshComponent currentComponent;
@@ -16,7 +16,6 @@ public class DestructibleGlobalMeshManager : MonoBehaviour {
   public void SetupDestructibleComponents(DestructibleMeshComponent component) {
     currentComponent = component;
     component.GetDestructibleMeshSegments(segments);
-
     foreach (var item in segments) {
       item.AddComponent<MeshCollider>();
     }
@@ -25,8 +24,40 @@ public class DestructibleGlobalMeshManager : MonoBehaviour {
   public void DestroyMeshSegment(GameObject segment) {
     if (segments.Contains(segment) &&
         currentComponent.ReservedSegment != segment) {
-      Debug.Log("Destroyed Segment");
       currentComponent.DestroySegment(segment);
     }
+  }
+
+  /// <summary>
+  /// Regenerates the destructible mesh (walls and floor) by toggling the
+  /// spawner with a frame delay so Unity properly processes the
+  /// deactivation/reactivation.
+  /// </summary>
+  public void ResetMesh() {
+
+    if (meshSpawner == null || MRUK.Instance == null)
+      return;
+
+    MRUKRoom currentRoom = MRUK.Instance.GetCurrentRoom();
+    if (currentRoom == null) {
+      Debug.LogWarning("Cannot reset mesh: No current room found.");
+      return;
+    }
+
+    // 2. Clear local tracking data
+    segments.Clear();
+    currentComponent = null;
+
+    // 3. Use the Spawner's built-in cleanup
+    // This handles destroying the GO and removing it from the internal
+    // Dictionary
+    meshSpawner.RemoveDestructibleGlobalMesh(currentRoom);
+
+    // 4. Re-add the mesh for this specific room
+    // This triggers the internal CreateDestructibleGlobalMesh logic immediately
+    meshSpawner.AddDestructibleGlobalMesh(currentRoom);
+
+    Debug.Log("Destructible Mesh has been regenerated for: " +
+              currentRoom.name);
   }
 }
