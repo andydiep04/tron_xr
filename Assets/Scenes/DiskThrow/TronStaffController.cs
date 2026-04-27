@@ -24,6 +24,10 @@ public class TronStaffController : MonoBehaviour
 
     void Update()
     {
+        if (GameManager.Instance != null && GameManager.Instance.isPaused) {
+            return; 
+        }
+
         // 1. Detect A (Right) or X (Left) button state
         bool buttonPressed = OVRInput.Get(OVRInput.Button.One, controllerHand);
 

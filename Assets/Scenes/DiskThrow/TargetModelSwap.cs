@@ -19,9 +19,6 @@ public class TargetModelSwap : MonoBehaviour
     {
         if (hasSwapped) return;
 
-        // Log the name to see if all 20 are being called or just one
-        Debug.Log($"Swapping instance: {gameObject.name} at {transform.position}");
-
         if (model1 != null) model1.SetActive(false);
         if (model2 != null) model2.SetActive(true);
 

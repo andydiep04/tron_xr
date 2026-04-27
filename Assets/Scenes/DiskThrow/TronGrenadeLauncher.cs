@@ -4,7 +4,7 @@ public class TronGrenadeLauncher : MonoBehaviour
 {
     public GameObject grenadePrefab;
     public Transform holdPoint;
-    public float throwBoost = 2.5f; 
+    public float throwBoost = 5f; 
     
     [Header("Cooldown & Safety")]
     public float spawnCooldown = 0.75f;    // Min time between new grenades
@@ -20,6 +20,9 @@ public class TronGrenadeLauncher : MonoBehaviour
 
     void Update()
     {
+        if (GameManager.Instance != null && GameManager.Instance.isPaused) {
+            return; 
+        }
         // Get the analog squeeze value
         float gripSqueeze = OVRInput.Get(OVRInput.Axis1D.PrimaryHandTrigger, controller);
         // Get the digital click for spawning/detonating

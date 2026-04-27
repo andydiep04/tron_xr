@@ -40,7 +40,6 @@ public class DestructibleGlobalMeshManager : MonoBehaviour {
 
     MRUKRoom currentRoom = MRUK.Instance.GetCurrentRoom();
     if (currentRoom == null) {
-      Debug.LogWarning("Cannot reset mesh: No current room found.");
       return;
     }
 
@@ -56,8 +55,5 @@ public class DestructibleGlobalMeshManager : MonoBehaviour {
     // 4. Re-add the mesh for this specific room
     // This triggers the internal CreateDestructibleGlobalMesh logic immediately
     meshSpawner.AddDestructibleGlobalMesh(currentRoom);
-
-    Debug.Log("Destructible Mesh has been regenerated for: " +
-              currentRoom.name);
   }
 }
