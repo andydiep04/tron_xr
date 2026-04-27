@@ -1,14 +1,13 @@
 using UnityEngine;
 using System.Collections.Generic;
 
-// Represents a cube
 public class TargetObject
 {
 	public Vector3 initialPosition;
 	public GameObject target;
 	public float timingOffset = Random.Range(0, 2f * Mathf.PI);
 }
-// Me gluing stuff with unity
+
 public class targetSpawn : MonoBehaviour
 {
 	public GameObject targetGameObject;
@@ -22,40 +21,80 @@ public class targetSpawn : MonoBehaviour
 
 	void Start()
 	{
+		SpawnTargets();
+	}
 
-		// Randomize a distance away from the player
+	public void SpawnTargets()
+	{
 		Transform playerHead = Camera.main.transform;
 		Vector3 playerPos = playerHead.position;
 
 		for (int i = 0; i < count; i++)
 		{
 			Vector3 direction = Random.onUnitSphere;
-
 			float distance = Random.Range(minDistance, maxDistance);
-
 			Vector3 spawnPos = playerPos + direction * distance;
 			spawnPos.y += Random.Range(-verticalJitter, verticalJitter);
 
 			GameObject targetObject = Instantiate(targetGameObject, spawnPos, Quaternion.identity);
 
-			// Ensure the target has a model-swap handler so it changes model on collision.
 			if (targetObject.GetComponent<TargetModelSwap>() == null)
 			{
 				targetObject.AddComponent<TargetModelSwap>();
 			}
 
-			spawnedObjects.Add(new TargetObject { initialPosition = targetObject.transform.position, target = targetObject });
+			if (targetObject.GetComponent<TargetHitColor>() == null)
+			{
+				targetObject.AddComponent<TargetHitColor>();
+			}
+
+			// Force each new target to start as red/spiky (model1 on, model2 off)
+			TargetModelSwap swap = targetObject.GetComponent<TargetModelSwap>();
+			if (swap != null)
+			{
+				if (swap.model1 != null) swap.model1.SetActive(true);
+				if (swap.model2 != null) swap.model2.SetActive(false);
+			}
+
+			spawnedObjects.Add(new TargetObject
+			{
+				initialPosition = targetObject.transform.position,
+				target = targetObject
+			});
 		}
+	}
+
+	public void ResetTargets()
+	{
+		// Destroy existing targets
+		foreach (var obj in spawnedObjects)
+		{
+			if (obj.target != null)
+				Destroy(obj.target);
+		}
+		spawnedObjects.Clear();
+
+		// Reset the template back to red/spiky in case it was hit during gameplay
+		if (targetGameObject != null)
+		{
+			TargetModelSwap templateSwap = targetGameObject.GetComponent<TargetModelSwap>();
+			if (templateSwap != null)
+			{
+				if (templateSwap.model1 != null) templateSwap.model1.SetActive(true);
+				if (templateSwap.model2 != null) templateSwap.model2.SetActive(false);
+			}
+		}
+
+		// Spawn fresh targets
+		SpawnTargets();
 	}
 
 	void Update()
 	{
-
 		for (int i = 0; i < spawnedObjects.Count; i++)
 		{
 			TargetObject currTarget = spawnedObjects[i];
-
-			if (currTarget == null) return;
+			if (currTarget == null || currTarget.target == null) continue;
 
 			Vector3 currTargetPos = currTarget.initialPosition;
 			float currBaseY = currTargetPos.y;
@@ -65,7 +104,6 @@ public class targetSpawn : MonoBehaviour
 
 			currTargetPos.y = currBaseY + Mathf.Sin(Time.time * floatSpeed + floatTimingOffset) * floatDuration;
 			currTarget.target.transform.position = currTargetPos;
-
 		}
 	}
 }

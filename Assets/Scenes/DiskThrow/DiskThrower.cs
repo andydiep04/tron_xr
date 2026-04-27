@@ -29,7 +29,6 @@ public class DiskThrower : MonoBehaviour {
 
     progress = Mathf.Clamp01(progress);
     animator.Play("rig(left)|rig(left)Action", 0, progress);
-    Debug.Log(progress);
 
     // Check trigger held
     if (throwAction.action.ReadValue<float>() > 0) {
