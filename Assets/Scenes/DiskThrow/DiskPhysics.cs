@@ -8,6 +8,15 @@ public class DiskPhysics : MonoBehaviour {
   void Start() { diskRb = GetComponent<Rigidbody>(); }
 
   private void OnCollisionEnter(Collision collision) {
+    // Kill any gridbug the disc directly contacts — don't bounce off it.
+    // Note: layer collision matrix may block OnCollisionEnter if Gridbug×Default
+    // is disabled, so CheckWeaponOverlap() in GridbugEnemy is the primary path.
+    GridbugEnemy bug = collision.collider.GetComponentInParent<GridbugEnemy>();
+    if (bug != null) {
+      bug.Die();
+      return;
+    }
+
     Vector3 reflectDir = Vector3.Reflect(diskRb.linearVelocity, collision.contacts[0].normal);
     diskRb.linearVelocity = reflectDir * bounceForceMultiplier;
   }

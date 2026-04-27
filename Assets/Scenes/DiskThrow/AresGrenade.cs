@@ -58,7 +58,11 @@ public class AresGrenade : MonoBehaviour
             foreach (var hit in wallHits) {
                 // Check if the thing we hit is a segment of the destructible mesh
                 // (The manager setup adds MeshColliders to these segments)
-                wallManager.DestroyMeshSegment(hit.gameObject);
+                wallManager.DestroyMeshSegment(hit.gameObject, hit.bounds.center);
+
+                // Kill any gridbugs caught in the blast
+                GridbugEnemy bug = hit.GetComponent<GridbugEnemy>();
+                if (bug != null) bug.Die();
             }
         }
 
