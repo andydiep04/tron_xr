@@ -14,7 +14,7 @@ public class GameManager : MonoBehaviour
     [Header("Input - Left Controller Menu Button (Pause Toggle)")]
     public InputActionProperty menuAction;
 
-    [Header("Input - Left Controller X Button (Reset Game)")]
+    [Header("Input - Left Controller Y Button (Reset Game)")]
     public InputActionProperty resetAction;
 
     [Header("References")]

@@ -12,14 +12,22 @@ public class DiskThrower : MonoBehaviour {
   private Rigidbody diskRb;
 
   public Animator animator;
+  private ParticleSystem particleSystem;
   float progress = 0f;
   public float speed = 2f;
+  public string animationName;
 
   private Queue<Vector3> recentPositions = new Queue<Vector3>();
 
   void Update() {
+    if (GameManager.Instance != null && GameManager.Instance.isPaused) {
+      return; 
+    }
 
     Vector3 offset = spawnPoint.forward * 0.1f;
+    // Vector3 offset = (spawnPoint.forward * -0.05f) + 
+    // (spawnPoint.right * -0.05f) + 
+    // (spawnPoint.up * -0.03f);
 
     if (throwAction.action.ReadValue<float>() > 0) {
       progress += Time.deltaTime * speed;
@@ -28,7 +36,7 @@ public class DiskThrower : MonoBehaviour {
     }
 
     progress = Mathf.Clamp01(progress);
-    animator.Play("rig(left)|rig(left)Action", 0, progress);
+    animator.Play(animationName, 0, progress);
 
     // Check trigger held
     if (throwAction.action.ReadValue<float>() > 0) {
@@ -37,6 +45,7 @@ public class DiskThrower : MonoBehaviour {
 
         currentDisk = Instantiate(diskPrefab, spawnPoint.position + offset,
                                   spawnPoint.rotation);
+        particleSystem = currentDisk.GetComponentInChildren<ParticleSystem>();
         diskRb = currentDisk.GetComponent<Rigidbody>();
         diskRb.isKinematic = true;
 
@@ -54,6 +63,9 @@ public class DiskThrower : MonoBehaviour {
       }
 
     } else if (currentDisk != null) {
+      if (particleSystem != null) {
+        particleSystem.Play();
+      }
 
       diskRb.isKinematic = false;
 
