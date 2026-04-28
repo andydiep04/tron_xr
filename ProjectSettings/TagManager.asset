@@ -11,6 +11,8 @@ TagManager:
   - Grenade
   - Bit
   - Gridbug
+  - Recognizer
+  - RecognizerBolt
   layers:
   - Default
   - TransparentFX

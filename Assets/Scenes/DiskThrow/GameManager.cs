@@ -8,6 +8,9 @@ public class GameManager : MonoBehaviour
     [Header("Score")]
     public int score = 0;
 
+    [Header("Lives")]
+    public int lives = 3;
+
     [Header("Pause State")]
     public bool isPaused = false;
 
@@ -23,6 +26,7 @@ public class GameManager : MonoBehaviour
 
     public System.Action<int> OnScoreChanged;
     public System.Action<bool> OnPauseToggled;
+    public System.Action<int> OnPlayerHit;  // arg: remaining lives
 
     void Awake()
     {
@@ -61,6 +65,13 @@ public class GameManager : MonoBehaviour
     {
         score += points;
         OnScoreChanged?.Invoke(score);
+    }
+
+    public void PlayerHit()
+    {
+        // TODO: decrement lives once lives system is implemented
+        Debug.Log($"[GameManager] Player hit! Lives remaining: {lives}");
+        OnPlayerHit?.Invoke(lives);
     }
 
     public void TogglePause()

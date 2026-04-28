@@ -17,6 +17,9 @@ public class GridbugSpawner : MonoBehaviour
     public int perWallBreak = 2;
     [Tooltip("Distance outside the wall where bugs spawn (in the void).")]
     public float breachSpawnOffset = 0.3f;
+    [Range(0f, 1f)]
+    [Tooltip("Probability that any bugs spawn at all when a wall breaks.")]
+    public float spawnChance = 0.035f;
 
     [Header("Editor / Test")]
     [Tooltip("Spawns bugs near the player after a delay without needing MRUK. " +
@@ -52,6 +55,7 @@ public class GridbugSpawner : MonoBehaviour
     void OnWallBroken(Vector3 breachPos)
     {
         if (_liveCount >= maxCount) return;
+        if (Random.value > spawnChance) return;
 
         Transform head = Camera.main != null ? Camera.main.transform : null;
         if (head == null) return;
@@ -61,11 +65,13 @@ public class GridbugSpawner : MonoBehaviour
         Vector3 outward = breachPos - head.position;
         outward.y = 0f;
 
-        // For floor/ceiling breaks the XZ delta is near-zero; use a random direction
-        // so bugs scatter instead of all stacking at the same point.
-        if (outward.sqrMagnitude < 0.1f)
-            outward = new Vector3(Random.Range(-1f, 1f), 0f, Random.Range(-1f, 1f));
+        // Floor/ceiling breaks have near-zero XZ delta — skip them, walls only.
+        if (outward.sqrMagnitude < 0.5f) return;
+
         outward = outward.normalized;
+
+        // Only spawn from the lower half of the wall — upper breaks look unnatural.
+        if (breachPos.y > head.position.y - 0.5f) return;
 
         int toSpawn = Mathf.Min(perWallBreak, maxCount - _liveCount);
         for (int i = 0; i < toSpawn; i++)

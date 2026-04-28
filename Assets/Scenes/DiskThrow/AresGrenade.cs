@@ -63,6 +63,10 @@ public class AresGrenade : MonoBehaviour
                 // Kill any gridbugs caught in the blast
                 GridbugEnemy bug = hit.GetComponent<GridbugEnemy>();
                 if (bug != null) bug.Die();
+
+                // Damage recognizers caught in the blast
+                RecognizerEnemy rec = hit.GetComponent<RecognizerEnemy>();
+                if (rec != null) rec.TakeDamage(1);
             }
         }
 

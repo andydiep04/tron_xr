@@ -32,6 +32,7 @@ public class GridbugEnemy : MonoBehaviour
     private Rigidbody _rb;
     private Transform _player;
     private bool _dead = false;
+    private float _spawnImmunity = 0f;
 
     void Awake()
     {
@@ -65,12 +66,16 @@ public class GridbugEnemy : MonoBehaviour
         if (faceDirection.sqrMagnitude > 0.001f)
             transform.rotation = Quaternion.LookRotation(faceDirection.normalized, Vector3.up);
         _state = BugState.VoidWalk;
+        _spawnImmunity = 0.6f;
     }
 
     void FixedUpdate()
     {
         if (_player == null && Camera.main != null)
             _player = Camera.main.transform;
+
+        if (_spawnImmunity > 0f)
+            _spawnImmunity -= Time.fixedDeltaTime;
 
         switch (_state)
         {
@@ -85,11 +90,13 @@ public class GridbugEnemy : MonoBehaviour
 
     void CheckWeaponOverlap()
     {
+        if (_spawnImmunity > 0f) return;
+
         // Physics.OverlapSphere is unaffected by the layer collision matrix,
         // so this works even if Gridbug × Default collisions are disabled.
         // QueryTriggerInteraction.Collide includes the sword's root trigger collider
         // alongside the non-trigger blade/piece children.
-        const float hitRadius = 0.35f;
+        const float hitRadius = 0.18f;
         Collider[] nearby = Physics.OverlapSphere(transform.position, hitRadius,
             ~0, QueryTriggerInteraction.Collide);
 
@@ -157,6 +164,7 @@ public class GridbugEnemy : MonoBehaviour
         if (Vector3.Distance(transform.position, _player.position) <= attackContactRange)
         {
             Debug.Log("[Gridbug] Surface contact with player.");
+            if (GameManager.Instance != null) GameManager.Instance.PlayerHit();
             _Die();
             return;
         }
@@ -217,6 +225,7 @@ public class GridbugEnemy : MonoBehaviour
         if (Vector3.Distance(transform.position, _player.position) <= attackContactRange)
         {
             Debug.Log("[Gridbug] Void contact with player.");
+            if (GameManager.Instance != null) GameManager.Instance.PlayerHit();
             _Die();
             return;
         }
@@ -322,6 +331,7 @@ public class GridbugEnemy : MonoBehaviour
 
             transform.position = bestHit.point + bestHit.normal * bugRadius;
             AlignToNormal(bestHit.normal);
+            _spawnImmunity = 0.6f;
             yield return new WaitForSeconds(0.15f);
             _state = BugState.SurfaceCrawl;
         }
@@ -383,6 +393,7 @@ public class GridbugEnemy : MonoBehaviour
     void OnCollisionEnter(Collision collision)
     {
         if (_dead) return;
+        if (_spawnImmunity > 0f) return;
         if (!IsValidSurface(collision.collider)) return;
 
         string tag = collision.gameObject.tag;
