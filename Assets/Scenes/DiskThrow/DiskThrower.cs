@@ -15,6 +15,7 @@ public class DiskThrower : MonoBehaviour {
   private ParticleSystem particleSystem;
   float progress = 0f;
   public float speed = 2f;
+  public string animationName;
 
   private Queue<Vector3> recentPositions = new Queue<Vector3>();
 
@@ -35,7 +36,7 @@ public class DiskThrower : MonoBehaviour {
     }
 
     progress = Mathf.Clamp01(progress);
-    animator.Play("rig(left)|rig(left)Action", 0, progress);
+    animator.Play(animationName, 0, progress);
 
     // Check trigger held
     if (throwAction.action.ReadValue<float>() > 0) {
