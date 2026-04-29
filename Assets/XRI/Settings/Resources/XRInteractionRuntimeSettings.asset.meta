@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Scenes/DiskThrow/Materials/Silver.mat.meta
+guid: 04b7b0d887fbd4a2e98c93eb81f00c83
+========
+guid: 92d4e22f5a6cbdb4fa5d286c97b03459
+>>>>>>>> origin/features/ui:Assets/XRI/Settings/Resources/XRInteractionRuntimeSettings.asset.meta
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
