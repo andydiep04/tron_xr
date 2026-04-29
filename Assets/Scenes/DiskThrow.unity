@@ -1355,9 +1355,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9155907522207848260, guid: 10e82cf0d8026437294bc6f3a9a9c006, type: 3}
+      propertyPath: resetSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 16f96c9d953f140b085366aabead2d83, type: 3}
+    - target: {fileID: 9155907522207848260, guid: 10e82cf0d8026437294bc6f3a9a9c006, type: 3}
       propertyPath: targetSpawner
       value: 
       objectReference: {fileID: 1664390265}
+    - target: {fileID: 9155907522207848260, guid: 10e82cf0d8026437294bc6f3a9a9c006, type: 3}
+      propertyPath: pauseToggleSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 16f96c9d953f140b085366aabead2d83, type: 3}
     - target: {fileID: 9155907522207848260, guid: 10e82cf0d8026437294bc6f3a9a9c006, type: 3}
       propertyPath: destructibleMeshManager
       value: 

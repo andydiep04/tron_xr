@@ -21,6 +21,11 @@ public class GameManager : MonoBehaviour
     public targetSpawn targetSpawner;
     public DestructibleGlobalMeshManager destructibleMeshManager;
 
+    [Header("Sound Effects")]
+    public AudioClip pauseToggleSound;
+    private AudioSource audioSource;
+    public AudioClip resetSound;
+
     public System.Action<int> OnScoreChanged;
     public System.Action<bool> OnPauseToggled;
 
@@ -42,6 +47,13 @@ public class GameManager : MonoBehaviour
 
         if (resetAction.action != null)
             resetAction.action.Enable();
+
+     audioSource = GetComponent<AudioSource>();
+
+        if (audioSource == null)
+             audioSource = gameObject.AddComponent<AudioSource>();
+
+             audioSource.playOnAwake = false;
     }
 
     void Update()
@@ -67,11 +79,18 @@ public class GameManager : MonoBehaviour
     {
         isPaused = !isPaused;
         Time.timeScale = isPaused ? 0f : 1f;
+
+    if (pauseToggleSound != null && audioSource != null)
+        audioSource.PlayOneShot(pauseToggleSound);
+
         OnPauseToggled?.Invoke(isPaused);
     }
 
     public void ResetGame()
     {
+        //Reset Sound 
+        if (resetSound != null && audioSource != null)
+                audioSource.PlayOneShot(resetSound);
         // Unpause
         isPaused = false;
         Time.timeScale = 1f;

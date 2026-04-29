@@ -55,7 +55,7 @@ public class DiskThrower : MonoBehaviour {
         diskRb = currentDisk.GetComponent<Rigidbody>();
         diskRb.isKinematic = true;
 
-        // Add or get AudioSource on disk
+        // Add AudioSource on disk
         diskAudioSource = currentDisk.GetComponent<AudioSource>();
         if (diskAudioSource == null) {
           diskAudioSource = currentDisk.AddComponent<AudioSource>();
@@ -64,7 +64,7 @@ public class DiskThrower : MonoBehaviour {
         diskAudioSource.clip = diskFlySound;
         diskAudioSource.playOnAwake = false;
         diskAudioSource.spatialBlend = 1f; // 3D sound
-        diskAudioSource.volume = 0.7f;
+        diskAudioSource.volume = 1f;
 
         recentPositions.Clear();
 
