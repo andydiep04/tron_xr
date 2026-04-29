@@ -67,6 +67,10 @@ public class AresGrenade : MonoBehaviour
                 // Damage recognizers caught in the blast
                 RecognizerEnemy rec = hit.GetComponent<RecognizerEnemy>();
                 if (rec != null) rec.TakeDamage(1);
+
+                // Destroy recognizer projectiles caught in the blast
+                RecognizerProjectile proj = hit.GetComponent<RecognizerProjectile>();
+                if (proj != null) Destroy(proj.gameObject);
             }
         }
 
