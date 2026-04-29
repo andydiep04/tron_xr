@@ -1037,6 +1037,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1376504167018825660, guid: 10e82cf0d8026437294bc6f3a9a9c006, type: 3}
+      propertyPath: maxCount
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1376504167018825660, guid: 10e82cf0d8026437294bc6f3a9a9c006, type: 3}
+      propertyPath: spawnDepth
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1376504167018825660, guid: 10e82cf0d8026437294bc6f3a9a9c006, type: 3}
+      propertyPath: spawnChance
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1646440559513293808, guid: 10e82cf0d8026437294bc6f3a9a9c006, type: 3}
+      propertyPath: spawnChance
+      value: 0.05
+      objectReference: {fileID: 0}
     - target: {fileID: 5142534335615877776, guid: 10e82cf0d8026437294bc6f3a9a9c006, type: 3}
       propertyPath: m_Name
       value: ManagerPrefab
@@ -1860,7 +1876,7 @@ MonoBehaviour:
   grenadePrefab: {fileID: 6726865640916044383, guid: 6802ac5a7d6b00b46b786dc61957eba2, type: 3}
   holdPoint: {fileID: 1194988585}
   throwBoost: 2.5
-  spawnCooldown: 5
+  spawnCooldown: 2
   detonationSafety: 0.3
   controller: 2
 --- !u!1001 &1583508744
@@ -2836,7 +2852,7 @@ MonoBehaviour:
   grenadePrefab: {fileID: 6726865640916044383, guid: 6802ac5a7d6b00b46b786dc61957eba2, type: 3}
   holdPoint: {fileID: 1427473322}
   throwBoost: 2.5
-  spawnCooldown: 5
+  spawnCooldown: 2
   detonationSafety: 0.3
   controller: 1
 --- !u!1 &2027118869
