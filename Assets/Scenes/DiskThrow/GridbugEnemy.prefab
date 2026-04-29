@@ -101,7 +101,7 @@ MonoBehaviour:
   bugRadius: 0.03
   wallAvoidDist: 0.35
   dropXZRange: 0.6
-  groundRushFootOffset: 0.9
+  groundRushFootOffset: 0.3
   attackContactRange: 0.2
   showRaycasts: 1
   deathVFX: {fileID: 0}
