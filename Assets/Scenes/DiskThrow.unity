@@ -249,7 +249,7 @@ GameObject:
   - component: {fileID: 143502471}
   m_Layer: 0
   m_Name: LeftEyeAnchor
-  m_TagString: Player
+  m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -375,7 +375,7 @@ GameObject:
   - component: {fileID: 206973465}
   m_Layer: 0
   m_Name: RightHandAnchor
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1105,7 +1105,7 @@ GameObject:
   - component: {fileID: 1077040396}
   m_Layer: 0
   m_Name: LeftHandAnchorDetached
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1395,7 +1395,7 @@ GameObject:
   - component: {fileID: 1229307067}
   m_Layer: 0
   m_Name: RightHandAnchorDetached
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1426,7 +1426,7 @@ GameObject:
   - component: {fileID: 1239550455}
   m_Layer: 0
   m_Name: LeftHandAnchor
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1463,7 +1463,7 @@ GameObject:
   - component: {fileID: 1366930152}
   m_Layer: 0
   m_Name: CenterEyeAnchor
-  m_TagString: Player
+  m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2239,7 +2239,7 @@ GameObject:
   - component: {fileID: 1638000206}
   m_Layer: 0
   m_Name: TrackerAnchor
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2298,7 +2298,7 @@ GameObject:
   - component: {fileID: 1718661207}
   m_Layer: 0
   m_Name: TrackingSpace
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2534,7 +2534,7 @@ GameObject:
   - component: {fileID: 1791474099}
   m_Layer: 0
   m_Name: RightEyeAnchor
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

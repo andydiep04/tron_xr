@@ -4,7 +4,10 @@ public class RecognizerProjectile : MonoBehaviour
 {
     public float maxLifetime = 10f;
 
+    public float playerHitRadius = 0.4f;
+
     private Rigidbody _rb;
+    private Transform _player;
 
     void Awake()
     {
@@ -13,6 +16,7 @@ public class RecognizerProjectile : MonoBehaviour
 
     void Start()
     {
+        _player = Camera.main != null ? Camera.main.transform : null;
         Destroy(gameObject, maxLifetime);
     }
 
@@ -24,6 +28,18 @@ public class RecognizerProjectile : MonoBehaviour
 
     void FixedUpdate()
     {
+        if (_player == null && Camera.main != null)
+            _player = Camera.main.transform;
+
+        if (_player != null &&
+            Vector3.Distance(transform.position, _player.position) <= playerHitRadius)
+        {
+            if (GameManager.Instance != null)
+                GameManager.Instance.PlayerHit();
+            Destroy(gameObject);
+            return;
+        }
+
         CheckWeaponOverlap();
     }
 
