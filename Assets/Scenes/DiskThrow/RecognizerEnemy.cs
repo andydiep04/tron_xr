@@ -86,6 +86,7 @@ public class RecognizerEnemy : MonoBehaviour
     public void TakeDamage(int amount)
     {
         if (_dead) return;
+        if (_hitCooldown > 0f) return;
 
         _hitCooldown = 0.4f;
         _health -= amount;

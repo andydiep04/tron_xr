@@ -77,7 +77,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 494f1e2ab9c241d4fa2743c4a0dca8ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RecognizerEnemy
-  maxHealth: 3
+  maxHealth: 4
   projectilePrefab: {fileID: 2702614281915740043, guid: bfd8461f1af3b00499a2402b3c296eb7, type: 3}
   muzzlePoint: {fileID: 1844774479341551316}
   fireInterval: 8
