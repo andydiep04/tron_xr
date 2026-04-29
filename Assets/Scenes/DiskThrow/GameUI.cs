@@ -7,6 +7,7 @@ public class GameUI : MonoBehaviour
     [Header("Score HUD")]
     public Canvas scoreCanvas;
     public TextMeshProUGUI scoreText;
+    public TextMeshProUGUI livesText;
     public Vector3 scoreOffset = new Vector3(0f, -0.15f, 0.5f);
 
     [Header("Score Sound")]
@@ -17,6 +18,10 @@ public class GameUI : MonoBehaviour
     [Header("Pause Menu")]
     public Canvas pauseCanvas;
     public Vector3 pauseMenuOffset = new Vector3(0f, -0.1f, 0.8f);
+
+    [Header("Game Over")]
+    public Canvas gameOverCanvas;
+    public Vector3 gameOverOffset = new Vector3(0f, -0.1f, 0.8f);
 
     private Transform playerCamera;
 
@@ -33,12 +38,18 @@ public class GameUI : MonoBehaviour
         if (pauseCanvas != null)
             pauseCanvas.gameObject.SetActive(false);
 
+        if (gameOverCanvas != null)
+            gameOverCanvas.gameObject.SetActive(false);
+
         UpdateScoreDisplay(0);
+        UpdateLivesDisplay(GameManager.Instance != null ? GameManager.Instance.lives : 3);
 
         if (GameManager.Instance != null)
         {
             GameManager.Instance.OnScoreChanged += UpdateScoreDisplay;
             GameManager.Instance.OnPauseToggled += UpdatePauseMenu;
+            GameManager.Instance.OnPlayerHit += UpdateLivesDisplay;
+            GameManager.Instance.OnGameOver += ShowGameOver;
         }
     }
 
@@ -71,6 +82,17 @@ public class GameUI : MonoBehaviour
             pauseCanvas.transform.position = pausePos;
             pauseCanvas.transform.rotation = Quaternion.LookRotation(pausePos - playerCamera.position);
         }
+
+        if (gameOverCanvas != null && gameOverCanvas.gameObject.activeSelf)
+        {
+            Vector3 goPos = playerCamera.position
+                + playerCamera.forward * gameOverOffset.z
+                + playerCamera.up * gameOverOffset.y
+                + playerCamera.right * gameOverOffset.x;
+
+            gameOverCanvas.transform.position = goPos;
+            gameOverCanvas.transform.rotation = Quaternion.LookRotation(goPos - playerCamera.position);
+        }
     }
 
     void UpdateScoreDisplay(int newScore)
@@ -79,11 +101,25 @@ public class GameUI : MonoBehaviour
             scoreText.text = "HITS: " + newScore;
 
         if (newScore > currentScore && scoreIncreaseSound != null && audioSource != null)
-        {
             audioSource.PlayOneShot(scoreIncreaseSound);
-        }
+
+        // Hide game over canvas on reset (score resets to 0)
+        if (newScore == 0 && gameOverCanvas != null)
+            gameOverCanvas.gameObject.SetActive(false);
 
         currentScore = newScore;
+    }
+
+    void UpdateLivesDisplay(int remaining)
+    {
+        if (livesText != null)
+            livesText.text = "LIVES: " + remaining;
+    }
+
+    void ShowGameOver()
+    {
+        if (gameOverCanvas != null)
+            gameOverCanvas.gameObject.SetActive(true);
     }
 
     void UpdatePauseMenu(bool paused)
@@ -98,6 +134,8 @@ public class GameUI : MonoBehaviour
         {
             GameManager.Instance.OnScoreChanged -= UpdateScoreDisplay;
             GameManager.Instance.OnPauseToggled -= UpdatePauseMenu;
+            GameManager.Instance.OnPlayerHit -= UpdateLivesDisplay;
+            GameManager.Instance.OnGameOver -= ShowGameOver;
         }
     }
 }

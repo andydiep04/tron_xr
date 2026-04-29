@@ -160,19 +160,18 @@ public class GridbugEnemy : MonoBehaviour
             }
         }
 
-        // Contact
-        if (Vector3.Distance(transform.position, _player.position) <= attackContactRange)
+        // Contact — use same foot-offset target as steering so bug actually reaches it
+        Vector3 targetPos = IsOnFloor()
+            ? _player.position - Vector3.up * groundRushFootOffset
+            : _player.position;
+
+        if (Vector3.Distance(transform.position, targetPos) <= attackContactRange)
         {
             Debug.Log("[Gridbug] Surface contact with player.");
             if (GameManager.Instance != null) GameManager.Instance.PlayerHit();
             _Die();
             return;
         }
-
-        // Steer toward player projected onto current surface
-        Vector3 targetPos = IsOnFloor()
-            ? _player.position - Vector3.up * groundRushFootOffset
-            : _player.position;
 
         Vector3 projDir = Vector3.ProjectOnPlane(targetPos - transform.position, transform.up).normalized;
         if (projDir.sqrMagnitude > 0.001f)
@@ -222,7 +221,8 @@ public class GridbugEnemy : MonoBehaviour
         }
 
         // Contact
-        if (Vector3.Distance(transform.position, _player.position) <= attackContactRange)
+        Vector3 voidContactTarget = _player.position - Vector3.up * groundRushFootOffset;
+        if (Vector3.Distance(transform.position, voidContactTarget) <= attackContactRange)
         {
             Debug.Log("[Gridbug] Void contact with player.");
             if (GameManager.Instance != null) GameManager.Instance.PlayerHit();

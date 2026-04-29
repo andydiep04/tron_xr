@@ -32,6 +32,9 @@ public class GameManager : MonoBehaviour
     public System.Action<int> OnScoreChanged;
     public System.Action<bool> OnPauseToggled;
     public System.Action<int> OnPlayerHit;  // arg: remaining lives
+    public System.Action OnGameOver;
+
+    public bool isGameOver = false;
 
     void Awake()
     {
@@ -62,15 +65,13 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
+        if (isGameOver) return;
+
         if (menuAction.action != null && menuAction.action.WasPressedThisFrame())
-        {
             TogglePause();
-        }
 
         if (isPaused && resetAction.action != null && resetAction.action.WasPressedThisFrame())
-        {
             ResetGame();
-        }
     }
 
     public void AddScore(int points = 1)
@@ -81,9 +82,21 @@ public class GameManager : MonoBehaviour
 
     public void PlayerHit()
     {
-        // TODO: decrement lives once lives system is implemented
+        if (isGameOver) return;
+
+        lives--;
         Debug.Log($"[GameManager] Player hit! Lives remaining: {lives}");
         OnPlayerHit?.Invoke(lives);
+
+        if (lives <= 0)
+            TriggerGameOver();
+    }
+
+    void TriggerGameOver()
+    {
+        isGameOver = true;
+        Time.timeScale = 0f;
+        OnGameOver?.Invoke();
     }
 
     public void TogglePause()
@@ -118,6 +131,10 @@ public class GameManager : MonoBehaviour
         // Regenerate walls and floor
         if (destructibleMeshManager != null)
             destructibleMeshManager.ResetMesh();
+
+        // Reset lives and game over state
+        lives = 3;
+        isGameOver = false;
 
         // Destroy all live enemies and projectiles
         foreach (var bug in FindObjectsByType<GridbugEnemy>(FindObjectsSortMode.None))
