@@ -10,6 +10,9 @@ TagManager:
   - Sword
   - Grenade
   - Bit
+  - Gridbug
+  - Recognizer
+  - RecognizerBolt
   layers:
   - Default
   - TransparentFX
@@ -26,6 +29,7 @@ TagManager:
   - 
   - 
   - 
+  - Gridbug
   - 
   - 
   - 
@@ -40,8 +44,7 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
+  - XR Simulation
   - 
   m_SortingLayers:
   - name: Default

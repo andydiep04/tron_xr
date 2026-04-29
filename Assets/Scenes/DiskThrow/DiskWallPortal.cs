@@ -12,7 +12,11 @@ public class DiskWallPortal : MonoBehaviour {
 
   void OnCollisionEnter(Collision collision) {
     if (manager != null) {
-      manager.DestroyMeshSegment(collision.gameObject);
+      // Pass the actual impact point so the gridbug spawner uses the right position
+      Vector3 contactPoint = collision.contacts.Length > 0
+          ? collision.contacts[0].point
+          : collision.gameObject.transform.position;
+      manager.DestroyMeshSegment(collision.gameObject, contactPoint);
     }
   }
 

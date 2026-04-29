@@ -8,6 +8,32 @@ public class DestructibleGlobalMeshManager : MonoBehaviour {
   private List<GameObject> segments = new List<GameObject>();
   private DestructibleMeshComponent currentComponent;
 
+  /// <summary>Fired once when the destructible mesh is fully ready.</summary>
+  public System.Action OnMeshReady;
+
+  /// <summary>
+  /// Fired when a wall/floor segment is destroyed.
+  /// Arg: world position of the impact / breach centre.
+  /// </summary>
+  public System.Action<Vector3> OnSegmentDestroyed;
+
+  /// <summary>
+  /// Destroy a mesh segment, firing OnSegmentDestroyed at the given contactPoint
+  /// (pass null to fall back to the collider bounds centre or transform position).
+  /// </summary>
+  public void DestroyMeshSegment(GameObject segment, Vector3? contactPoint = null) {
+    if (segments.Contains(segment) &&
+        currentComponent.ReservedSegment != segment) {
+      // Prefer the actual contact point; fall back to bounds centre; then transform.position.
+      Collider col = segment.GetComponent<Collider>();
+      Vector3 pos = contactPoint
+                    ?? (col != null ? col.bounds.center : (Vector3?)null)
+                    ?? segment.transform.position;
+      currentComponent.DestroySegment(segment);
+      OnSegmentDestroyed?.Invoke(pos);
+    }
+  }
+
   void Start() {
     meshSpawner.OnDestructibleMeshCreated.AddListener(
         SetupDestructibleComponents);
@@ -17,15 +43,16 @@ public class DestructibleGlobalMeshManager : MonoBehaviour {
     currentComponent = component;
     component.GetDestructibleMeshSegments(segments);
     foreach (var item in segments) {
-      item.AddComponent<MeshCollider>();
+      // Only add if no collider already exists on this segment
+      if (item.GetComponent<Collider>() == null) {
+        var mc = item.AddComponent<MeshCollider>();
+        // Explicitly wire up the mesh in case there's no MeshFilter on the root
+        MeshFilter mf = item.GetComponent<MeshFilter>();
+        if (mc.sharedMesh == null && mf != null)
+          mc.sharedMesh = mf.sharedMesh;
+      }
     }
-  }
-
-  public void DestroyMeshSegment(GameObject segment) {
-    if (segments.Contains(segment) &&
-        currentComponent.ReservedSegment != segment) {
-      currentComponent.DestroySegment(segment);
-    }
+    OnMeshReady?.Invoke();
   }
 
   /// <summary>

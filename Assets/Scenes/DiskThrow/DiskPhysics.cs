@@ -8,6 +8,18 @@ public class DiskPhysics : MonoBehaviour {
   void Start() { diskRb = GetComponent<Rigidbody>(); }
 
   private void OnCollisionEnter(Collision collision) {
+    GridbugEnemy bug = collision.collider.GetComponentInParent<GridbugEnemy>();
+    if (bug != null) {
+      bug.Die();
+      return;
+    }
+
+    RecognizerEnemy rec = collision.collider.GetComponentInParent<RecognizerEnemy>();
+    if (rec != null) {
+      rec.TakeDamage(1);
+      return;
+    }
+
     Vector3 reflectDir = Vector3.Reflect(diskRb.linearVelocity, collision.contacts[0].normal);
     diskRb.linearVelocity = reflectDir * bounceForceMultiplier;
   }
