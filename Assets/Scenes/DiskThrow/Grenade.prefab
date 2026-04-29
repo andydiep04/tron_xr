@@ -211,6 +211,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::AresGrenade
   explosionRadius: 1
   explosionVFX: {fileID: 5245883796690667334, guid: 7e0b66dd5000b544f9df56735c26eed5, type: 3}
+  explodeSound: {fileID: 8300000, guid: 691d63ec25adf4cb9a2b46e9616e63e1, type: 3}
   isThrown: 0
 --- !u!1 &8477952416869878343
 GameObject:

@@ -5,6 +5,9 @@ public class AresGrenade : MonoBehaviour
     [Header("Explosion Settings")]
     public float explosionRadius = 1f; // Keep this small for testing
     public GameObject explosionVFX;
+
+    [Header("Sound Effects")]
+    public AudioClip explodeSound;
     
     [HideInInspector] public bool isThrown = false;
 
@@ -27,6 +30,12 @@ public class AresGrenade : MonoBehaviour
             GameObject fx = Instantiate(explosionVFX, transform.position, transform.rotation);
             fx.transform.SetParent(null);
             fx.transform.localScale = Vector3.one; 
+        }
+
+        // Play explosion sound at grenade position
+        if (explodeSound != null)
+        {
+            AudioSource.PlayClipAtPoint(explodeSound, transform.position, 1f);
         }
 
         // 2. THE PHYSICS FIX
