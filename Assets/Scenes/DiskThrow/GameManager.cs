@@ -33,8 +33,10 @@ public class GameManager : MonoBehaviour
     public System.Action<bool> OnPauseToggled;
     public System.Action<int> OnPlayerHit;  // arg: remaining lives
     public System.Action OnGameOver;
+    public System.Action OnGameWin;
 
     public bool isGameOver = false;
+    public bool isGameWon = false;
 
     void Awake()
     {
@@ -61,14 +63,17 @@ public class GameManager : MonoBehaviour
              audioSource = gameObject.AddComponent<AudioSource>();
 
              audioSource.playOnAwake = false;
+
+        if (targetSpawner != null)
+            targetSpawner.OnAllHit += TriggerWin;
     }
 
     void Update()
     {
-        if ((isGameOver || isPaused) && resetAction.action != null && resetAction.action.WasPressedThisFrame())
+        if ((isGameOver || isGameWon || isPaused) && resetAction.action != null && resetAction.action.WasPressedThisFrame())
             ResetGame();
-        
-        if (isGameOver) return;
+
+        if (isGameOver || isGameWon) return;
 
         if (menuAction.action != null && menuAction.action.WasPressedThisFrame())
             TogglePause();
@@ -98,6 +103,14 @@ public class GameManager : MonoBehaviour
         isGameOver = true;
         Time.timeScale = 0f;
         OnGameOver?.Invoke();
+    }
+
+    void TriggerWin()
+    {
+        if (isGameOver) return;
+        isGameWon = true;
+        Time.timeScale = 0f;
+        OnGameWin?.Invoke();
     }
 
     public void TogglePause()
@@ -133,9 +146,10 @@ public class GameManager : MonoBehaviour
         if (destructibleMeshManager != null)
             destructibleMeshManager.ResetMesh();
 
-        // Reset lives and game over state
+        // Reset lives and game over/win state
         lives = 3;
         isGameOver = false;
+        isGameWon = false;
         OnPlayerHit?.Invoke(lives);
 
         // Destroy all live enemies and projectiles

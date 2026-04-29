@@ -39,6 +39,8 @@ public class TargetModelSwap : MonoBehaviour
         }
         
         hasSwapped = true;
+
+        FindFirstObjectByType<targetSpawn>()?.NotifyHit();
     }
 
     private void OnCollisionEnter(Collision collision)

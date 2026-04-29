@@ -23,6 +23,10 @@ public class GameUI : MonoBehaviour
     public Canvas gameOverCanvas;
     public Vector3 gameOverOffset = new Vector3(0f, -0.1f, 0.8f);
 
+    [Header("You Win")]
+    public Canvas winCanvas;
+    public Vector3 winOffset = new Vector3(0f, -0.1f, 0.8f);
+
     private Transform playerCamera;
 
     void Start()
@@ -41,6 +45,9 @@ public class GameUI : MonoBehaviour
         if (gameOverCanvas != null)
             gameOverCanvas.gameObject.SetActive(false);
 
+        if (winCanvas != null)
+            winCanvas.gameObject.SetActive(false);
+
         UpdateScoreDisplay(0);
         UpdateLivesDisplay(GameManager.Instance != null ? GameManager.Instance.lives : 3);
 
@@ -50,6 +57,7 @@ public class GameUI : MonoBehaviour
             GameManager.Instance.OnPauseToggled += UpdatePauseMenu;
             GameManager.Instance.OnPlayerHit += UpdateLivesDisplay;
             GameManager.Instance.OnGameOver += ShowGameOver;
+            GameManager.Instance.OnGameWin += ShowWin;
         }
     }
 
@@ -93,6 +101,17 @@ public class GameUI : MonoBehaviour
             gameOverCanvas.transform.position = goPos;
             gameOverCanvas.transform.rotation = Quaternion.LookRotation(goPos - playerCamera.position);
         }
+
+        if (winCanvas != null && winCanvas.gameObject.activeSelf)
+        {
+            Vector3 winPos = playerCamera.position
+                + playerCamera.forward * winOffset.z
+                + playerCamera.up * winOffset.y
+                + playerCamera.right * winOffset.x;
+
+            winCanvas.transform.position = winPos;
+            winCanvas.transform.rotation = Quaternion.LookRotation(winPos - playerCamera.position);
+        }
     }
 
     void UpdateScoreDisplay(int newScore)
@@ -103,9 +122,12 @@ public class GameUI : MonoBehaviour
         if (newScore > currentScore && scoreIncreaseSound != null && audioSource != null)
             audioSource.PlayOneShot(scoreIncreaseSound);
 
-        // Hide game over canvas on reset (score resets to 0)
-        if (newScore == 0 && gameOverCanvas != null)
-            gameOverCanvas.gameObject.SetActive(false);
+        // Hide end screens on reset (score resets to 0)
+        if (newScore == 0)
+        {
+            if (gameOverCanvas != null) gameOverCanvas.gameObject.SetActive(false);
+            if (winCanvas != null) winCanvas.gameObject.SetActive(false);
+        }
 
         currentScore = newScore;
     }
@@ -122,6 +144,12 @@ public class GameUI : MonoBehaviour
             gameOverCanvas.gameObject.SetActive(true);
     }
 
+    void ShowWin()
+    {
+        if (winCanvas != null)
+            winCanvas.gameObject.SetActive(true);
+    }
+
     void UpdatePauseMenu(bool paused)
     {
         if (pauseCanvas != null)
@@ -136,6 +164,7 @@ public class GameUI : MonoBehaviour
             GameManager.Instance.OnPauseToggled -= UpdatePauseMenu;
             GameManager.Instance.OnPlayerHit -= UpdateLivesDisplay;
             GameManager.Instance.OnGameOver -= ShowGameOver;
+            GameManager.Instance.OnGameWin -= ShowWin;
         }
     }
 }

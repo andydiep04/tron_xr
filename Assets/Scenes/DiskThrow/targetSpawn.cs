@@ -18,6 +18,8 @@ public class targetSpawn : MonoBehaviour
 	public float verticalJitter = 0.2f;
 
 	List<TargetObject> spawnedObjects = new List<TargetObject>();
+	private int _hitCount = 0;
+	public System.Action OnAllHit;
 
 	void Start()
 	{
@@ -64,6 +66,13 @@ public class targetSpawn : MonoBehaviour
 		}
 	}
 
+	public void NotifyHit()
+	{
+		_hitCount++;
+		if (_hitCount >= count)
+			OnAllHit?.Invoke();
+	}
+
 	public void ResetTargets()
 	{
 		// Destroy existing targets
@@ -84,6 +93,8 @@ public class targetSpawn : MonoBehaviour
 				if (templateSwap.model2 != null) templateSwap.model2.SetActive(false);
 			}
 		}
+
+		_hitCount = 0;
 
 		// Spawn fresh targets
 		SpawnTargets();
