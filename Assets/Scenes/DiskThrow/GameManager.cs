@@ -118,5 +118,15 @@ public class GameManager : MonoBehaviour
         // Regenerate walls and floor
         if (destructibleMeshManager != null)
             destructibleMeshManager.ResetMesh();
+
+        // Destroy all live enemies and projectiles
+        foreach (var bug in FindObjectsByType<GridbugEnemy>(FindObjectsSortMode.None))
+            Destroy(bug.gameObject);
+
+        foreach (var rec in FindObjectsByType<RecognizerEnemy>(FindObjectsSortMode.None))
+            Destroy(rec.gameObject);
+
+        foreach (var proj in FindObjectsByType<RecognizerProjectile>(FindObjectsSortMode.None))
+            Destroy(proj.gameObject);
     }
 }
