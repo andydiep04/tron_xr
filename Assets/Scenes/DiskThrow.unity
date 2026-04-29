@@ -1038,20 +1038,8 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1376504167018825660, guid: 10e82cf0d8026437294bc6f3a9a9c006, type: 3}
-      propertyPath: maxCount
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1376504167018825660, guid: 10e82cf0d8026437294bc6f3a9a9c006, type: 3}
-      propertyPath: spawnDepth
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1376504167018825660, guid: 10e82cf0d8026437294bc6f3a9a9c006, type: 3}
       propertyPath: spawnChance
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1646440559513293808, guid: 10e82cf0d8026437294bc6f3a9a9c006, type: 3}
-      propertyPath: spawnChance
-      value: 0.05
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 5142534335615877776, guid: 10e82cf0d8026437294bc6f3a9a9c006, type: 3}
       propertyPath: m_Name
