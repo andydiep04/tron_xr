@@ -8,8 +8,12 @@ public class DiskThrower : MonoBehaviour {
   public Transform spawnPoint;
   public InputActionProperty throwAction;
 
+  [Header("Sound Effects")]
+  public AudioClip diskFlySound;
+
   private GameObject currentDisk;
   private Rigidbody diskRb;
+  private AudioSource diskAudioSource;
 
   public Animator animator;
   private ParticleSystem particleSystem;
@@ -25,6 +29,7 @@ public class DiskThrower : MonoBehaviour {
     }
 
     Vector3 offset = spawnPoint.forward * 0.1f;
+
     // Vector3 offset = (spawnPoint.forward * -0.05f) + 
     // (spawnPoint.right * -0.05f) + 
     // (spawnPoint.up * -0.03f);
@@ -45,11 +50,24 @@ public class DiskThrower : MonoBehaviour {
 
         currentDisk = Instantiate(diskPrefab, spawnPoint.position + offset,
                                   spawnPoint.rotation);
+
         particleSystem = currentDisk.GetComponentInChildren<ParticleSystem>();
         diskRb = currentDisk.GetComponent<Rigidbody>();
         diskRb.isKinematic = true;
 
+        // Add or get AudioSource on disk
+        diskAudioSource = currentDisk.GetComponent<AudioSource>();
+        if (diskAudioSource == null) {
+          diskAudioSource = currentDisk.AddComponent<AudioSource>();
+        }
+
+        diskAudioSource.clip = diskFlySound;
+        diskAudioSource.playOnAwake = false;
+        diskAudioSource.spatialBlend = 1f; // 3D sound
+        diskAudioSource.volume = 0.7f;
+
         recentPositions.Clear();
+
       } else { // Update disk position
 
         currentDisk.transform.position = spawnPoint.position + offset;
@@ -63,6 +81,7 @@ public class DiskThrower : MonoBehaviour {
       }
 
     } else if (currentDisk != null) {
+
       if (particleSystem != null) {
         particleSystem.Play();
       }
@@ -74,10 +93,15 @@ public class DiskThrower : MonoBehaviour {
           1.2f * (spawnPoint.position + offset - recentPositions.Peek()) /
           (5 * Time.deltaTime);
 
-      // Apply speed based on velocity
+      // Apply spin speed based on velocity
       float spinSpeed =
           Mathf.Clamp(diskRb.linearVelocity.magnitude * 2f, 2f, 50f);
       diskRb.angularVelocity = currentDisk.transform.up * spinSpeed;
+
+      // Play flying sound when disk is thrown
+      if (diskAudioSource != null && diskFlySound != null) {
+        diskAudioSource.Play();
+      }
 
       Destroy(currentDisk, 3f);
       currentDisk = null;
