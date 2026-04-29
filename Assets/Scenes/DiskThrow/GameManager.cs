@@ -55,7 +55,7 @@ public class GameManager : MonoBehaviour
         if (resetAction.action != null)
             resetAction.action.Enable();
 
-     audioSource = GetComponent<AudioSource>();
+        audioSource = GetComponent<AudioSource>();
 
         if (audioSource == null)
              audioSource = gameObject.AddComponent<AudioSource>();
@@ -65,13 +65,14 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
+        if ((isGameOver || isPaused) && resetAction.action != null && resetAction.action.WasPressedThisFrame())
+            ResetGame();
+        
         if (isGameOver) return;
 
         if (menuAction.action != null && menuAction.action.WasPressedThisFrame())
             TogglePause();
 
-        if (isPaused && resetAction.action != null && resetAction.action.WasPressedThisFrame())
-            ResetGame();
     }
 
     public void AddScore(int points = 1)
@@ -135,6 +136,7 @@ public class GameManager : MonoBehaviour
         // Reset lives and game over state
         lives = 3;
         isGameOver = false;
+        OnPlayerHit?.Invoke(lives);
 
         // Destroy all live enemies and projectiles
         foreach (var bug in FindObjectsByType<GridbugEnemy>(FindObjectsSortMode.None))
