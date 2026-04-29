@@ -15,6 +15,8 @@ public class RecognizerSpawner : MonoBehaviour
     public float spawnChance = 0.05f;
     [Tooltip("How far behind the wall (into the void) the recognizer appears.")]
     public float spawnDepth = 4f;
+    [Tooltip("Minimum distance between recognizers. Blocks spawn if one is already this close.")]
+    public float minSpacing = 3f;
 
     private int _liveCount = 0;
 
@@ -56,6 +58,12 @@ public class RecognizerSpawner : MonoBehaviour
         // Place recognizer deep in the void behind the wall, at waist height so it looms
         Vector3 spawnPos = breachPos + outward * spawnDepth;
         spawnPos.y = head.position.y - 0.5f;
+
+        // Block spawn if a recognizer is already nearby
+        foreach (var col in Physics.OverlapSphere(spawnPos, minSpacing, ~0, QueryTriggerInteraction.Ignore))
+        {
+            if (col.GetComponentInParent<RecognizerEnemy>() != null) return;
+        }
 
         Spawn(spawnPos, -outward);
     }
