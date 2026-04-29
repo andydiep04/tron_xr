@@ -102,18 +102,27 @@ Material:
     - _BlendModePreserveSpecular: 1
     - _BlendOp: 0
     - _BumpScale: 1
+    - _CircuitGlow: 2.5
+    - _CircuitScale: 3
     - _CityColumns: 60
     - _CityGlowWidth: 0.02
     - _CityHeight: 0.12
+    - _CityLayers: 5
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
+    - _CloudDensity: 4
+    - _CloudSpeed: 0.04
     - _Cull: 1
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _DstBlendAlpha: 0
+    - _EmberBright: 3
+    - _EmberCount: 120
+    - _EmberSpeed: 0.05
     - _EnvironmentReflections: 1
+    - _FogDensity: 0.5
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
@@ -121,11 +130,17 @@ Material:
     - _GridFadeStart: 0.3
     - _GridGlow: 3
     - _GridLineWidth: 0.03
+    - _GridScale: 1
     - _GridScaleX: 20
     - _GridScaleZ: 20
     - _GridSpeed: 0.25
+    - _GridWidth: 0.025
     - _HorizonBand: 0.18
+    - _LightningBright: 2
+    - _LightningFreq: 0.8
     - _Metallic: 0
+    - _NeonEdgeWidth: 0.018
+    - _NeonGlow: 0.5
     - _OcclusionStrength: 1
     - _Parallax: 0.005
     - _QueueOffset: 0
@@ -133,6 +148,7 @@ Material:
     - _SampleGI: 0
     - _ScanLineFreq: 80
     - _ScanLineStrength: 0.06
+    - _ScanStrength: 0.03
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -145,19 +161,37 @@ Material:
     - _StreakLength: 0.18
     - _StreakSpeed: 0.6
     - _Surface: 0
+    - _Vignette: 0.5
+    - _WindowBlink: 0.3
+    - _WindowDensity: 10
     - _WorkflowMode: 1
     - _XRMotionVectorsPass: 1
     - _ZWrite: 1
     m_Colors:
+    - _ArcColor: {r: 1, g: 0.65, b: 0.55, a: 1}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _CityColor: {r: 0.02, g: 0.11999995, b: 0.27999997, a: 1}
-    - _CityGlowColor: {r: 0.049999982, g: 0.45, b: 0.9, a: 1}
+    - _CityColor: {r: 0.04, g: 0, b: 0, a: 1}
+    - _CityGlowColor: {r: 0.9, g: 0.1, b: 0.04, a: 1}
+    - _CityWindowColor: {r: 1, g: 0.4, b: 0.1, a: 1}
+    - _CloudBright: {r: 0.21999997, g: 0.04, b: 0.03, a: 1}
+    - _CloudColor: {r: 0.09999997, g: 0.02, b: 0.02, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmberColor: {r: 1, g: 0.29999998, b: 0.049999982, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _GridColor: {r: 0.049999982, g: 0.54999995, b: 1, a: 1}
-    - _HorizonColor: {r: 0, g: 0.14999998, b: 0.34999996, a: 1}
-    - _SkyColor: {r: 0, g: 0.02, b: 0.07999996, a: 1}
+    - _FogColor: {r: 0.17999998, g: 0.01, b: 0, a: 1}
+    - _GodRayColor: {r: 0.55, g: 0.03, b: 0.01, a: 1}
+    - _GridColor: {r: 1, g: 0.05, b: 0.03, a: 1}
+    - _GridColorAlt: {r: 0.5, g: 0.01, b: 0.01, a: 1}
+    - _HorizonColor: {r: 0.4, g: 0.02, b: 0.01, a: 1}
+    - _LightningColor: {r: 1, g: 0.5, b: 0.39999998, a: 1}
+    - _NeonBright: {r: 1, g: 0.34999996, b: 0.19999996, a: 1}
+    - _NeonColor: {r: 1, g: 0.059999965, b: 0.03, a: 1}
+    - _SkyColor: {r: 0.01, g: 0, b: 0.02, a: 1}
+    - _SkyColorMid: {r: 0.03, g: 0, b: 0.04, a: 1}
+    - _SkyDark: {r: 0.01, g: 0, b: 0.01, a: 1}
+    - _SkyMid: {r: 0.059999965, g: 0.01, b: 0.02, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _StreakColor: {r: 0.09999997, g: 0.8, b: 1, a: 1}
+    - _StreakColor: {r: 1, g: 0.85, b: 0.75, a: 1}
+    - _WindowColor: {r: 1, g: 0.39999998, b: 0.09999997, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
