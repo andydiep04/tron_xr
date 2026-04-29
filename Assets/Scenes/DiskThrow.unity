@@ -1864,7 +1864,7 @@ MonoBehaviour:
   grenadePrefab: {fileID: 6726865640916044383, guid: 6802ac5a7d6b00b46b786dc61957eba2, type: 3}
   holdPoint: {fileID: 1194988585}
   throwBoost: 2.5
-  spawnCooldown: 2
+  spawnCooldown: 1
   detonationSafety: 0.3
   controller: 2
 --- !u!1001 &1583508744
@@ -2840,7 +2840,7 @@ MonoBehaviour:
   grenadePrefab: {fileID: 6726865640916044383, guid: 6802ac5a7d6b00b46b786dc61957eba2, type: 3}
   holdPoint: {fileID: 1427473322}
   throwBoost: 2.5
-  spawnCooldown: 2
+  spawnCooldown: 1
   detonationSafety: 0.3
   controller: 1
 --- !u!1 &2027118869
